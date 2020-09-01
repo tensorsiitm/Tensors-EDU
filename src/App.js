@@ -12,6 +12,7 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="App">
+
             <Switch>
               <Route exact path='/' component={() => <Home/>} />
               <Route exact path='/home' component={() => <Home/>} />

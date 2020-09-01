@@ -1,0 +1,46 @@
+
+
+.a1{
+    background-image:url('../assets/images/a.svg'); 
+    color: white;
+    height:100vh;
+    background-size: 100% 100%;
+}
+
+.a3{
+    background-image:url('../assets/images/ab.svg');
+    color: white;
+    height:100vh;
+    background-size: 100% 100%;
+}
+
+.a1r{
+    padding-top: 10%;
+}
+
+.a2{
+    background-image:url('../assets/images/ab2.svg');
+    color: white;
+    height:100vh;
+    background-size: 100% 100%;
+}
+
+.a4{
+    background-image:url('../assets/images/ab4.svg');
+    color: white;
+    height:100vh;
+    background-size: 100% 100%;
+}
+
+.a2r{
+    padding-top: 40%; 
+}
+
+.btn-secondary{
+background-color:#affc41 !important ;
+color: black;
+}
+
+.green{
+    color:#affc41;  
+}

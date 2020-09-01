@@ -1,0 +1,11 @@
+
+
+.homecontainer{
+    height: 100vh;
+    background-color: white;  
+    border-bottom: 20px solid #affc41 ;
+}
+
+.middle{
+    padding-top: 10%;
+}
