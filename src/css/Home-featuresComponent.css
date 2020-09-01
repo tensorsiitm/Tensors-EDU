@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .a1{
@@ -43,4 +44,8 @@ color: black;
 
 .green{
     color:#affc41;  
+=======
+.particle{
+    background: rgba(36, 36, 161, 0.658)!important;
+>>>>>>> f8274590aae7550da1b82ad2b9769cbba5fe80f1
 }
