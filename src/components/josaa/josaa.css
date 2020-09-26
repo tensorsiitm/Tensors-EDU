@@ -1,0 +1,50 @@
+.main{
+    background: lightblue!important;
+    overflow: hidden;
+}
+.timeline{
+    margin-bottom: 1%;
+}
+.timeline .timeline-icon{
+  margin-top: 3vh;
+}
+.jumbotron{
+    background: url(../../assets/images/home2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    background-color: white;
+}
+.jumbotron .info{
+    margin-left: 5vw;
+}
+@media (max-width: 767.98px) {
+    .jumbotron{
+        background: url(../../assets/images/home2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right bottom;
+        background-color: white;
+    }
+    .jumbotron .info{
+        margin-left: 0vw!important;
+    }
+    .timeline .timeline-icon{
+      margin-top: 2vh;
+    }
+}
+
+ .info-img{
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.info-img:hover{
+  transform: scale(1.1);
+}
+.info-sicon{
+  border-radius: 50%;
+}
+
+  
+ 
