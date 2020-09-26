@@ -5,40 +5,61 @@ import {Carousel,
     CarouselIndicators,
     CarouselCaption, } from 'reactstrap';
 import '../css/Home-testimonialsComponent.css';
-import a from "../assets/images/aghin.jpeg";
-import b from "../assets/images/denin.jpeg";
-import c from "../assets/images/shafil.jpg";
-import d from "../assets/images/anand.jpg";
+import shafil from "../assets/images/testimonials/shafil.jpg"
+import anand from "../assets/images/testimonials/anand.jpg"
+import denin from "../assets/images/testimonials/denin.jpeg"
+import aghin from "../assets/images/testimonials/aghin.jpeg"
+import leon from "../assets/images/testimonials/leon.jpeg"
+import amal_mathew from "../assets/images/testimonials/amal_mathew.jpeg"
+import abhirami from "../assets/images/testimonials/abhirami.jpeg"
+import irfan from "../assets/images/testimonials/irfan.jpeg"
+
 import {Image,Row,Col,Card} from 'react-bootstrap';
 
 const items = [
     {
-      src: a,
-      altText: 'Slide 1',
-      caption: 'Slide 1',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      src: shafil,
+      altText: 'Shafil Maheen',
+      caption: 'IISC Bangalore',
+      text: 'By Tensors, I was able to identify the chinks in my JEE preparation, literally. Tensors is so balanced inspite of being very detailed, that I got the true feel of writing the JEE exams. It developed my confidence and kept the tempo going in the last stages of preparation.'    },
+    {
+      src: anand,
+      altText: 'Anand George',
+      caption: 'IIT Madras',
+      text: 'There has been a lot of hype built up around IIT JEE, particularly that it is something only extraordinary and brilliant people can qualify, but out of my experience, I can assure you that there is little truth in the statement.'    },
+    {
+      src: denin,
+      altText: 'Denin Jose',
+      caption: 'IIT Madras',
+      text: 'The Tensors exam played a vital part in my JEE preparation. It enabled me to estimate my potential and therefore helped me know my limits and push them. It gave me an insight as to what topics I was weak in, and to mend my ways to focus more on my weakness.'
     },
     {
-      src: b,
-      altText: 'Slide 2',
-      caption: 'Slide 2',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-
+      src: aghin,
+      altText: 'Aghin Shah Alin',
+      caption: 'IIT Madras',
+      text: 'I used to be an average student, that was when I got introduced to tensors through my friends. It has been a great experience facing the questions, testing the analytical and practical applications simultaneously.'
     },
     {
-      src: c,
-      altText: 'Slide 3',
-      caption: 'Slide 3',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-
-    },
+      src: leon,
+      altText: 'Leon Jose',
+      caption: 'IIT Madras',
+      text: 'Believe me when I say that Tensors is the best mock exam for JEE aspirants. It gives us a clear cut explanation about how the original exam would be. Through the Tensors exam I wasable to judge what would be my stand amoungst others in the state in jee exams.'    },
     {
-      src: d,
-      altText: 'Slide 3',
-      caption: 'Slide 3',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-
-    }
+      src: amal_mathew,
+      altText: 'Amal Mathew',
+      caption: 'IIT Bombay',
+      text: 'When you take a mock test you expect it to live up to the standards of the original. Tensors, probably because it was made by IITians with an intent to kill, broke that standard. Solving such a paper boosted my confidence due to the simple fact that IIT JEE was going to be easier.'    },
+    {
+      src: abhirami,
+      altText: 'Abhirami Elizbeth Prathap',
+      caption: 'IIT Madras',
+      text: 'Tensors is undoubtedly the best mock test available for JEE aspirants, hands down! The test helped me to identify the gaps in my preparation and start rectifying them. Tensors pointed out my weak topics while helping me understand the true benefit of efficient time management.'
+},
+    {
+      src: irfan,
+      altText: 'Mohammed Irfan Thayyil',
+      caption: 'IIT Madras',
+      text: 'Tensors is modelled to encourage a more conceptual analysis of each problem. This helped me tremendously as I was finding a shortage of these problems. The test also introduced me to my peers who gave me tips on attempting certain types of questions.'    },
   ];
 
 const Hometestimonials = (props) =>{
@@ -77,13 +98,13 @@ const Hometestimonials = (props) =>{
       >
       <div className="row row-content align-items-center">
       <div className="col col-sm order-sm-first col-md">
-      <div className="media">
+      <div className="media testimonial">
           <Image className="d-flex mr-3 img-thumbnail align-self-center"
                   src={item.src} alt={item.altText} height="300px" width="150px"/>
           <div className="media-body">
-              <h2 className="mt-0">{item.caption}</h2>
+              <h2 className="mt-0">{item.altText}</h2>
               <h4>{item.caption}</h4>
-              <p className="d-none d-sm-block">{item.text}
+              <p>{item.text}
                   </p>
           </div>
       </div>            </div>
@@ -95,11 +116,9 @@ const Hometestimonials = (props) =>{
 
   return (
       <div >
-    <Row className="headerbg">
-    <h1 className="line-1 anim-typewriter">Our Testimonials</h1>
-    </Row>
-    <Row>
+    <Row className="whiteoverlay">
     <Col className="testcontainer">
+    <h1 className="line-1">Our Testimonials</h1>
     <Carousel
       activeIndex={activeIndex}
       next={next}

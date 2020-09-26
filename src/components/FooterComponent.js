@@ -5,7 +5,7 @@ import '../css/FooterComponent.css';
 function Footer(props) {
   return (
     <div className="footer">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center fback">
           <div className="col-4 offset-1 col-sm-2">
             <h5>Links</h5>
             <ul className="list-unstyled">

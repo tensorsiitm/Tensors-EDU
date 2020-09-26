@@ -1,11 +1,15 @@
-.headerbg{
-    background-color: black;
-    color: #fce40a; 
+.line-1{
+  color: black; 
     padding-left: 5%;
+    background-color: rgba(255, 255, 255, 0.692);
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: 6px;
 }
 
 .testcontainer{
-    background-color:white;  
+    background-color: rgba(255, 255, 255, 0.4);
     color: black;
 }
 
@@ -43,4 +47,15 @@
   font-size: 30px;
   color:black;
   font-weight: bolder;
+}
+
+.testimonial{
+  background-color: rgba(255, 255, 255, 0.692);
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+}
+
+.whiteoverlay{
+  background-image: url('../assets/images/bookbg.jpeg'); 
 }

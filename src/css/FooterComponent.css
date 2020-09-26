@@ -18,6 +18,8 @@ h5{
 .socic a{
     background-color: #bfbec0;
     border-radius: 50%;
+    height:46px;
+    width:46px;
 }
 
 .socic a:hover{
@@ -33,4 +35,8 @@ h5{
 .cright{
     background: black;
     color:white;
+}
+
+.fback{
+    background-color: rgb(68, 66, 66);
 }
