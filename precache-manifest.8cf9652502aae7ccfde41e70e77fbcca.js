@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d896f38cade8e12e68ea95d38c9c2e5",
+    "revision": "b6c1bb42d6f1e172dff32e4ee0e5b342",
     "url": "/Tensors-EDU/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/css/2.5ce1ef0a.chunk.css"
   },
   {
-    "revision": "3361e41037f8d3b538be",
+    "revision": "8ba4dc6dca7b54b24663",
     "url": "/Tensors-EDU/static/css/main.098d3e9d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/js/2.a77d0310.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3361e41037f8d3b538be",
-    "url": "/Tensors-EDU/static/js/main.0a09d615.chunk.js"
+    "revision": "8ba4dc6dca7b54b24663",
+    "url": "/Tensors-EDU/static/js/main.043aba8b.chunk.js"
   },
   {
     "revision": "4890ea5b5daacfd6f776",

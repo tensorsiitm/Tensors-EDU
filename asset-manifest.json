@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Tensors-EDU/static/css/main.098d3e9d.chunk.css",
-    "main.js": "/Tensors-EDU/static/js/main.0a09d615.chunk.js",
-    "main.js.map": "/Tensors-EDU/static/js/main.0a09d615.chunk.js.map",
+    "main.js": "/Tensors-EDU/static/js/main.043aba8b.chunk.js",
+    "main.js.map": "/Tensors-EDU/static/js/main.043aba8b.chunk.js.map",
     "runtime-main.js": "/Tensors-EDU/static/js/runtime-main.eafeff03.js",
     "runtime-main.js.map": "/Tensors-EDU/static/js/runtime-main.eafeff03.js.map",
     "static/css/2.5ce1ef0a.chunk.css": "/Tensors-EDU/static/css/2.5ce1ef0a.chunk.css",
     "static/js/2.a77d0310.chunk.js": "/Tensors-EDU/static/js/2.a77d0310.chunk.js",
     "static/js/2.a77d0310.chunk.js.map": "/Tensors-EDU/static/js/2.a77d0310.chunk.js.map",
     "index.html": "/Tensors-EDU/index.html",
-    "precache-manifest.7a4b2eb236dcbe91daf0662f0b1c251d.js": "/Tensors-EDU/precache-manifest.7a4b2eb236dcbe91daf0662f0b1c251d.js",
+    "precache-manifest.8cf9652502aae7ccfde41e70e77fbcca.js": "/Tensors-EDU/precache-manifest.8cf9652502aae7ccfde41e70e77fbcca.js",
     "service-worker.js": "/Tensors-EDU/service-worker.js",
     "static/css/2.5ce1ef0a.chunk.css.map": "/Tensors-EDU/static/css/2.5ce1ef0a.chunk.css.map",
     "static/css/main.098d3e9d.chunk.css.map": "/Tensors-EDU/static/css/main.098d3e9d.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.5ce1ef0a.chunk.css",
     "static/js/2.a77d0310.chunk.js",
     "static/css/main.098d3e9d.chunk.css",
-    "static/js/main.0a09d615.chunk.js"
+    "static/js/main.043aba8b.chunk.js"
   ]
 }
