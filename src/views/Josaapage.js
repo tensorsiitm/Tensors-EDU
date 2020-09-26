@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Footer from '../components/FooterComponent';
 import Top from '../components/NavComponent';
 
 class Josaa extends Component{
@@ -8,7 +9,8 @@ class Josaa extends Component{
            <Top />
            <div className="Josaa">
            Josaa
-           </div> 
+           </div>
+           <Footer /> 
            </React.Fragment>
         );
     }

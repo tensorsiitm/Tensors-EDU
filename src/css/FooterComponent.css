@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+
+a{
+    color: #bfbec0;  
+}
+
+a:hover{
+    color: #fce40a; 
+    text-decoration: none; 
+}
+
+h5{
+    color: #fce40a;  
+}
+
+.socic a{
+    background-color: #bfbec0;
+    border-radius: 50%;
+}
+
+.socic a:hover{
+    background-color: #fce40a;
+}
+
+.footer{
+    background: rgb(65, 6, 101);
+    color: #bfbec0;
+    border-top: 10px solid black;
+}
+
+.cright{
+    background: black;
+    color:white;
+}

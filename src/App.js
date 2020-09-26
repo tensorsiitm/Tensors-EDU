@@ -3,7 +3,6 @@ import { HashRouter ,Switch,Route,Redirect} from 'react-router-dom';
 import Home from './views/Homepage';
 import Testseries from './views/Testseriespage';
 import Mentorship from './views/Mentorshippage';
-import Resources from './views/Resourcespage';
 import Tensorsexam from './views/Tensorsexampage';
 import Josaa from './views/Josaapage';
 
@@ -18,7 +17,6 @@ class App extends Component {
               <Route exact path='/home' component={() => <Home/>} />
               <Route exact path='/testseries' component={() => <Testseries/>} />
               <Route exact path='/mentorship' component={() => <Mentorship/>} />
-              <Route exact path='/resources' component={() => <Resources/>} />
               <Route exact path='/tensorsexam' component={() => <Tensorsexam/>} />
               <Route exact path='/josaa' component={() => <Josaa/>} />
               <Redirect to='/'/>

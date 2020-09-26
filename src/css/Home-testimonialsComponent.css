@@ -1,0 +1,46 @@
+.headerbg{
+    background-color: black;
+    color: #fce40a; 
+    padding-left: 5%;
+}
+
+.testcontainer{
+    background-color:white;  
+    color: black;
+}
+
+.caroucard{
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    color: black;
+}
+
+.img-thumbnail{
+    border-radius: 50%;
+}
+
+.carousel-indicators li{
+    background-color: black !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color:black;
+  font-weight: bolder;
+}

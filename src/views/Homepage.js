@@ -3,40 +3,72 @@ import Particles from 'react-particles-js';
 import Top from '../components/NavComponent';
 import Homefeatures from '../components/Home-featuresComponent';
 import Homehome from '../components/Home-homeComponent';
+import Hometestimonials from '../components/Home-testimonialsComponent';
+import Footer from '../components/FooterComponent';
 
 class Home extends Component{
     render(){
         return(
             <React.Fragment>
             <Particles
-            style={{ position: "fixed" }}
-            height="95%"
-            width="95%"
+            style={{position:"fixed"}}
             params={{
-              particles: {
-                color: {
-                  value: "#000000"
-                },
-                line_linked: {
-                  color: {
-                    value: "#000000"
+              "particles": {
+                  "number": {
+                      "value": 160,
+                      "density": {
+                          "enable": false
+                      }
+                  },
+                  "size": {
+                      "value": 3,
+                      "random": true,
+                      "anim": {
+                          "speed": 4,
+                          "size_min": 0.3
+                      }
+                  },
+                  "line_linked": {
+                      "enable": false
+                  },
+                  "move": {
+                      "random": true,
+                      "speed": 1,
+                      "direction": "top",
+                      "out_mode": "out"
                   }
-                },
-                number: {
-                  value: 80
-                },
-                size: {
-                  value: 3
-                }
+              },
+              "interactivity": {
+                  "events": {
+                      "onhover": {
+                          "enable": true,
+                          "mode": "bubble"
+                      },
+                      "onclick": {
+                          "enable": true,
+                          "mode": "repulse"
+                      }
+                  },
+                  "modes": {
+                      "bubble": {
+                          "distance": 250,
+                          "duration": 2,
+                          "size": 0,
+                          "opacity": 0
+                      },
+                      "repulse": {
+                          "distance": 400,
+                          "duration": 4
+                      }
+                  }
               }
-            }}
-          />  
+          }} />
+            
            <Top />
            <Homehome />
            <Homefeatures />
-           <div className="Home">
-           Home
-           </div> 
+           <Hometestimonials />
+           <Footer />
            </React.Fragment>
         );
     }

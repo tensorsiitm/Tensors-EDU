@@ -1,51 +1,88 @@
-<<<<<<< HEAD
+
 
 
 .a1{
-    background-image:url('../assets/images/a.svg'); 
-    color: white;
-    height:100vh;
+    background-image: url("../assets/images/a1b.svg"); 
+    color: black;
+    background-size: 100% 100%;
+}
+
+.a2{
+    background-image: url("../assets/images/a2b.svg");
+    color: black;
     background-size: 100% 100%;
 }
 
 .a3{
-    background-image:url('../assets/images/ab.svg');
-    color: white;
-    height:100vh;
-    background-size: 100% 100%;
-}
-
-.a1r{
-    padding-top: 10%;
-}
-
-.a2{
-    background-image:url('../assets/images/ab2.svg');
-    color: white;
-    height:100vh;
+    background-image: url("../assets/images/a3b.svg");
+    color: black;
     background-size: 100% 100%;
 }
 
 .a4{
-    background-image:url('../assets/images/ab4.svg');
-    color: white;
-    height:100vh;
+    background-image: url("../assets/images/a4b.svg");
+    color: black;
     background-size: 100% 100%;
 }
 
-.a2r{
-    padding-top: 40%; 
+.a1 .col{
+    padding-top: 2vw;
+    padding-bottom: 15vw;
 }
 
+.a2 .col{
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+}
+
+.a3 .col{
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+}
+
+.a4 .col{
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+}
+
+.a1i{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+.a2i{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+.a3i{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+.a4i{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+
 .btn-secondary{
-background-color:#affc41 !important ;
-color: black;
+background-color: rgb(65, 6, 101)   !important ;
+color: #fce40a;
 }
 
 .green{
-    color:#affc41;  
-=======
-.particle{
-    background: rgba(36, 36, 161, 0.658)!important;
->>>>>>> f8274590aae7550da1b82ad2b9769cbba5fe80f1
+    color: rgb(65, 6, 101)  ;  
+}
+
+.particlebg{
+    background-color:  rgb(65, 6, 101);
+}
+
+.particlebg h2{
+    font-size: 2.3vw;
+}
+
+.particlebg p{
+    font-size: 1.3vw;
 }
