@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/tensorsiitm/Tensors-EDU.git/static/css/main.f3948ccd.chunk.css",
+    "main.js": "/tensorsiitm/Tensors-EDU.git/static/js/main.7ec9b15b.chunk.js",
+    "main.js.map": "/tensorsiitm/Tensors-EDU.git/static/js/main.7ec9b15b.chunk.js.map",
+    "runtime-main.js": "/tensorsiitm/Tensors-EDU.git/static/js/runtime-main.4cc3a5ac.js",
+    "runtime-main.js.map": "/tensorsiitm/Tensors-EDU.git/static/js/runtime-main.4cc3a5ac.js.map",
+    "static/css/2.9bb90de5.chunk.css": "/tensorsiitm/Tensors-EDU.git/static/css/2.9bb90de5.chunk.css",
+    "static/js/2.2dc72494.chunk.js": "/tensorsiitm/Tensors-EDU.git/static/js/2.2dc72494.chunk.js",
+    "static/js/2.2dc72494.chunk.js.map": "/tensorsiitm/Tensors-EDU.git/static/js/2.2dc72494.chunk.js.map",
+    "index.html": "/tensorsiitm/Tensors-EDU.git/index.html",
+    "precache-manifest.8339aa28242fa2602109d467c8b11c76.js": "/tensorsiitm/Tensors-EDU.git/precache-manifest.8339aa28242fa2602109d467c8b11c76.js",
+    "service-worker.js": "/tensorsiitm/Tensors-EDU.git/service-worker.js",
+    "static/css/2.9bb90de5.chunk.css.map": "/tensorsiitm/Tensors-EDU.git/static/css/2.9bb90de5.chunk.css.map",
+    "static/css/main.f3948ccd.chunk.css.map": "/tensorsiitm/Tensors-EDU.git/static/css/main.f3948ccd.chunk.css.map",
+    "static/js/2.2dc72494.chunk.js.LICENSE.txt": "/tensorsiitm/Tensors-EDU.git/static/js/2.2dc72494.chunk.js.LICENSE.txt",
+    "static/media/a1.svg": "/tensorsiitm/Tensors-EDU.git/static/media/a1.d6dbad2d.svg",
+    "static/media/Home-featuresComponent.css": "/tensorsiitm/Tensors-EDU.git/static/media/a4b.b84dcb5c.svg",
+    "static/media/a2.svg": "/tensorsiitm/Tensors-EDU.git/static/media/a2.62cf2294.svg",
+    "static/media/a3.svg": "/tensorsiitm/Tensors-EDU.git/static/media/a3.e9f6656b.svg",
+    "static/media/a4.svg": "/tensorsiitm/Tensors-EDU.git/static/media/a4.8086febe.svg",
+    "static/media/aghin.jpeg": "/tensorsiitm/Tensors-EDU.git/static/media/aghin.71540644.jpeg",
+    "static/media/anand.jpg": "/tensorsiitm/Tensors-EDU.git/static/media/anand.613f8b37.jpg",
+    "static/media/construction.svg": "/tensorsiitm/Tensors-EDU.git/static/media/construction.d6656939.svg",
+    "static/media/denin.jpeg": "/tensorsiitm/Tensors-EDU.git/static/media/denin.7cf3bf1d.jpeg",
+    "static/media/favicon.ico": "/tensorsiitm/Tensors-EDU.git/static/media/favicon.44499462.ico",
+    "static/media/font-awesome.css": "/tensorsiitm/Tensors-EDU.git/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/shafil.jpg": "/tensorsiitm/Tensors-EDU.git/static/media/shafil.4561225b.jpg",
+    "static/media/stripes.svg": "/tensorsiitm/Tensors-EDU.git/static/media/stripes.870a1c9c.svg",
+    "static/media/Home-homeComponent.css": "/tensorsiitm/Tensors-EDU.git/static/media/tcloud.df958144.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cc3a5ac.js",
+    "static/css/2.9bb90de5.chunk.css",
+    "static/js/2.2dc72494.chunk.js",
+    "static/css/main.f3948ccd.chunk.css",
+    "static/js/main.7ec9b15b.chunk.js"
+  ]
+}
