@@ -14,17 +14,17 @@ class CardExample extends Component {
                             <div className="col-2 mt-auto mb-auto ">
                                 <div className="col-12 p-1">
                                     <a href={info.instagram}>
-                                        <i className="fa fa-instagram p-2 bg-danger b-2 mt-auto mb-auto mr-auto info-sicon"/>
+                                        <i className="fa fa-instagram p-2 b-2 mt-auto mb-auto mr-auto info-sicon-instagram"/>
                                     </a>
                                 </div>
                                 <div className="col-12 p-1">
                                     <a href={info.linkedin}>
-                                       <i className="fa fa-linkedin p-2 bg-primary mt-auto mb-auto info-sicon"/> 
+                                       <i className="fa fa-linkedin p-2 mt-auto mb-auto info-sicon-linkedin"/> 
                                     </a>                                    
                                 </div>
                                 <div className="col-12 p-1">
                                     <a href={info.whatsapp}>
-                                        <i className="fa fa-whatsapp p-2 bg-success mt-auto mb-auto info-sicon"/>
+                                        <i className="fa fa-whatsapp p-2 mt-auto mb-auto info-sicon-whatsapp"/>
                                     </a>                                    
                                 </div>
                             </div>

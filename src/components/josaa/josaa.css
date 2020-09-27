@@ -1,6 +1,12 @@
 .main{
     background: lightblue!important;
-    overflow: hidden;
+    overflow-X: hidden;
+}
+.carousel{
+  overflow-x: hidden;
+}
+.carousel-indicators li{
+  opacity: 0!important;
 }
 .timeline{
     margin-bottom: 1%;
@@ -40,10 +46,28 @@
 }
 
 .info-img:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.info-sicon{
+.info-sicon-instagram,.info-sicon-linkedin,.info-sicon-whatsapp{
   border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+.info-sicon-instagram:hover,.info-sicon-linkedin:hover,.info-sicon-whatsapp:hover{
+  transform: scale(1.05);
+  border-radius: 40%;
+}
+.info-sicon-instagram{
+  background: radial-gradient(circle,red, rgba(255, 0, 0, 0.548), rgba(255, 0, 0, 0.13));
+  color:white;
+}
+.info-sicon-linkedin{
+  background: radial-gradient(circle,blue, rgba(0, 0, 255, 0.548),rgba(0, 0, 255, 0.13));
+  color:white;
+}
+.info-sicon-whatsapp{
+  background: radial-gradient(circle,green, rgba(0, 128, 0, 0.548), rgba(0, 128, 0, 0.13));
+  color:white;
 }
 
   

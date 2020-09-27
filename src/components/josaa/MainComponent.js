@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import TimelinePage from './TimelineComponent';
+import Features from './FeaturesComponent';
+import CarouselPage from './CarouselComponent';
+import CardExample from './ConsultantsComponent';
 import Card from './FlipCardComponent';
 import {Jumbotron} from 'reactstrap';
 import './josaa.css';
 import Img from '../../assets/images/homebg.jpg';
 import {consultants} from '../../assets/data/consultants';
-import CardExample from './ConsultantsComponent';
+
 
 class JosaaMain extends Component{
     constructor(props){
@@ -29,7 +32,8 @@ class JosaaMain extends Component{
                             </div>
                         </div>
                     </Jumbotron>
-                    <CardExample info={this.state.consultantinfo} Img={Img}/>
+                    <CarouselPage info={this.state.consultantinfo} Img={Img}/>
+                    <Features/>
                     <TimelinePage />
                     <div className="row mt-2 mb-2">
                         <div className="col-12 col-sm-3 offset-1 m-auto pb-1">
