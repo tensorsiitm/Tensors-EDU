@@ -3,7 +3,9 @@ import TimelinePage from './TimelineComponent';
 import Features from './FeaturesComponent';
 import CarouselPage from './CarouselComponent';
 import CardExample from './ConsultantsComponent';
-import Card from './FlipCardComponent';
+import Packages from './FlipCardComponent';
+import Home from './HomeComponent';
+
 import {Jumbotron} from 'reactstrap';
 import './josaa.css';
 import Img from '../../assets/images/homebg.jpg';
@@ -32,23 +34,12 @@ class JosaaMain extends Component{
                             </div>
                         </div>
                     </Jumbotron>
-                    <CarouselPage info={this.state.consultantinfo} Img={Img}/>
+                    <Home />
                     <Features/>
                     <TimelinePage />
-                    <div className="row mt-2 mb-2">
-                        <div className="col-12 col-sm-3 offset-1 m-auto pb-1">
-                            <Card id='1'/>                   
-                        </div>
-                        <div className="col-12 col-sm-3 offset-1 m-auto pb-1">
-                            <Card id='2'/>                   
-                        </div>
-                        <div className="col-12 col-sm-3 offset-1 m-auto">
-                            <Card id='3'/>                   
-                        </div>
-                    </div>
-
+                    <Packages />
+                    <CarouselPage info={this.state.consultantinfo} Img={Img}/>
                 </div> 
-
             </React.Fragment>
         )
     }

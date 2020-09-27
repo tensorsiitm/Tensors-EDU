@@ -104,49 +104,54 @@ class CarouselPage extends Component {
     }
     render(){
         return (
-              <MDBCarousel
-                activeItem={1}
-                length={3}
-                showControls={true}
-                showIndicators={true}
-                className="z-depth-1 carousel"
-              >
-                <MDBCarouselInner>
-                    <div className="d-none d-sm-block">
-                            <MDBCarouselItem itemId="1">
-                            <MDBView>
-                                <div className="container justify-content-center">
-                                    <div className="row">
-                                        <Consultant start_id="1" end_id="3" info={this.props.info} Img={this.props.Img}/>
+            <div className="container-fluid">
+                <h1 className=" m-5">
+                    Our Consultants
+                </h1>
+                <MDBCarousel
+                    activeItem={1}
+                    length={3}
+                    showControls={true}
+                    showIndicators={true}
+                    className="z-depth-1 carousel"
+                >
+                    <MDBCarouselInner>
+                        <div className="d-none d-sm-block">
+                                <MDBCarouselItem itemId="1">
+                                <MDBView>
+                                    <div className="container justify-content-center">
+                                        <div className="row">
+                                            <Consultant start_id="1" end_id="3" info={this.props.info} Img={this.props.Img}/>
+                                        </div>
                                     </div>
-                                </div>
-                            </MDBView>
-                        </MDBCarouselItem>
-                        <MDBCarouselItem itemId="2">
-                            <MDBView>
-                                <div className="container justify-content-center">
-                                    <div className="row">
-                                        <Consultant start_id="4" end_id="6" info={this.props.info} Img={this.props.Img}/>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="2">
+                                <MDBView>
+                                    <div className="container justify-content-center">
+                                        <div className="row">
+                                            <Consultant start_id="4" end_id="6" info={this.props.info} Img={this.props.Img}/>
+                                        </div>
                                     </div>
-                                </div>
-                            </MDBView>
-                        </MDBCarouselItem>
-                        <MDBCarouselItem itemId="3">
-                            <MDBView>
-                                <div className="container justify-content-center">
-                                    <div className="row">
-                                        <Consultant start_id="7" end_id="9" info={this.props.info} Img={this.props.Img}/>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="3">
+                                <MDBView>
+                                    <div className="container justify-content-center">
+                                        <div className="row">
+                                            <Consultant start_id="7" end_id="9" info={this.props.info} Img={this.props.Img}/>
+                                        </div>
                                     </div>
-                                </div>
-                            </MDBView>
-                        </MDBCarouselItem>
-                    </div>
-                    <div className="d-block d-sm-none">
-                        <Consultant info={this.props.info} Img={this.props.Img}/>
-                    </div>
-                 
-                </MDBCarouselInner>
-              </MDBCarousel>
+                                </MDBView>
+                            </MDBCarouselItem>
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <Consultant info={this.props.info} Img={this.props.Img}/>
+                        </div>
+                    </MDBCarouselInner>
+                </MDBCarousel>
+            </div>
+
           );
     }
 }
