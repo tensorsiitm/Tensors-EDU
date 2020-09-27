@@ -1,8 +1,50 @@
+
+/*-----------main--------------*/
+
 .main{
   background-color:  rgb(65, 6, 101);
     overflow-X: hidden;
     color: white;
 }
+
+.jumbotron{
+  background: url(../../assets/images/home2-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  background-color: white;
+  width: 95%;
+}
+.jumbotron .info{
+  margin-left: 5vw;
+  color: black;
+}
+@media (max-width: 767.98px) {
+  .jumbotron{
+      background: url(../../assets/images/home2.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right bottom;
+      background-color: white;
+  }
+  .jumbotron .info{
+      margin-left: 0vw!important;
+  }
+  .timeline .timeline-icon{
+    margin-top: 2vh;
+  }
+}
+
+/*---------home----------*/
+.home-register{
+  background-image: url(../../assets/images/Consultation2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  mix-blend-mode: screen;
+}
+
+/*-----Carousel------------*/
 .carousel{
   overflow-x: hidden;
   background: transparent!important;
@@ -10,13 +52,18 @@
 .carousel-indicators li{
   opacity: 0!important;
 }
+
+/*---------timeline------*/
+
 .timeline{
-    margin-bottom: 1%;
-    color: black;
+  margin-bottom: 1%;
+  color: black;
 }
 .timeline .timeline-icon{
-  margin-top: 3vh;
+margin-top: 3vh;
 }
+
+/*---------feature------------*/
 .feature-icon{
   border-bottom-left-radius:30% ;
   border-top-right-radius:30% ;
@@ -26,41 +73,9 @@
   background: white;
   color: rgb(65, 6, 101);
 }
-.home-register{
-  background-image: url(../../assets/images/Consultation2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom right;
-  mix-blend-mode: screen;
-}
-.jumbotron{
-    background: url(../../assets/images/home2-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right top;
-    background-color: white;
-}
-.jumbotron .info{
-    margin-left: 5vw;
-    color: black;
-}
-@media (max-width: 767.98px) {
-    .jumbotron{
-        background: url(../../assets/images/home2.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right bottom;
-        background-color: white;
-    }
-    .jumbotron .info{
-        margin-left: 0vw!important;
-    }
-    .timeline .timeline-icon{
-      margin-top: 2vh;
-    }
-}
-
- .info-img{
+  
+/*--------------consultants---------*/
+.info-img{
   transform: scale(1);
   transition: transform 0.5s ease;
 }
@@ -89,6 +104,4 @@
   background: radial-gradient(circle,green, rgba(0, 128, 0, 0.548), rgba(0, 128, 0, 0.13));
   color:white;
 }
-
-  
  
