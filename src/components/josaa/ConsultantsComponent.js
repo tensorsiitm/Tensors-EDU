@@ -9,17 +9,23 @@ class CardExample extends Component {
                     <div className="container">
                         <div className="m-auto row">
                             <div className="col-10">
-                                <img src={info.src} className="rounded-circle info-img " width="100%" />
+                                <img src={this.props.Img} className="rounded-circle info-img " width="100%" />
                             </div>
                             <div className="col-2 mt-auto mb-auto ">
                                 <div className="col-12 p-1">
-                                    <i className="fa fa-instagram p-2 bg-danger b-2 mt-auto mb-auto mr-auto info-sicon"/>
+                                    <a href={info.instagram}>
+                                        <i className="fa fa-instagram p-2 bg-danger b-2 mt-auto mb-auto mr-auto info-sicon"/>
+                                    </a>
                                 </div>
                                 <div className="col-12 p-1">
-                                    <i className="fa fa-linkedin p-2 bg-primary mt-auto mb-auto info-sicon"/>
+                                    <a href={info.linkedin}>
+                                       <i className="fa fa-linkedin p-2 bg-primary mt-auto mb-auto info-sicon"/> 
+                                    </a>                                    
                                 </div>
                                 <div className="col-12 p-1">
-                                    <i className="fa fa-whatsapp p-2 bg-success mt-auto mb-auto info-sicon"/>
+                                    <a href={info.whatsapp}>
+                                        <i className="fa fa-whatsapp p-2 bg-success mt-auto mb-auto info-sicon"/>
+                                    </a>                                    
                                 </div>
                             </div>
                         </div>

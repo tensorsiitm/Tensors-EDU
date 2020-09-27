@@ -4,74 +4,15 @@ import Card from './FlipCardComponent';
 import {Jumbotron} from 'reactstrap';
 import './josaa.css';
 import Img from '../../assets/images/homebg.jpg';
+import {consultants} from '../../assets/data/consultants';
 import CardExample from './ConsultantsComponent';
 
 class JosaaMain extends Component{
     constructor(props){
         super(props);
         this.state={
-            consultantinfo:[
-                {
-                    id:'1',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'2',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'3',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'4',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'1',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'2',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'3',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'4',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'2',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                },
-                {
-                    id:'3',
-                    src:Img,
-                    name:'Name Consultant',
-                    branch:'Branch in IITM'
-                }
-            ]
+            consultantinfo: consultants,
+            Img:Img
         }
     }
     render(){
@@ -88,7 +29,7 @@ class JosaaMain extends Component{
                             </div>
                         </div>
                     </Jumbotron>
-                    <CardExample info={this.state.consultantinfo}/>
+                    <CardExample info={this.state.consultantinfo} Img={Img}/>
                     <TimelinePage />
                     <div className="row mt-2 mb-2">
                         <div className="col-12 col-sm-3 offset-1 m-auto pb-1">
