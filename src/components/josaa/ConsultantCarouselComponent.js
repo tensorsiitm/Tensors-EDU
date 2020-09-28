@@ -107,7 +107,7 @@ class CarouselPage extends Component {
             <div className="container-fluid">
                 <div>
                     <center>
-                        <h1 className="p-3">OUR CONSULTANTS</h1>
+                        <h1 className="p-3" style={{color:'#fce40a'}}>OUR CONSULTANTS</h1>
                     </center>
                 </div>
                 <MDBCarousel

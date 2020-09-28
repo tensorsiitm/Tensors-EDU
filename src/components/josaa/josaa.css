@@ -7,11 +7,11 @@
   color: white;
 }
 .heading{
-  width:'50%';
-  border-bottom-right-radius:'100vh';
-  border-bottom-left-radius:'100vh'
+  width:50%;
+  border-bottom-right-radius:100vh;
+  border-bottom-left-radius:100vh;
+  color: #fce40a;
 }
-
 .jumbotron{
   background: url(../../assets/images/home2-removebg-preview.png);
   background-repeat: no-repeat;
@@ -44,9 +44,9 @@
     margin-top: 2vh;
   }
   .heading{
-    width:'80%';
-    border-bottom-right-radius:'50vh';
-    border-bottom-left-radius:'50vh'
+    width:60%;
+    border-bottom-right-radius:5vh;
+    border-bottom-left-radius:5vh;
   }
 }
 
@@ -65,7 +65,7 @@
   transition: transform 0.5s ease;
 }
 .home-register-btn:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   background:  whitesmoke;
   color: rgb(50, 5, 78);
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
