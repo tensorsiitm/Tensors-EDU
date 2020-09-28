@@ -25,10 +25,16 @@ const Home=()=>{
             <div className="container">
                 <div className="row pt-5">
                     <div className="col-md-6 col-12">
-                        <h1 style={{position:'relative'}}>Who Are We?</h1>
-                        <p style={{position:'relative',color:'#F68554'}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <p className="d-md-last d-block d-md-none p-0" style={{position:'relative',color:'#F68554'}}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
+                        <p style={{position:'relative',fontSize:'x-large'}}>
+                            <span className="d-none d-md-block">
+                                We the Tensors team have set up a comprehensive councelling strategy to the IIT aspirants. To register click on the
+                                REGISTRATION button.
+                            </span><br/> To know more about the strategy scroll down
+                        </p>
+                        
                     </div>
                     <div className="col-md-6 col-12 mt-auto mb-auto">
                         <center>
