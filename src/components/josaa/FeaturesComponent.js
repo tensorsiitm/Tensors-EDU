@@ -8,8 +8,14 @@ import './josaa.css';
 
 const Features=()=>{
     return(
-        <div className="container mt-5 mb-5">
-            <h1 className="p-3">Why Us?</h1>
+        <div className="feature-fragment">
+            <div>
+                <center>
+                    <h1 className="p-3 d-none d-md-block" style={{backgroundColor:'rgb(65, 6, 101)',width:'50%',borderBottomRightRadius:'100vh',borderBottomLeftRadius:'100vh'}}>WHY ?</h1>
+                    <h1 className="p-3 d-block d-md-none" style={{backgroundColor:'rgb(65, 6, 101)',width:'70%',borderBottomRightRadius:'5vh',borderBottomLeftRadius:'5vh'}}>WHY ?</h1>
+                </center>
+            </div>
+            <div className="container">
             <div className="row justify-content-center">
                 <div className="col-12 col-md-4">
                     <div className="row">
@@ -46,7 +52,7 @@ const Features=()=>{
                     </div>
                 </div>
                 <div className="col-12 col-md-4 d-none d-md-block">
-                    <img src={Img} className="img-fluid mt-5 bg-white" style={{borderRadius:'50%',borderBottomRightRadius:'0%',opacity:'0.5'}} width="100%"/>
+                    <img src={Img} className="img-fluid mt-5 bg-white" style={{borderRadius:'50%', opacity:'0.5'}} width="100%"/>
                 </div>
                 <div className="col-12 col-md-4">
                     <div className="row">
@@ -84,6 +90,8 @@ const Features=()=>{
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 }
 
