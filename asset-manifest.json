@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Tensors-EDU/static/css/main.2d1de79a.chunk.css",
-    "main.js": "/Tensors-EDU/static/js/main.5c88508e.chunk.js",
-    "main.js.map": "/Tensors-EDU/static/js/main.5c88508e.chunk.js.map",
+    "main.css": "/Tensors-EDU/static/css/main.7edbeff1.chunk.css",
+    "main.js": "/Tensors-EDU/static/js/main.e9ec69f8.chunk.js",
+    "main.js.map": "/Tensors-EDU/static/js/main.e9ec69f8.chunk.js.map",
     "runtime-main.js": "/Tensors-EDU/static/js/runtime-main.eafeff03.js",
     "runtime-main.js.map": "/Tensors-EDU/static/js/runtime-main.eafeff03.js.map",
     "static/css/2.d5f5cffb.chunk.css": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css",
     "static/js/2.e012ca22.chunk.js": "/Tensors-EDU/static/js/2.e012ca22.chunk.js",
     "static/js/2.e012ca22.chunk.js.map": "/Tensors-EDU/static/js/2.e012ca22.chunk.js.map",
     "index.html": "/Tensors-EDU/index.html",
-    "precache-manifest.e626c1d41518bb3cfa02bc12c3f5a8c9.js": "/Tensors-EDU/precache-manifest.e626c1d41518bb3cfa02bc12c3f5a8c9.js",
+    "precache-manifest.bee0a768bdb205f7aae989486b11a1e3.js": "/Tensors-EDU/precache-manifest.bee0a768bdb205f7aae989486b11a1e3.js",
     "service-worker.js": "/Tensors-EDU/service-worker.js",
     "static/css/2.d5f5cffb.chunk.css.map": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css.map",
-    "static/css/main.2d1de79a.chunk.css.map": "/Tensors-EDU/static/css/main.2d1de79a.chunk.css.map",
+    "static/css/main.7edbeff1.chunk.css.map": "/Tensors-EDU/static/css/main.7edbeff1.chunk.css.map",
     "static/js/2.e012ca22.chunk.js.LICENSE.txt": "/Tensors-EDU/static/js/2.e012ca22.chunk.js.LICENSE.txt",
     "static/media/a1.svg": "/Tensors-EDU/static/media/a1.d6dbad2d.svg",
-    "static/media/Home-featuresComponent.css": "/Tensors-EDU/static/media/a4b.d6146912.svg",
+    "static/media/Home-featuresComponent.css": "/Tensors-EDU/static/media/a4b.42f53fc5.svg",
     "static/media/a2.svg": "/Tensors-EDU/static/media/a2.62cf2294.svg",
     "static/media/a3.svg": "/Tensors-EDU/static/media/a3.e9f6656b.svg",
     "static/media/a4.svg": "/Tensors-EDU/static/media/a4.8086febe.svg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.eafeff03.js",
     "static/css/2.d5f5cffb.chunk.css",
     "static/js/2.e012ca22.chunk.js",
-    "static/css/main.2d1de79a.chunk.css",
-    "static/js/main.5c88508e.chunk.js"
+    "static/css/main.7edbeff1.chunk.css",
+    "static/js/main.e9ec69f8.chunk.js"
   ]
 }
