@@ -8,7 +8,7 @@ import './josaa.css';
 
 const Features=()=>{
     return(
-        <div className="container mt-5 mb-5">
+        <div className="container">
             <h1 className="p-3">Why Us?</h1>
             <div className="row justify-content-center">
                 <div className="col-12 col-md-4">

@@ -58,7 +58,7 @@ const Consultant=({start_id=0,end_id=0,info,Img})=>{
                 {info.map((info,i) => {
                     if (i >= start_id && i <= end_id) {
                         return (
-                            <div className="col-sm-4 col-12">
+                            <div className="col-md-4">
                                 <div className="container">
                                     <div className="m-auto row">
                                         <div className="col-10">
@@ -119,10 +119,13 @@ class CarouselPage extends Component {
                         <div className="d-none d-sm-block">
                                 <MDBCarouselItem itemId="1">
                                 <MDBView>
-                                    <div className="container justify-content-center">
+                                    <div className="container" style={{display:'flex',flexDirection: 'row',flexWrap: 'wrap',alignContent: 'flex-start'}}>
                                         <div className="row">
-                                            <Consultant start_id="1" end_id="3" info={this.props.info} Img={this.props.Img}/>
+                                            <div className="col-12">
+                                                <Consultant start_id="1" end_id="3" info={this.props.info} Img={this.props.Img}/>
+                                            </div>
                                         </div>
+                                            
                                     </div>
                                 </MDBView>
                             </MDBCarouselItem>
