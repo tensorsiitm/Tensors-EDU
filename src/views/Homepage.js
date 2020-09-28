@@ -15,9 +15,9 @@ class Home extends Component{
             params={{
               "particles": {
                   "number": {
-                      "value": 160,
+                      "value": 500,
                       "density": {
-                          "enable": false
+                          "enable": true
                       }
                   },
                   "size": {
@@ -39,14 +39,15 @@ class Home extends Component{
                   }
               },
               "interactivity": {
+                "detect_on": "window",
                   "events": {
                       "onhover": {
                           "enable": true,
-                          "mode": "bubble"
+                          "mode": "repulse"
                       },
                       "onclick": {
                           "enable": true,
-                          "mode": "repulse"
+                          "mode": "bubble"
                       }
                   },
                   "modes": {
@@ -57,7 +58,7 @@ class Home extends Component{
                           "opacity": 0
                       },
                       "repulse": {
-                          "distance": 400,
+                          "distance": 100,
                           "duration": 4
                       }
                   }
@@ -65,7 +66,7 @@ class Home extends Component{
           }} />
             
            <Top />
-           <Homehome />
+
            <Homefeatures />
            <Hometestimonials />
            <Footer />

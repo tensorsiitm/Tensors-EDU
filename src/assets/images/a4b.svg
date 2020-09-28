@@ -7,34 +7,34 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="a2b.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   width="960px"
-   height="1080px"
-   viewBox="0 0 960 1080"
+   id="SVGRoot"
    version="1.1"
-   id="SVGRoot">
+   viewBox="0 0 960 1080"
+   height="1080px"
+   width="960px"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="a4b.svg">
   <defs
      id="defs840" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-9"
-     inkscape:window-x="-9"
-     inkscape:window-height="1001"
-     inkscape:window-width="1920"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="487.19511"
-     inkscape:cx="504.60472"
-     inkscape:zoom="0.49497475"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="504.60472"
+     inkscape:cy="487.19511"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata843">
     <rdf:RDF>
@@ -43,62 +43,69 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <ellipse
-       ry="490.93414"
-       rx="373.75644"
-       cy="557.40118"
-       cx="372.46713"
+       style="fill:#e6e6e6;stroke-width:1.01804"
        id="path1414"
-       style="fill:#e6e6e6;stroke-width:1.01804" />
+       cx="372.46713"
+       cy="557.40118"
+       rx="373.75644"
+       ry="490.93414" />
     <ellipse
-       ry="316.17776"
-       rx="204.05081"
-       cy="562.43164"
-       cx="750.31506"
+       style="fill:#e6e6e6;stroke-width:1.22359"
        id="path1416"
-       style="fill:#e6e6e6;stroke-width:1.22359" />
+       cx="750.31506"
+       cy="562.43164"
+       rx="204.05081"
+       ry="316.17776" />
     <ellipse
-       ry="193.9493"
-       rx="183.84776"
-       cy="267.64471"
-       cx="620.12201"
+       style="fill:#e6e6e6"
        id="path1418"
-       style="fill:#e6e6e6" />
+       cx="620.12201"
+       cy="267.64471"
+       rx="183.84776"
+       ry="193.9493" />
     <ellipse
-       ry="167.68532"
-       rx="175.76654"
-       cy="808.05103"
-       cx="589.45197"
+       style="fill:#e6e6e6"
        id="path1420"
-       style="fill:#e6e6e6" />
+       cx="589.45197"
+       cy="808.05103"
+       rx="175.76654"
+       ry="167.68532" />
     <ellipse
-       ry="277.79196"
-       rx="316.17776"
-       cy="286.03561"
-       cx="49.90358"
+       style="fill:#e6e6e6;stroke-width:1.48957"
        id="path1422"
-       style="fill:#e6e6e6;stroke-width:1.48957" />
+       cx="49.90358"
+       cy="286.03561"
+       rx="316.17776"
+       ry="277.79196" />
     <ellipse
-       ry="254.55846"
-       rx="276.7818"
-       cy="820.20319"
-       cx="93.421349"
+       style="fill:#e6e6e6;stroke-width:1.58529"
        id="path1424"
-       style="fill:#e6e6e6;stroke-width:1.58529" />
+       cx="93.421349"
+       cy="820.20319"
+       rx="276.7818"
+       ry="254.55846" />
     <ellipse
-       ry="121.21831"
-       rx="123.23861"
-       cy="145.25891"
-       cx="330.37579"
+       style="fill:#e6e6e6"
        id="path1426"
-       style="fill:#e6e6e6" />
+       cx="330.37579"
+       cy="145.25891"
+       rx="123.23861"
+       ry="121.21831" />
+    <ellipse
+       ry="357.59402"
+       rx="441.43665"
+       cy="567.70575"
+       cx="-174.75639"
+       id="path1424-5"
+       style="fill:#e6e6e6;stroke-width:2.37288" />
   </g>
 </svg>
