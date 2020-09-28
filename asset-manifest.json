@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tensors-EDU/static/css/main.fc035739.chunk.css",
+    "main.css": "/Tensors-EDU/static/css/main.21e6fd07.chunk.css",
     "main.js": "/Tensors-EDU/static/js/main.f6a902b1.chunk.js",
     "main.js.map": "/Tensors-EDU/static/js/main.f6a902b1.chunk.js.map",
     "runtime-main.js": "/Tensors-EDU/static/js/runtime-main.eafeff03.js",
@@ -9,13 +9,13 @@
     "static/js/2.bff52c38.chunk.js": "/Tensors-EDU/static/js/2.bff52c38.chunk.js",
     "static/js/2.bff52c38.chunk.js.map": "/Tensors-EDU/static/js/2.bff52c38.chunk.js.map",
     "index.html": "/Tensors-EDU/index.html",
-    "precache-manifest.26493930ea63bedf826bc3b2a69cd925.js": "/Tensors-EDU/precache-manifest.26493930ea63bedf826bc3b2a69cd925.js",
+    "precache-manifest.797f93e05a02d4a4a419d96ebe035cfd.js": "/Tensors-EDU/precache-manifest.797f93e05a02d4a4a419d96ebe035cfd.js",
     "service-worker.js": "/Tensors-EDU/service-worker.js",
     "static/css/2.d5f5cffb.chunk.css.map": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css.map",
-    "static/css/main.fc035739.chunk.css.map": "/Tensors-EDU/static/css/main.fc035739.chunk.css.map",
+    "static/css/main.21e6fd07.chunk.css.map": "/Tensors-EDU/static/css/main.21e6fd07.chunk.css.map",
     "static/js/2.bff52c38.chunk.js.LICENSE.txt": "/Tensors-EDU/static/js/2.bff52c38.chunk.js.LICENSE.txt",
     "static/media/a1.svg": "/Tensors-EDU/static/media/a1.d6dbad2d.svg",
-    "static/media/Home-featuresComponent.css": "/Tensors-EDU/static/media/a4b.42f53fc5.svg",
+    "static/media/Home-featuresComponent.css": "/Tensors-EDU/static/media/a4b.b869a4bf.svg",
     "static/media/a2.svg": "/Tensors-EDU/static/media/a2.62cf2294.svg",
     "static/media/a3.svg": "/Tensors-EDU/static/media/a3.e9f6656b.svg",
     "static/media/a4.svg": "/Tensors-EDU/static/media/a4.8086febe.svg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.eafeff03.js",
     "static/css/2.d5f5cffb.chunk.css",
     "static/js/2.bff52c38.chunk.js",
-    "static/css/main.fc035739.chunk.css",
+    "static/css/main.21e6fd07.chunk.css",
     "static/js/main.f6a902b1.chunk.js"
   ]
 }
