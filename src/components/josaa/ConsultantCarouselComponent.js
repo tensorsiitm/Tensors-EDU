@@ -105,9 +105,11 @@ class CarouselPage extends Component {
     render(){
         return (
             <div className="container-fluid">
-                <h1 className=" m-5">
-                    Our Consultants
-                </h1>
+                <div>
+                    <center>
+                        <h1 className="p-3">OUR CONSULTANTS</h1>
+                    </center>
+                </div>
                 <MDBCarousel
                     activeItem={1}
                     length={3}

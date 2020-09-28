@@ -3,8 +3,13 @@
 
 .main{
   background-color:  rgb(65, 6, 101);
-    overflow-X: hidden;
-    color: white;
+  overflow-X: hidden;
+  color: white;
+}
+.heading{
+  width:'50%';
+  border-bottom-right-radius:'100vh';
+  border-bottom-left-radius:'100vh'
 }
 
 .jumbotron{
@@ -38,11 +43,33 @@
   .timeline .timeline-icon{
     margin-top: 2vh;
   }
+  .heading{
+    width:'80%';
+    border-bottom-right-radius:'50vh';
+    border-bottom-left-radius:'50vh'
+  }
 }
 
 /*---------home----------*/
 .home{
   min-height: 100vh;
+}
+.home-register-btn{
+  padding: 2%;
+  background:  rgb(50, 5, 78);
+  border: none;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: x-large;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.home-register-btn:hover{
+  transform: scale(1.1);
+  background:  whitesmoke;
+  color: rgb(50, 5, 78);
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 /*-----Carousel------------*/
@@ -76,6 +103,10 @@ margin-top: 3vh;
 }
 
 /*---------feature------------*/
+.feature-fragment{
+  background: rgb(50, 5, 78)!important;
+  width: 100%;
+}
 .feature-icon{
   border-bottom-left-radius:30% ;
   border-top-right-radius:30% ;

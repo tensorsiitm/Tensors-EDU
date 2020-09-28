@@ -9,8 +9,13 @@ import { Media } from 'reactstrap';
 
 const TimelinePage = () => {
   return (
-    <React.Fragment>
-       <h1 className="m-5">How To Register?</h1> 
+    <div className="timeline-fragment">
+      <div>
+          <center>
+              <h1 className="p-3 d-none d-md-block" style={{backgroundColor:'rgb(50, 5, 78)',width:'50%',borderBottomRightRadius:'100vh',borderBottomLeftRadius:'100vh'}}>HOW ?</h1>
+              <h1 className="p-3 d-block d-md-none" style={{backgroundColor:'rgb(50, 5, 78)',width:'70%',borderBottomRightRadius:'5vh',borderBottomLeftRadius:'5vh'}}>HOW ?</h1>
+          </center>
+      </div>
       <VerticalTimeline className="timeline"> 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -63,7 +68,7 @@ const TimelinePage = () => {
         </p>
       </VerticalTimelineElement>
       </VerticalTimeline>
-    </React.Fragment>
+    </div>
     
   );
 };

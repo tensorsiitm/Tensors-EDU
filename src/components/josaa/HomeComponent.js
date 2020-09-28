@@ -36,9 +36,9 @@ const Home=()=>{
                         </p>
                         
                     </div>
-                    <div className="col-md-6 col-12 mt-auto mb-auto">
+                    <div className="col-md-5 offset-md-1 col-12 mt-auto mb-auto">
                         <center>
-                            <button className="home-register-button ml-auto bg-danger">
+                            <button className="home-register-btn btn-block">
                                 REGISTRATION
                             </button>   
                         </center>
