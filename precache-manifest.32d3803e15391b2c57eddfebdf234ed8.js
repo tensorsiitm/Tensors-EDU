@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04a44a913bc3c4cb943212cb6df41231",
+    "revision": "ec07df72372d5bae4994cab8e6c38ed0",
     "url": "/Tensors-EDU/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css"
   },
   {
-    "revision": "12f18c811fa4b9d32727",
-    "url": "/Tensors-EDU/static/css/main.6c94436c.chunk.css"
+    "revision": "3ef3d172b6322e28992f",
+    "url": "/Tensors-EDU/static/css/main.a8732acb.chunk.css"
   },
   {
     "revision": "71857327a15c648e7ac3",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/js/2.7d566dc6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12f18c811fa4b9d32727",
-    "url": "/Tensors-EDU/static/js/main.8d693850.chunk.js"
+    "revision": "3ef3d172b6322e28992f",
+    "url": "/Tensors-EDU/static/js/main.26886416.chunk.js"
   },
   {
     "revision": "4890ea5b5daacfd6f776",
@@ -32,32 +32,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/media/a1.d6dbad2d.svg"
   },
   {
-    "revision": "20b32e246469dc424cc7e238fa9400e2",
-    "url": "/Tensors-EDU/static/media/a1bn.20b32e24.svg"
+    "revision": "d577b1c9a50bf873eaecb97351f6ef7d",
+    "url": "/Tensors-EDU/static/media/a1bn.d577b1c9.svg"
   },
   {
     "revision": "62cf229458f2576941fdf7bd87661228",
     "url": "/Tensors-EDU/static/media/a2.62cf2294.svg"
   },
   {
-    "revision": "9830e6d6ff10eb0ecce0ec71ae13d605",
-    "url": "/Tensors-EDU/static/media/a2b.9830e6d6.svg"
+    "revision": "3755b8f7559965ff2208885531b5a2b4",
+    "url": "/Tensors-EDU/static/media/a2b.3755b8f7.svg"
   },
   {
     "revision": "e9f6656b0d2b10282589643ce094d6ea",
     "url": "/Tensors-EDU/static/media/a3.e9f6656b.svg"
   },
   {
-    "revision": "cc85bf27db6a0a265eacb460f8a57823",
-    "url": "/Tensors-EDU/static/media/a3b.cc85bf27.svg"
+    "revision": "b4561051e841195d633699a968446b59",
+    "url": "/Tensors-EDU/static/media/a3b.b4561051.svg"
   },
   {
     "revision": "8086febecf288ea34e98f3cd03d1c199",
     "url": "/Tensors-EDU/static/media/a4.8086febe.svg"
   },
   {
-    "revision": "963b0f6ba0b7455fa1b1a304025acd0a",
-    "url": "/Tensors-EDU/static/media/a4b.963b0f6b.svg"
+    "revision": "5a69d8cace7597ee615f222733e6dd2d",
+    "url": "/Tensors-EDU/static/media/a4b.5a69d8ca.svg"
   },
   {
     "revision": "4ad9c731971351972ddf28a266b1357d",

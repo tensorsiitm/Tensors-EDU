@@ -24,18 +24,18 @@
        id="linearGradient866"
        x1="177.78685"
        y1="840.4469"
-       x2="177.78685"
-       y2="521.23871"
+       x2="174.49117"
+       y2="549.14276"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient864">
       <stop
-         style="stop-color:#ffff5d;stop-opacity:1"
+         style="stop-color:#fce400;stop-opacity:1"
          offset="0"
          id="stop860" />
       <stop
-         style="stop-color:#ffff9c;stop-opacity:1"
+         style="stop-color:#ffff66;stop-opacity:1"
          offset="1"
          id="stop862" />
     </linearGradient>
