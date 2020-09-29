@@ -7,23 +7,25 @@ import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
 import st from "../assets/images/stripes.svg";
 import '../css/Home-featuresComponent.css';
+import { Parallax } from 'react-scroll-parallax';
 
 class Homefeatures extends Component{
     render(){
         return(
             <React.Fragment>
+            
         <div className="particlebg">
         <div className="row" >
         <div className="col-12 col-lg-6 order-lg-first order-last">
-        <div className="row r1"></div>
-        <div className="row r2">
+        <div className="row r1 d-none d-lg-block"></div>
+        <div className="row r2 d-none d-lg-block">
         <div className="col-10 offset-2">
         <h5>Welcome to Tensors Edu</h5>
-        <h1 align="justify">So you’ve decided to become an <span className="gre" >ENGINEER</span> and a lot of questions must be revolving in your mind</h1>
+        <h1 >So you’ve decided to become an <span className="gre" >ENGINEER</span> and a lot of questions must be revolving in your mind<span className="gre" >.</span></h1>
         <button className="box">EXPLORE</button>
         </div>
         </div>
-        <div className="row r3">
+        <div className="row r3 d-none d-lg-block">
         <div className="col-6 offset-2 d-none d-lg-block">
         <img src={tlogo} className="img-fluid "/>
         </div>
@@ -31,13 +33,16 @@ class Homefeatures extends Component{
         <img src={st} className="img-fluid "/>
         </div>
         </div>
+        <Parallax className="custom-class"   y={[-30, 0]} tagOuter="figure">
         <div className="row">
         <div className="col-6 offset-3 d-none d-lg-block a1i">
         <img src={a1} className="img-fluid "/>
         </div>
         </div>
+        </Parallax>
+        <Parallax className="custom-class"   y={[30, 0]} tagOuter="figure">
         <div className="row a2">
-        <div className="col col-8 offset-3 col-lg-8 offset-lg-1">
+        <div className="col col-10 offset-1 col-lg-8 offset-lg-1">
         <h2 align="justify">For the students who wants
         to crack <span className="green" >JEE</span>, we offer our
         <span className="green" > MENTORSHIP PROGRAMME</span></h2>
@@ -47,13 +52,17 @@ class Homefeatures extends Component{
         <Button>Know More..</Button>
         </div>
         </div>
+        </Parallax>
+        <Parallax className="custom-class"   y={[-30, 0]} tagOuter="figure">
         <div className="row">
         <div className="col-6 offset-3 d-none d-lg-block a3i">
         <img src={a3} className="img-fluid "/>
         </div>
         </div>
+        </Parallax>
+        <Parallax className="custom-class"   y={[30, 0]} tagOuter="figure">
         <div className="row a4">
-        <div className="col col-8 offset-1 col-lg-8 offset-lg-1">
+        <div className="col col-10 offset-1 col-lg-8 offset-lg-1">
         <h2 align="justify">For the students who wants
         to crack <span className="green" >JEE</span>, we offer our
         <span className="green" > MENTORSHIP PROGRAMME</span></h2>
@@ -62,11 +71,19 @@ class Homefeatures extends Component{
         </p>
         </div>
         </div>
+        </Parallax>
         </div>
         <div className="col-12 col-lg-6">
+        <div className="row r2 d-lg-none d-block">
+        <div className="col-10 offset-1">
+        <h5>Welcome to Tensors Edu</h5>
+        <h1 >So you’ve decided to become an <span className="gre" >ENGINEER</span> and a lot of questions must be revolving in your mind</h1>
+        <button className="box">EXPLORE</button>
+        </div>
+        </div>
         <div className="row a1">
         <div className="col-12">
-        <div className="row">
+        <div className="row a1a">
         <div className="col-lg-2 offset-lg-10 d-none d-lg-block socictop">
         <div className="row"><a
         className="btn"
@@ -95,8 +112,8 @@ class Homefeatures extends Component{
       </div>
         </div>
         </div>
-        <div className="row">
-        <div className="col col-8 offset-3 col-lg-8 offset-lg-3">
+        <div className="row a1b">
+        <div className="col col-10 offset-1 col-lg-8 offset-lg-3">
         <h2 align="justify">The primary question in your mind is
         <span className="green" > ‘Which branch should I select?’</span></h2>
         <p align="justify">
@@ -108,13 +125,16 @@ class Homefeatures extends Component{
         </div>
         </div>
         </div>
+        <Parallax className="custom-class"   y={[-30, 0]} tagOuter="figure">
         <div className="row">
         <div className="col-6 offset-3 d-none d-lg-block a2i">
         <img src={a2} className="img-fluid "/>
         </div>
         </div>
+        </Parallax>
+        <Parallax className="custom-class"   y={[30, 0]} tagOuter="figure">
         <div className="row a3">
-        <div className="col col-8 offset-1 col-lg-8 offset-lg-3">
+        <div className="col col-10 offset-1 col-lg-8 offset-lg-3">
         <h2 align="justify">For the students who wants
         to crack <span className="green" >JEE</span>, we offer our
         <span className="green" > MENTORSHIP PROGRAMME</span></h2>
@@ -123,11 +143,14 @@ class Homefeatures extends Component{
         </p>
         </div>
         </div>
+        </Parallax>
+        <Parallax className="custom-class"   y={[-30, 0]} tagOuter="figure">
         <div className="row">
         <div className="col-6 offset-3 d-none d-lg-block a4i">
         <img src={a4} className="img-fluid "/>
         </div>
         </div>
+        </Parallax>
         </div>
         </div>
    

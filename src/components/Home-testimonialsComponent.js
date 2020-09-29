@@ -99,25 +99,28 @@ const Hometestimonials = (props) =>{
       <div className="row row-content align-items-center">
       <div className="col col-sm order-sm-first col-md">
       <div className="media testimonial">
-          <Image className="d-flex mr-3 img-thumbnail align-self-center"
-                  src={item.src} alt={item.altText} height="300px" width="150px"/>
+          <Image className="d-flex mr-3 img-thumbnail align-self-center" src={item.src} alt={item.altText} height="300px" width="150px"/>
           <div className="media-body">
               <h2 className="mt-0">{item.altText}</h2>
               <h4>{item.caption}</h4>
-              <p>{item.text}
-                  </p>
+              <p>{item.text}</p>
           </div>
-      </div>            </div>
-</div>
+      </div>            
+      </div>
+      </div>
       </CarouselItem>
     
     );
   });
 
   return (
-      <div >
-    <Row className="whiteoverlay">
-    <Col className="testcontainer">
+      <div className="yellowbg">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#410665" fill-opacity="1" d="M0,128L40,112C80,96,160,64,240,69.3C320,75,400,117,480,117.3C560,117,640,75,720,80C800,85,880,139,960,165.3C1040,192,1120,192,1200,165.3C1280,139,1360,85,1400,58.7L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+
+      <div className="row">
+      <div className="col-12">
+      <div className="whiteoverlay row">
+    <div className="testcontainer col-12">
     <h1 className="line-1">Our Testimonials</h1>
     <Carousel
       activeIndex={activeIndex}
@@ -129,9 +132,11 @@ const Hometestimonials = (props) =>{
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
-    </Col>
-    </Row>
     </div>
+        </div>
+        </div>
+        </div>
+            </div>
   );
 }
 

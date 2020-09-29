@@ -5,6 +5,8 @@ import '../css/FooterComponent.css';
 function Footer(props) {
   return (
     <div className="footer">
+    <div className="row">
+    <div className="col-12">
         <div className="row justify-content-center fback">
           <div className="col-4 offset-1 col-sm-2">
             <h5>Links</h5>
@@ -26,14 +28,19 @@ function Footer(props) {
               </li>
             </ul>
           </div>
-          <div className="col-7 col-sm-5">
+          <div className="col-7 col-sm-3">
             <h5>Get in Touch</h5>
             <h6>name: 878998789q0w7q <span><a href="#">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="#"><i className="fa fa-whatsapp"></i></a></span></h6>
             <h6>name: 878998789q0w7q <span><a href="#">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="#"><i className="fa fa-whatsapp"></i></a></span></h6>
-
           </div>
-          <div className="col-12 col-sm-4 align-self-center">
-            <div className="text-center socic">
+          <div className="col-7 col-sm-3">
+          <h5>News Letter</h5>
+          <h6>Subscribe to our newsletter to get monthly updates straight to your inbox</h6>
+          <button className="boxbottom">SUBSCRIBE</button>
+        </div>
+          <div className="col-12 col-sm-3 ">
+          <h5>Get Social</h5>
+            <div className="socic">
               <a
                 className="btn"
                 href="http://www.facebook.com/profile.php?id="
@@ -65,6 +72,8 @@ function Footer(props) {
       <div className="col-auto">
         <p>© Copyright 2020 Tensors</p>
       </div>
+    </div>
+    </div>
     </div>
     </div>
   );

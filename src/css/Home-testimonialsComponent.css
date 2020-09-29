@@ -1,32 +1,35 @@
 .line-1{
   color: black; 
     padding-left: 5%;
-    background-color: rgba(255, 255, 255, 0.692);
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
-    padding-bottom: 6px;
 }
 
 .testcontainer{
-    background-color: rgba(255, 255, 255, 0.4);
     color: black;
 }
 
 .caroucard{
     width: 60%;
-    margin-top: 100px;
-    margin-bottom: 100px;
     margin-left: 20%;
     color: black;
+    margin-bottom: 60px;
 }
 
 .img-thumbnail{
     border-radius: 50%;
+    border-color: #410665;
+    background-color: #410665;
 }
 
 .carousel-indicators li{
-    background-color: black !important;
+    background-color: #410665 !important;
+    opacity: 1 !important;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.carousel-indicators .active{
+background-color: white !important;
 }
 
 .carousel-control-prev-icon,
@@ -38,24 +41,41 @@
 {
   content: '>';
   font-size: 30px;
-  color: black;
+  color: #410665;
   font-weight: bolder;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 30px;
-  color:black;
+  color:#410665;
   font-weight: bolder;
 }
 
-.testimonial{
-  background-color: rgba(255, 255, 255, 0.692);
-  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
-}
 
 .whiteoverlay{
-  background-image: url('../assets/images/bookbg.jpeg'); 
+  background-color:#fce40a; 
+}
+
+.yellowbg{
+  background-color: #fce40a; 
+}
+
+
+.testcontainer h1{
+  font-size: 2.3vw;
+}
+
+.testcontainer h2{
+  font-size: 1.8vw;
+  color: #410665;
+}
+
+.testcontainer h4{
+  font-size: 1.3vw;
+  color:  rgb(68, 66, 66);
+}
+
+.testcontainer p{
+  font-size: 1.3vw;
 }

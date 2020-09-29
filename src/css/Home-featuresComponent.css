@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 
 
 .a1{
@@ -26,7 +28,7 @@
 }
 
 .a1 .col{
-    padding-top: 50vh;
+    padding-top: 25vw;
     padding-bottom: 15vw;
 }
 
@@ -90,26 +92,29 @@ font-size: 1.3vw;
 
 .particlebg h5{
     color: #fce40a;
+    font-size: 1.3vw;
 }
 
 .particlebg h1{
     color: white;
+    font-size: 3vw;
 }
 
 .box{
     border: 4px solid  #fce40a;
     background-color:  rgb(65, 6, 101);
     font-weight: bold;
-    color: white;
+    color: #fce40a;
 }
 
 .box:hover{
-    background-color:  white;
-    color:  rgb(65, 6, 101);
+    background-color: #fce40a;
+    color:  black;
+    border-color: black;
 }
 
 .socictop{
-    padding-top: 10vh;
+    padding-top: 8vw;
 }
 
 .socictop a{
@@ -127,15 +132,15 @@ font-size: 1.3vw;
 }
 
 .r1{
-    height: 20vh;
+    height: 10vw;
 }
 
 .r2{
-    height: 60vh;
+    height: 25vw;
 }
 
 .r3{
-    height: 20vh;
+    height: 10vw;
 }
 
 .descund{
@@ -144,8 +149,32 @@ font-size: 1.3vw;
     font-size: 1vw;
 }
 
+.gre{
+    color: #fce40a;
+}
 
 @media screen and (max-width : 992px){
+
+    .particlebg h5{
+        font-size: 1.8vw;
+    }
+    
+    .particlebg h1{
+        font-size: 4vw;
+    }
+
+    .r2{
+        height: 50vw;
+        padding-top: 30vw;
+    }
+
+    .a1a{
+        height:80vw;
+    }
+    .a1b{
+        height:80vw;
+    }
+
     .particlebg h2{
         font-size: 3.3vw;
     }
@@ -155,7 +184,7 @@ font-size: 1.3vw;
     }  
 
     .a1 .col{
-        padding-top: 10vw;
+        padding-top: 20vw;
         padding-bottom: 20vw;
     }
     
@@ -175,11 +204,15 @@ font-size: 1.3vw;
     }
 
     .a2{
-        background-image: url("../assets/images/a3b.svg");
+        background-image: url("../assets/images/blob.svg");
     }
     
     .a3{
-        background-image: url("../assets/images/a2b.svg");
+        background-image: url("../assets/images/blob.svg");
+    }
+
+    .a4{
+        background-image: url("../assets/images/blob.svg");
     }
 
     .btn-secondary{
@@ -188,16 +221,37 @@ font-size: 1.3vw;
 }
 
 @media screen and (max-width : 576px){
+
+    .particlebg h5{
+        font-size: 2.8vw;
+    }
+    
+    .particlebg h1{
+        font-size: 6vw;
+    }
+
+    .r2{
+        height: 80vw;
+        padding-top: 50vw;
+    }
+
+    .a1a{
+        height:80vw;
+    }
+    .a1b{
+        height:120vw;
+    }
+
     .particlebg h2{
-        font-size: 4.3vw;
+        font-size: 5.8vw;
     }
     
     .particlebg p{
-        font-size: 2.3vw;
+        font-size: 3.8vw;
     }  
 
     .btn-secondary{
-        font-size: 2.3vw;
+        font-size: 3.8vw;
         }
 
 }

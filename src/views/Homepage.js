@@ -5,11 +5,13 @@ import Homefeatures from '../components/Home-featuresComponent';
 import Homehome from '../components/Home-homeComponent';
 import Hometestimonials from '../components/Home-testimonialsComponent';
 import Footer from '../components/FooterComponent';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 class Home extends Component{
     render(){
         return(
             <React.Fragment>
+            <ParallaxProvider>
             <Particles
             style={{position:"fixed"}}
             params={{
@@ -70,6 +72,7 @@ class Home extends Component{
            <Homefeatures />
            <Hometestimonials />
            <Footer />
+           </ParallaxProvider>
            </React.Fragment>
         );
     }
