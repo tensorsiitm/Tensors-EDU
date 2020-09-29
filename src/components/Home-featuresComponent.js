@@ -22,7 +22,7 @@ class Homefeatures extends Component{
         <div className="row r2 d-none d-lg-block">
         <div className="col-10 offset-2">
         <h5>Welcome to Tensors Edu</h5>
-        <h1 >So you’ve decided to become an <span className="gre" >ENGINEER</span> and a lot of questions must be revolving in your mind<span className="gre" >.</span></h1>
+        <h1 >So you’ve decided to become an <span className="gre" >ENGINEER</span> and looking for a place to get your questions answered. Well your search ends here<span className="gre" >!</span></h1>
         <Link to="a1" smooth={true} offset={-100} duration={500} className="box" > EXPLORE</Link>
         </div>
         </div>
