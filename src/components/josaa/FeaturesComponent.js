@@ -11,8 +11,7 @@ const Features=()=>{
         <div className="feature-fragment">
             <div>
                 <center>
-                    <h1 className="p-3 d-none d-md-block" style={{backgroundColor:'rgb(65, 6, 101)',width:'50%',borderBottomRightRadius:'100vh',borderBottomLeftRadius:'100vh'}}>WHY ?</h1>
-                    <h1 className="p-3 d-block d-md-none" style={{backgroundColor:'rgb(65, 6, 101)',width:'70%',borderBottomRightRadius:'5vh',borderBottomLeftRadius:'5vh'}}>WHY ?</h1>
+                    <h1 className="p-3 heading" style={{backgroundColor:'rgb(65, 6, 101)'}}>WHY ?</h1>
                 </center>
             </div>
             <div className="container">

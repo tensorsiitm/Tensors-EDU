@@ -32,16 +32,20 @@ const Home=()=>{
                             <span className="d-none d-md-block">
                                 We the Tensors team have set up a comprehensive councelling strategy to the IIT aspirants. To register click on the
                                 REGISTRATION button.
-                            </span><br/> To know more about the strategy scroll down
+                            </span>
                         </p>
-                        
                     </div>
-                    <div className="col-md-5 offset-md-1 col-12 mt-auto mb-auto">
+                    <div className="col-md-5 offset-md-1 col-12 mt-auto mb-auto p-1">
                         <center>
                             <button className="home-register-btn btn-block">
                                 REGISTRATION
                             </button>   
                         </center>
+                    </div>
+                    <div className="col-md-6 col-12">
+                        <p style={{position:'relative',fontSize:'x-large'}}>
+                            To know more about the strategy scroll down
+                        </p>
                     </div>
                 </div>    
             </div>

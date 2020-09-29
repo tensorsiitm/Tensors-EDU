@@ -4,16 +4,17 @@ background: rgb(50, 5, 78)!important;
 min-height:70vh;
 }
 .heading{
-    width:'50%';
-    border-bottom-right-radius:'100vh';
-    border-bottom-left-radius:'100vh';
-    background-color:'rgb(65, 6, 101)';
+    width:50%;
+    border-bottom-right-radius:100vh;
+    border-bottom-left-radius:100vh;
+    background-color:rgb(65, 6, 101);
+    color: #fce40a;
 }
 @media (max-width: 767.98px) {
     .heading{
-      width:'80%';
-      border-bottom-right-radius:'50vh';
-      border-bottom-left-radius:'50vh'
+      width:60%;
+      border-bottom-right-radius:50vh;
+      border-bottom-left-radius:50vh;
     }
   }
 .card{
