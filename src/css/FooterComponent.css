@@ -24,7 +24,7 @@ h5{
     border-radius: 50%;
     height:46px;
     width:46px;
-    border: 3px solid #fce40a;
+    border: 3px solid black;
     font-size: 18px;
 }
 
@@ -50,11 +50,49 @@ h5{
 
 .boxbottom{
     margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #bfbec0;
-    border: 3px solid #fce40a;
+    border: 3px solid black;
     font-weight: bolder;
+    border-radius: 6px;
 }
 
 .boxbottom:hover{
     background-color: #fce40a;
+}
+
+.display-4{
+    font-family:'Pacifico-Regular';
+    color: rgb(65, 6, 101);
+}
+
+.lead{
+    font-family:'JosefinSans-Italic';
+}
+
+.socicmodal a{
+    background-color:  #fce40a;
+    border-radius: 50%;
+    height:46px;
+    width:46px;
+    border: 3px solid rgb(65, 6, 101);
+    font-size: 18px;
+    color: rgb(65, 6, 101);
+}
+
+.socicmodal a:hover{
+    background-color: rgb(65, 6, 101);
+    color: #fce40a;
+    border-color: #fce40a;
+}
+
+.btn-primary{
+    background-color:  rgb(65, 6, 101);
+    color:#fce40a ;
+    font-weight: bolder; 
+}
+
+.btn-primary:hover{
+    background-color: #fce40a;
+    color: rgb(65, 6, 101);
 }

@@ -23,10 +23,11 @@ class Top extends Component{
     render(){
         return(
             <React.Fragment>
-                <Navbar dark className="navbar" expand="sm">
+                <Navbar dark className="navbar" expand="md">
                     <div className="container">
-                        <NavbarToggler onClick={this.toggleNav} />
+                        
                         <NavbarBrand className="mr-auto" href="/home"><img src={ico} height="30px"/></NavbarBrand>
+                        <NavbarToggler className="NavbarToggler" onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar classNam="navleft">
                                 <NavItem>
@@ -46,6 +47,7 @@ class Top extends Component{
                                 </NavItem>
                             </Nav>
                         </Collapse>
+                        
                     </div>
                 </Navbar>
             </React.Fragment>

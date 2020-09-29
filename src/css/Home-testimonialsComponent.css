@@ -63,12 +63,15 @@ background-color: white !important;
 
 
 .testcontainer h1{
-  font-size: 2.3vw;
+  font-size: 2.8vw;
+  font-family:'Pacifico-Regular';
 }
 
 .testcontainer h2{
   font-size: 1.8vw;
   color: #410665;
+  font-family:'JosefinSans-Italic';
+  font-weight: bolder;
 }
 
 .testcontainer h4{
@@ -78,4 +81,57 @@ background-color: white !important;
 
 .testcontainer p{
   font-size: 1.3vw;
+  font-family:'JosefinSans-Italic';
 }
+
+@media screen and (max-width : 992px){
+
+  .img-thumbnail{
+margin: auto;
+}
+
+  .testcontainer h1{
+    font-size: 5.3vw;
+  }
+  
+  .testcontainer h2{
+    font-size: 3.3vw;
+    text-align: center;
+  }
+  
+  .testcontainer h4{
+    font-size: 2.8vw;
+    text-align: center;
+  }
+  
+  .testcontainer p{
+    font-size: 2.8vw;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width : 576px){
+
+  .img-thumbnail{
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .testcontainer h1{
+    font-size: 6.8vw;
+  }
+  
+  .testcontainer h2{
+    font-size: 4.3vw;
+  }
+  
+  .testcontainer h4{
+    font-size: 3.8vw;
+  }
+  
+  .testcontainer p{
+    font-size: 3.8vw;
+  }
+
+}  

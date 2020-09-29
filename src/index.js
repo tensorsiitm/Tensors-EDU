@@ -5,6 +5,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './assets/fonts/JosefinSans-Italic.ttf';
+import './assets/fonts/Pacifico-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

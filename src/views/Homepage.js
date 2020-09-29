@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import Particles from 'react-particles-js';
 import Top from '../components/NavComponent';
 import Homefeatures from '../components/Home-featuresComponent';
-import Homehome from '../components/Home-homeComponent';
 import Hometestimonials from '../components/Home-testimonialsComponent';
 import Footer from '../components/FooterComponent';
 import { ParallaxProvider } from 'react-scroll-parallax';

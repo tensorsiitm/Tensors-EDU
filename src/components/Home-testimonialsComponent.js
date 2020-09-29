@@ -96,17 +96,17 @@ const Hometestimonials = (props) =>{
         key={item.src}
         className="caroucard"
       >
-      <div className="row row-content align-items-center">
-      <div className="col col-sm order-sm-first col-md">
-      <div className="media testimonial">
-          <Image className="d-flex mr-3 img-thumbnail align-self-center" src={item.src} alt={item.altText} height="300px" width="150px"/>
+      <div className="row row-content align-items-center testimonial">
+      <div className="col-12 col-lg-3  order-sm-first ">
+          <Image className="d-flex  img-thumbnail align-self-center" src={item.src} alt={item.altText} height="300px" width="150px"/>
+      </div>
+      <div className="col-12 col-lg-9">    
           <div className="media-body">
               <h2 className="mt-0">{item.altText}</h2>
               <h4>{item.caption}</h4>
               <p>{item.text}</p>
           </div>
       </div>            
-      </div>
       </div>
       </CarouselItem>
     

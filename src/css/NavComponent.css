@@ -21,3 +21,7 @@
 .navbar-collapse{
   flex-grow: 0 !important;
 }
+
+.NavbarToggler{
+  background-color:rgb(65, 6, 101) ;
+}
