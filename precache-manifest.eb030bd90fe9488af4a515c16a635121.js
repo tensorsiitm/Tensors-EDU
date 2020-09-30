@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2496abbe129d24fc1ebbaa461d54c8f6",
+    "revision": "75bd1f1e8e27da5fa9127c6517521ef8",
     "url": "/Tensors-EDU/index.html"
   },
   {
-    "revision": "e62401c2bf6987f6493b",
+    "revision": "90f5156a4c5c9ca20a3c",
     "url": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css"
   },
   {
-    "revision": "ad54c7b8cfa9d3a1958e",
+    "revision": "49b02159939412491237",
     "url": "/Tensors-EDU/static/css/main.ee989d83.chunk.css"
   },
   {
-    "revision": "e62401c2bf6987f6493b",
-    "url": "/Tensors-EDU/static/js/2.e9b74d0a.chunk.js"
+    "revision": "90f5156a4c5c9ca20a3c",
+    "url": "/Tensors-EDU/static/js/2.254c80a0.chunk.js"
   },
   {
-    "revision": "f6a33b08b8dab27dd8ab525dc9994832",
-    "url": "/Tensors-EDU/static/js/2.e9b74d0a.chunk.js.LICENSE.txt"
+    "revision": "2069192f75c6f3fb6247231eea52f248",
+    "url": "/Tensors-EDU/static/js/2.254c80a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad54c7b8cfa9d3a1958e",
-    "url": "/Tensors-EDU/static/js/main.11503a38.chunk.js"
+    "revision": "49b02159939412491237",
+    "url": "/Tensors-EDU/static/js/main.ff192128.chunk.js"
   },
   {
     "revision": "4890ea5b5daacfd6f776",
