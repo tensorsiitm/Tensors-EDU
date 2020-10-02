@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Tensors-EDU/static/css/main.15fde492.chunk.css",
-    "main.js": "/Tensors-EDU/static/js/main.050865f6.chunk.js",
-    "main.js.map": "/Tensors-EDU/static/js/main.050865f6.chunk.js.map",
+    "main.css": "/Tensors-EDU/static/css/main.4f4cb960.chunk.css",
+    "main.js": "/Tensors-EDU/static/js/main.6cdfacb4.chunk.js",
+    "main.js.map": "/Tensors-EDU/static/js/main.6cdfacb4.chunk.js.map",
     "runtime-main.js": "/Tensors-EDU/static/js/runtime-main.eafeff03.js",
     "runtime-main.js.map": "/Tensors-EDU/static/js/runtime-main.eafeff03.js.map",
     "static/css/2.d5f5cffb.chunk.css": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css",
-    "static/js/2.9d387f0c.chunk.js": "/Tensors-EDU/static/js/2.9d387f0c.chunk.js",
-    "static/js/2.9d387f0c.chunk.js.map": "/Tensors-EDU/static/js/2.9d387f0c.chunk.js.map",
+    "static/js/2.f2b48af0.chunk.js": "/Tensors-EDU/static/js/2.f2b48af0.chunk.js",
+    "static/js/2.f2b48af0.chunk.js.map": "/Tensors-EDU/static/js/2.f2b48af0.chunk.js.map",
     "index.html": "/Tensors-EDU/index.html",
-    "precache-manifest.091f5de0b0ffe2584d4b41b6b14c2ec9.js": "/Tensors-EDU/precache-manifest.091f5de0b0ffe2584d4b41b6b14c2ec9.js",
+    "precache-manifest.225c05f2f07929575453c0bcb0790068.js": "/Tensors-EDU/precache-manifest.225c05f2f07929575453c0bcb0790068.js",
     "service-worker.js": "/Tensors-EDU/service-worker.js",
     "static/css/2.d5f5cffb.chunk.css.map": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css.map",
-    "static/css/main.15fde492.chunk.css.map": "/Tensors-EDU/static/css/main.15fde492.chunk.css.map",
-    "static/js/2.9d387f0c.chunk.js.LICENSE.txt": "/Tensors-EDU/static/js/2.9d387f0c.chunk.js.LICENSE.txt",
+    "static/css/main.4f4cb960.chunk.css.map": "/Tensors-EDU/static/css/main.4f4cb960.chunk.css.map",
+    "static/js/2.f2b48af0.chunk.js.LICENSE.txt": "/Tensors-EDU/static/js/2.f2b48af0.chunk.js.LICENSE.txt",
     "static/media/JosefinSans-Italic.ttf": "/Tensors-EDU/static/media/JosefinSans-Italic.be73b067.ttf",
     "static/media/Pacifico-Regular.ttf": "/Tensors-EDU/static/media/Pacifico-Regular.9b94499c.ttf",
     "static/media/a1.svg": "/Tensors-EDU/static/media/a1.07aa6bdb.svg",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.eafeff03.js",
     "static/css/2.d5f5cffb.chunk.css",
-    "static/js/2.9d387f0c.chunk.js",
-    "static/css/main.15fde492.chunk.css",
-    "static/js/main.050865f6.chunk.js"
+    "static/js/2.f2b48af0.chunk.js",
+    "static/css/main.4f4cb960.chunk.css",
+    "static/js/main.6cdfacb4.chunk.js"
   ]
 }
