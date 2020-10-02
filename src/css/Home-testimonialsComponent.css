@@ -1,3 +1,13 @@
+.yellowbg .col-12{
+  padding-right: unset !important;
+  padding-left: unset !important;
+}
+
+.yellowbg .row{
+  margin-right: unset !important;
+  margin-left: unset !important;
+}
+
 .line-1{
   color: black; 
     padding-left: 5%;

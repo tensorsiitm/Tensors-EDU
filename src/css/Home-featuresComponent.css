@@ -2,6 +2,15 @@ body{
     overflow-x: hidden;
 }
 
+.particlebg .col-12{
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+
+.particlebg .row{
+    margin-right: unset !important;
+    margin-left: unset !important;
+}
 
 .a1{
     background-image: url("../assets/images/a1bn.svg"); 

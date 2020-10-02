@@ -1,6 +1,12 @@
-body{
-    overflow-x: hidden;
-}
+.footer .col-12{
+    padding-right: unset !important;
+    padding-left: unset !important;
+  }
+  
+.footer .row{
+    margin-right: unset !important;
+    margin-left: unset !important;
+  }
 
 a{
     color: #bfbec0;  
