@@ -4,6 +4,7 @@ import Top from '../components/NavComponent';
 import '../css/temp.css';
 import {Modal} from "react-bootstrap";
 import launch from '../assets/images/launch.svg'
+import Iframe from 'react-iframe'
 
 function SubscribeModal(props) {
     return (
@@ -16,60 +17,7 @@ function SubscribeModal(props) {
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
-        <section class="row mt-3 mb-3 text-center">
-        <div class="col-md-6 m-auto">
-          <h1 class="display-4 mb-3">Newsletter Signup</h1>
-          <p class="lead">
-            Fill in your details to receive updates from Tensors
-          </p>
-          <form action="/subscribe" method="POST">
-            <div class="form-group">
-              <input type="text" name="firstName" id="first-name" class="form-control" placeholder="First Name"
-                required />
-            </div>
-            <div class="form-group">
-              <input type="text" name="lastName" id="last-name" class="form-control" placeholder="Last Name" required />
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">
-              Subscribe
-            </button>
-          </form>
-          <div className="row">
-          <div className="col-12">
-            <p>Get in touch with us through</p>
-              <div className="socicmodal">
-                <a
-                  className="btn"
-                  href="https://www.facebook.com/tensorsofficial"
-                >
-                  <i className="fa fa-facebook" />
-                </a>
-                &emsp;
-                <a
-                  className="btn"
-                  href="https://www.linkedin.com/company/53201198"
-                >
-                  <i className="fa fa-linkedin" />
-                </a>
-                &emsp;
-                <a
-                  className="btn"
-                  href="https://www.instagram.com/tensors_official/"
-                >
-                  <i className="fa fa-instagram" />
-                  </a>
-                  &emsp;
-                <a className="btn " href="mailto:tensorsofficial@gmail.com">
-                  <i className="fa fa-envelope-o" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <Iframe url="https://tensors-newsletter.herokuapp.com/" width="100%" height="600px"></Iframe>
         </Modal.Body>
       </Modal>
     );
@@ -86,8 +34,8 @@ function Mentorship(props){
            <div className="col-12 col-lg-6 yelside h-100">
            <div className="row middle1">
            <div className="col-8 offset-2">
-           <p>
-           The Tensors mentor ship programme has been designed by IITians to help you crack JEE with continuous guidance throughout the year.
+           <p align="justify">
+           The Tensors mentorship programme has been designed by IITians to help you crack JEE with continuous guidance throughout the year.
            All the registered students will be assigned mentors who will provide doubt clearance, motivation and guidance throughout the year to help you in your studies. This one-on-one communication is unique to Tensors and it’ll be instrumental in converting the final exam.
            </p>
            </div>
