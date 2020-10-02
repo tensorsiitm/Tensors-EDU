@@ -26,12 +26,12 @@
 
 .img-thumbnail{
     border-radius: 50%;
-    border-color: #410665;
-    background-color: #410665;
+    border-color: #0F6C7A;
+    background-color: #0F6C7A;
 }
 
 .carousel-indicators li{
-    background-color: #410665 !important;
+    background-color: #0F6C7A !important;
     opacity: 1 !important;
     border-radius: 50%;
     height: 10px;
@@ -51,24 +51,24 @@ background-color: white !important;
 {
   content: '>';
   font-size: 30px;
-  color: #410665;
+  color: #0F6C7A;
   font-weight: bolder;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 30px;
-  color:#410665;
+  color:#0F6C7A;
   font-weight: bolder;
 }
 
 
 .whiteoverlay{
-  background-color:#fce40a; 
+  background-color:#ADE379; 
 }
 
 .yellowbg{
-  background-color: #fce40a; 
+  background-color: #ADE379; 
 }
 
 
@@ -79,7 +79,7 @@ background-color: white !important;
 
 .testcontainer h2{
   font-size: 1.8vw;
-  color: #410665;
+  color: #0F6C7A;
   font-family:'JosefinSans-Italic';
   font-weight: bolder;
 }

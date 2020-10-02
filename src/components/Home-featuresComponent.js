@@ -131,7 +131,7 @@ class Homefeatures extends Component{
         <Parallax className="custom-class"   y={[30, 0]} tagOuter="figure">
         <div className="row a3">
         <div className="col col-10 offset-1 col-lg-8 offset-lg-3">
-        <h2 align="justify">For the students who want
+        <h2>For the students who want
         to crack <span className="green" >JEE</span>, we offer our
         <span className="green" > MENTORSHIP PROGRAMME</span></h2>
         <p align="justify">

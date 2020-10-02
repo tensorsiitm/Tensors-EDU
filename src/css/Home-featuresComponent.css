@@ -78,7 +78,7 @@ body{
 
 
 .btn-secondary{
-background-color:rgb(65, 6, 101)  !important ;
+background-color:#0F6C7A  !important ;
 color: white;
 border:3px solid black;
 font-size: 1.3vw;
@@ -94,11 +94,11 @@ padding: 2px 4px ;
 }
 
 .green{
-    color: rgb(65, 6, 101)  ;  
+    color: #0F6C7A  ;  
 }
 
 .particlebg{
-    background-color:  rgb(65, 6, 101);
+    background-color:  #0F6C7A;
 }
 
 .particlebg h2{
@@ -113,7 +113,7 @@ padding: 2px 4px ;
 }
 
 .particlebg h5{
-    color: #fce40a;
+    color: rgb(185, 252, 1);
     font-size: 1.3vw;
 }
 
@@ -124,15 +124,15 @@ padding: 2px 4px ;
 }
 
 .box{
-    border: 4px solid  #fce40a;
-    background-color:  rgb(65, 6, 101);
+    border: 4px solid  rgb(185, 252, 1);
+    background-color:  #0F6C7A;
     font-weight: bold;
-    color: #fce40a;
+    color: rgb(185, 252, 1);
     padding: 2px 4px ;
 }
 
 .box:hover{
-    background-color: #fce40a;
+    background-color: rgb(185, 252, 1);
     color:  black;
     border-color: black;
     cursor: pointer;
@@ -143,16 +143,16 @@ padding: 2px 4px ;
 }
 
 .socictop a{
-    border: 3px solid #fce40a;
+    border: 3px solid rgb(185, 252, 1);
     border-radius: 50%;
     height:46px;
     width:46px;
     margin-bottom: 30px;
-    color: #fce40a;
+    color: rgb(185, 252, 1);
 }
 
 .socictop a:hover{
-    background-color: #fce40a;
+    background-color: rgb(185, 252, 1);
     border-color: black;
 }
 
@@ -174,7 +174,7 @@ padding: 2px 4px ;
 }
 
 .gre{
-    color: #fce40a;
+    color: rgb(185, 252, 1);
 }
 
 @media screen and (max-width : 992px){
@@ -292,7 +292,7 @@ padding: 2px 4px ;
 
     .btn-secondary{
         font-size: 3.8vw;
-        margin-left: 65% !important;
+        margin-left: 60% !important;
         }
 
     .box{
