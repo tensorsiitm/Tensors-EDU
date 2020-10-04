@@ -13,6 +13,7 @@ class Josaa extends Component{
             style={{position:"fixed"}}
             params={{
               "particles": {
+                  "color":"#ADE379",
                   "number": {
                       "value": 500,
                       "density": {

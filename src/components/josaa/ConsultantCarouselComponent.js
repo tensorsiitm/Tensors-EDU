@@ -1,99 +1,39 @@
 import React, { Component } from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
 "mdbreact";
+import { Media } from 'reactstrap';
+import info from './ConsultantsName';
 import './josaa.css';
 
-const Consultant=({start_id=0,end_id=0,info,Img})=>{
+
+
+const Consultant=()=>{
     return (
         <div>
-            <div className="d-block d-md-none">
-                {
+            {
                     info.map((info)=>{
                         return(
                             <MDBCarouselItem itemId={info.id}>
                                 <MDBView>
-                                    <div className="container justify-content-center" >
-                                        <div className="row justify-content-center m-1 pb-4">
-                                        <div className="col-12">
-                                            <div className="container">
-                                                <div className="m-auto row">
-                                                    <div className="col-10">
-                                                        <img src={Img} className="rounded-circle info-img " width="100%" />
-                                                    </div>
-                                                    <div className="col-2 mt-auto mb-auto ">
-                                                        <div className="col-12 p-1">
-                                                            <a href={info.instagram}>
-                                                                <i className="fa fa-instagram p-2 b-2 mt-auto mb-auto mr-auto info-sicon-instagram"/>
-                                                            </a>
-                                                        </div>
-                                                        <div className="col-12 p-1">
-                                                            <a href={info.linkedin}>
-                                                            <i className="fa fa-linkedin p-2 mt-auto mb-auto info-sicon-linkedin"/> 
-                                                            </a>                                    
-                                                        </div>
-                                                        <div className="col-12 p-1">
-                                                            <a href={info.whatsapp}>
-                                                                <i className="fa fa-whatsapp p-2 mt-auto mb-auto info-sicon-whatsapp"/>
-                                                            </a>                                    
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="row col-10 justify-content-center">
-                                                    <h6>{info.name}</h6>
-                                                </div>
-                                                <div className="row justify-content-center">
-                                                    <h7>{info.branch}</h7>
-                                                </div>
+                                    <div className="container mb-5">
+                                        <div class="row">
+                                            <div className="col-sm-5 col-12">
+                                                <img className="info-img d-flex rounded-circle avatar z-depth-5-half mb-3 mx-auto mr-3" src={info.img} alt="Generic placeholder image"/>
+                                                <center>
+                                                    <h3 className="font-weight-bold mr-auto ml-auto d-block d-sm-none" style={{color:"#8ae237"}}>{info.name}</h3>
+                                                </center>
                                             </div>
-                                        </div>
+                                            <div className="info-content col-sm-7 d-none d-sm-block justify-content-center container mt-auto mb-auto">
+                                                <h2 className="font-weight-bold mb-3">{info.name}</h2>
+                                                <h3 className="font-weight-bold ml-5">{info.quote}</h3>    
+                                            </div>
                                         </div>
                                     </div>
                                 </MDBView>
-                        </MDBCarouselItem>
+                            </MDBCarouselItem>
                         );
                     })
                 }
-            </div>
-            <div className="d-none d-sm-block">
-                {info.map((info,i) => {
-                    if (i >= start_id && i <= end_id) {
-                        return (
-                            <div className="col-md-4">
-                                <div className="container">
-                                    <div className="m-auto row">
-                                        <div className="col-10">
-                                            <img src={Img} className="rounded-circle info-img " width="100%" />
-                                        </div>
-                                        <div className="col-2 mt-auto mb-auto ">
-                                            <div className="col-12 p-1">
-                                                <a href={info.instagram}>
-                                                    <i className="fa fa-instagram p-2 b-2 mt-auto mb-auto mr-auto info-sicon-instagram"/>
-                                                </a>
-                                            </div>
-                                            <div className="col-12 p-1">
-                                                <a href={info.linkedin}>
-                                                <i className="fa fa-linkedin p-2 mt-auto mb-auto info-sicon-linkedin"/> 
-                                                </a>                                    
-                                            </div>
-                                            <div className="col-12 p-1">
-                                                <a href={info.whatsapp}>
-                                                    <i className="fa fa-whatsapp p-2 mt-auto mb-auto info-sicon-whatsapp"/>
-                                                </a>                                    
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="row col-10 justify-content-center">
-                                        <h4>{info.name}</h4>
-                                    </div>
-                                    <div className="row justify-content-center">
-                                        <p>{info.branch}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        );
-                    }
-                })}            
-            </div>
         </div>
     )
 }
@@ -107,7 +47,7 @@ class CarouselPage extends Component {
             <div className="container-fluid">
                 <div>
                     <center>
-                        <h1 className="p-3" style={{color:'#fce40a'}}>OUR CONSULTANTS</h1>
+                        <h1 className="p-3" style={{color:'#ADE379'}}>OUR CONSULTANTS</h1>
                     </center>
                 </div>
                 <MDBCarousel
@@ -115,44 +55,10 @@ class CarouselPage extends Component {
                     length={3}
                     showControls={true}
                     showIndicators={true}
-                    className="z-depth-1 carousel"
+                    className="z-depth-1 carousel con-car"
                 >
                     <MDBCarouselInner>
-                        <div className="d-none d-sm-block">
-                                <MDBCarouselItem itemId="1">
-                                <MDBView>
-                                    <div className="container" style={{display:'flex',flexDirection: 'row',flexWrap: 'wrap',alignContent: 'flex-start'}}>
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <Consultant start_id="1" end_id="3" info={this.props.info} Img={this.props.Img}/>
-                                            </div>
-                                        </div>
-                                            
-                                    </div>
-                                </MDBView>
-                            </MDBCarouselItem>
-                            <MDBCarouselItem itemId="2">
-                                <MDBView>
-                                    <div className="container justify-content-center">
-                                        <div className="row">
-                                            <Consultant start_id="4" end_id="6" info={this.props.info} Img={this.props.Img}/>
-                                        </div>
-                                    </div>
-                                </MDBView>
-                            </MDBCarouselItem>
-                            <MDBCarouselItem itemId="3">
-                                <MDBView>
-                                    <div className="container justify-content-center">
-                                        <div className="row">
-                                            <Consultant start_id="7" end_id="9" info={this.props.info} Img={this.props.Img}/>
-                                        </div>
-                                    </div>
-                                </MDBView>
-                            </MDBCarouselItem>
-                        </div>
-                        <div className="d-block d-sm-none">
-                            <Consultant info={this.props.info} Img={this.props.Img}/>
-                        </div>
+                        <Consultant />
                     </MDBCarouselInner>
                 </MDBCarousel>
             </div>
