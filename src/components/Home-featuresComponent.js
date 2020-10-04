@@ -112,7 +112,6 @@ class Homefeatures extends Component{
         <h2 align="justify" id="a1">The primary question in your mind is
         <span className="green" > ‘Which branch should I select?’</span></h2>
         <p align="justify">
-        The primary question in your mind is ‘Which branch should I select?’
         For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
         </p>
         <h6 className="descund">KNOW YOUR BRANCH</h6>
@@ -135,7 +134,7 @@ class Homefeatures extends Component{
         to crack <span className="green" >JEE</span>, we offer our
         <span className="green" > MENTORSHIP PROGRAMME</span></h2>
         <p align="justify">
-        The Tensors mentor ship programme is a year long system which is aimed at helping the JEE aspirants in +1 and +2. Everyone who registers will receive the complete Tensors test series as well 
+        The Tensors mentor ship programme is a year long system which is aimed at helping the JEE aspirants in +1 and +2. Everyone who registers will receive the complete Tensors test series as well. 
         </p>
         <h6 className="descund">MENTORSHIP PROGRAMME</h6>
         </div>

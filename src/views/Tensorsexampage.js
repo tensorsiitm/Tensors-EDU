@@ -33,6 +33,7 @@ function Tensorsexam(props){
        <div className="col-12 col-lg-6 yelside h-100">
        <div className="row middle1">
        <div className="col-8 offset-2">
+       <h1>Tensors Exam</h1>
        <p align="justify">
        The annual Tensors mock JEE examination is the most awaited end-of-the-year JEE examination in all major coaching institutes in South India. The questions papers are designed and conducted by IITians who have demonstrated their skill in cracking the JEE. There are two three-hour-long examinations for the JEE Mains and Advanced respectively.       </p>
        </div>

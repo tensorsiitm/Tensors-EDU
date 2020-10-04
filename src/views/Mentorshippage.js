@@ -34,6 +34,7 @@ function Mentorship(props){
            <div className="col-12 col-lg-6 yelside h-100">
            <div className="row middle1">
            <div className="col-8 offset-2">
+           <h1>Mentorship Programme</h1>
            <p align="justify">
            The Tensors mentorship programme has been designed by IITians to help you crack JEE with continuous guidance throughout the year.
            All the registered students will be assigned mentors who will provide doubt clearance, motivation and guidance throughout the year to help you in your studies. This one-on-one communication is unique to Tensors and it’ll be instrumental in converting the final exam.
