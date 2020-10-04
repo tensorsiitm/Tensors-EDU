@@ -1,7 +1,6 @@
 import React from 'react';
 import './josaa.css';
 import {Jumbotron} from 'reactstrap';
-import { Parallax } from 'react-scroll-parallax';
 
 const Home=()=>{
     return(
@@ -9,29 +8,29 @@ const Home=()=>{
             <div className="row">
                 <Jumbotron className="mt-3 jumbotron" >
                     <div className="container-fluid">
-                        <div className="row row-header pt-3">
+                        <div className="row row-header pb-3">
                             <div className="col-12 col-sm-6 mr-auto info">
-                            <Parallax className="custom-class" y={[80,-50]} tagOuter="figure">
-                                <h1 style={{position:'relative'}}>JOSAA COUNCELING</h1>
-                                <p className="d-none d-sm-block" style={{position:'relative'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            </Parallax>
-
+                                <h1 >JOSAA COUNCELING</h1>
+                                <p className="d-none d-sm-block" style={{fontSize:'larger'}}>
+                                    The primary question in your mind is ‘Which branch should I select?’
+                                    For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
             </div>
-            <Parallax className="custom-class" y={[10,-50]} tagOuter="figure">
             <div className="container">
-                <div className="row pt-5">
+                <div className="row ">
                     <div className="col-md-6 col-12">
-                        <p className="d-md-last d-block d-md-none p-0" style={{position:'relative',color:'#F68554'}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <p className="d-md-last d-block d-md-none p-0" style={{fontSize:'15px'}}>
+                            The primary question in your mind is ‘Which branch should I select?’
+                            For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
                         </p>
-                        <p style={{position:'relative',fontSize:'x-large'}}>
+                        <p style={{position:'relative',fontSize:'large',textAlign:"justify"}}>
                             <span className="d-none d-md-block">
-                                We the Tensors team have set up a comprehensive councelling strategy to the IIT aspirants. To register click on the
-                                REGISTRATION button.
+                                Here at Tensors, our consultant team have built the largest inter-collegiate network using which we personally interview students in all elite colleges in India so we can help you make the right choice going into a career in Engineering.
+                                <br />To register for the JOSAA Counselling program, click on the ‘REGISTER’ button given below.
                             </span>
                         </p>
                     </div>
@@ -43,16 +42,12 @@ const Home=()=>{
                         </center>
                     </div>
                     <div className="col-md-6 col-12">
-                        <p style={{position:'relative',fontSize:'x-large'}}>
-                            To know more about the strategy scroll down
+                        <p style={{position:'relative',fontSize:'large'}}>
+                            To read more about the program, keep scrolling.                        
                         </p>
                     </div>
                 </div>    
             </div>
-            </Parallax>
-
-
-            
         </div>
     );
 }
