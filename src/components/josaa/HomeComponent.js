@@ -11,7 +11,7 @@ const Home=()=>{
                     <div className="container-fluid">
                         <div className="row row-header pb-3">
                             <div className="col-12 col-sm-6 mr-auto info">
-                                <h1 >JOSAA COUNCELING</h1>
+                                <h1 >JOSAA COUNSELLING</h1>
                                 <p className="d-none d-sm-block" style={{fontSize:'larger'}}>
                                     The primary question in your mind is ‘Which branch should I select?’
                                     For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
