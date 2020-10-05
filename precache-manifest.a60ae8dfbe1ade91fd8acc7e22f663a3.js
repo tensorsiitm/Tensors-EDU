@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf29d6d4e940d1afd315e40169b2018c",
+    "revision": "4e4b7e90e552d321a48823c94848a421",
     "url": "/Tensors-EDU/index.html"
   },
   {
-    "revision": "9f29b7c108cf045a6bad",
-    "url": "/Tensors-EDU/static/css/2.d5f5cffb.chunk.css"
+    "revision": "4618d234c24e464dc819",
+    "url": "/Tensors-EDU/static/css/2.1806a6e9.chunk.css"
   },
   {
-    "revision": "53a3990938968d817115",
-    "url": "/Tensors-EDU/static/css/main.4f4cb960.chunk.css"
+    "revision": "c9ce29bc0eda19251077",
+    "url": "/Tensors-EDU/static/css/main.e6212c9c.chunk.css"
   },
   {
-    "revision": "9f29b7c108cf045a6bad",
-    "url": "/Tensors-EDU/static/js/2.f2b48af0.chunk.js"
+    "revision": "4618d234c24e464dc819",
+    "url": "/Tensors-EDU/static/js/2.2bb0aa37.chunk.js"
   },
   {
     "revision": "f6a33b08b8dab27dd8ab525dc9994832",
-    "url": "/Tensors-EDU/static/js/2.f2b48af0.chunk.js.LICENSE.txt"
+    "url": "/Tensors-EDU/static/js/2.2bb0aa37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53a3990938968d817115",
-    "url": "/Tensors-EDU/static/js/main.6cdfacb4.chunk.js"
+    "revision": "c9ce29bc0eda19251077",
+    "url": "/Tensors-EDU/static/js/main.3ee0366c.chunk.js"
   },
   {
     "revision": "4890ea5b5daacfd6f776",
@@ -76,12 +76,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/media/aghin.71540644.jpeg"
   },
   {
+    "revision": "1909300053d4a01f8b96e0b0dc80e520",
+    "url": "/Tensors-EDU/static/media/akhil.19093000.jpeg"
+  },
+  {
     "revision": "317937addaf3dbab36f6c79dc3263efa",
     "url": "/Tensors-EDU/static/media/amal_mathew.317937ad.jpeg"
   },
   {
+    "revision": "2875f9cd28b6f240bfd8576a3f76eefe",
+    "url": "/Tensors-EDU/static/media/amrutha.2875f9cd.jpg"
+  },
+  {
     "revision": "613f8b37aafde53bd30c94c3397ed0f6",
     "url": "/Tensors-EDU/static/media/anand.613f8b37.jpg"
+  },
+  {
+    "revision": "0b531927c91ca8fa54e85e875b2065f5",
+    "url": "/Tensors-EDU/static/media/bazwith.0b531927.jpg"
   },
   {
     "revision": "8031c668c9339e7e3841b92324f53f0a",
@@ -90,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "203726f1e6a86ce8b5dc9ae2f6343ade",
     "url": "/Tensors-EDU/static/media/blob1.203726f1.svg"
+  },
+  {
+    "revision": "8d9d04f2c4cd4b013bb4a01a80a56d3f",
+    "url": "/Tensors-EDU/static/media/davis.8d9d04f2.jpg"
   },
   {
     "revision": "7cf3bf1d5bf68053e2ddc83d553a36bc",
@@ -120,10 +136,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "c398e1e9ca9f134bc9a92b29dc70d31d",
-    "url": "/Tensors-EDU/static/media/home2-removebg-preview.c398e1e9.png"
-  },
-  {
     "revision": "791e8c7dd6499b14db2e2e49a4158ee1",
     "url": "/Tensors-EDU/static/media/homebg.791e8c7d.jpg"
   },
@@ -144,12 +156,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tensors-EDU/static/media/logof.6abfdd79.png"
   },
   {
+    "revision": "418a1c2ab350bcb3ad2c3ff7b75612dd",
+    "url": "/Tensors-EDU/static/media/nithin.418a1c2a.jpg"
+  },
+  {
+    "revision": "e4be7aba9b06ad6fbda635be4bb18aa0",
+    "url": "/Tensors-EDU/static/media/pooja.e4be7aba.jpg"
+  },
+  {
+    "revision": "42f83cd279f2b349b90af016b1250196",
+    "url": "/Tensors-EDU/static/media/question.42f83cd2.svg"
+  },
+  {
     "revision": "4561225b9c6885a2ccd1bfe0b0a74e1b",
     "url": "/Tensors-EDU/static/media/shafil.4561225b.jpg"
   },
   {
     "revision": "4f1b7755b48d1df789fc2c8e6d83f773",
     "url": "/Tensors-EDU/static/media/sharelogo.4f1b7755.png"
+  },
+  {
+    "revision": "cfe4c3566261ba617acf9a19fb1e06d0",
+    "url": "/Tensors-EDU/static/media/sriraj.cfe4c356.jpg"
   },
   {
     "revision": "870a1c9cd17d0692120e5d28c9d6ff13",
