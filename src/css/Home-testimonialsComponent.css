@@ -31,7 +31,7 @@
 }
 
 .carousel-indicators li{
-    background-color: #0F6C7A !important;
+    background-color: black !important;
     opacity: 1 !important;
     border-radius: 50%;
     height: 10px;

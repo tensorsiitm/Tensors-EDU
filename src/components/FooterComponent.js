@@ -52,8 +52,8 @@ function Footer(props) {
           </div>
           <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
             <h5>Get in Touch</h5>
-            <h6>Anfas Nujum K: 8157925677 <span><a href="tel:+91-8157925677">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="https://api.whatsapp.com/send?phone=918157925677"><i className="fa fa-whatsapp"></i></a></span></h6>
-            <h6>Faseeh Ahmed: 7034073143 <span><a href="tel:+91-7034073143">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="https://api.whatsapp.com/send?phone=917034073143"><i className="fa fa-whatsapp"></i></a></span></h6>
+            <h6>Anfas Nujum K: +91 8157925677 <span><a href="tel:+91-8157925677">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="https://api.whatsapp.com/send?phone=918157925677"><i className="fa fa-whatsapp"></i></a></span></h6>
+            <h6>Faseeh Ahmed: +91 7034073143 <span><a href="tel:+91-7034073143">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="https://api.whatsapp.com/send?phone=917034073143"><i className="fa fa-whatsapp"></i></a></span></h6>
           </div>
           <div className="col-10 offset-1 col-sm-5  col-lg-3 offset-lg-0">
           <h5>News Letter</h5>

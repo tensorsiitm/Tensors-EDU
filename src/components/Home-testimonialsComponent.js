@@ -3,7 +3,7 @@ import {Carousel,
     CarouselItem,
     CarouselControl,
     CarouselIndicators,
-    CarouselCaption, } from 'reactstrap';
+ } from 'reactstrap';
 import '../css/Home-testimonialsComponent.css';
 import shafil from "../assets/images/testimonials/shafil.jpg"
 import anand from "../assets/images/testimonials/anand.jpg"
@@ -14,7 +14,7 @@ import amal_mathew from "../assets/images/testimonials/amal_mathew.jpeg"
 import abhirami from "../assets/images/testimonials/abhirami.jpeg"
 import irfan from "../assets/images/testimonials/irfan.jpeg"
 
-import {Image,Row,Col,Card} from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
 
 const items = [
     {

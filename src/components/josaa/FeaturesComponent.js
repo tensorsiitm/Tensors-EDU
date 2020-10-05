@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillHourglass } from 'react-icons/ai';
-import Img from '../../assets/images/home2-removebg-preview2.png';
+import question from '../../assets/images/question.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,7 +38,7 @@ const Features=()=>{
         <div className="feature-fragment">
             <div>
                 <center>
-                    <h1 className="p-3 heading" style={{backgroundColor:'#0F6C7A'}}>WHY ?</h1>
+                    <h1 className="p-3 heading" style={{backgroundColor:'#0F6C7A'}}>Why should I register?</h1>
                 </center>
             </div>
             
@@ -72,7 +72,7 @@ const Features=()=>{
                     </div>
                     <div className="col-12 col-md-4 d-none d-md-block">
                         <center>
-                            <img src={Img} className="img-fluid mt-3" style={{borderRadius:'50%', opacity:'0.5'}} width="80%"/>
+                            <img src={question} className="img-fluid mt-3" style={{borderRadius:'50%', opacity:'1'}} width="80%"/>
 
                         </center>
                     </div>

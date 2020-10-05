@@ -1,6 +1,7 @@
 import React from 'react';
 import './josaa.css';
 import {Jumbotron} from 'reactstrap';
+import {Link} from 'react-scroll';
 
 const Home=()=>{
     return(
@@ -36,9 +37,9 @@ const Home=()=>{
                     </div>
                     <div className="col-md-5 offset-md-1 col-12 mt-auto mb-auto p-1">
                         <center>
-                            <button className="home-register-btn btn-block">
+                            <Link to="packages" smooth={true} offset={-100} duration={1000} className="home-register-btn btn-block">
                                 REGISTRATION
-                            </button>   
+                            </Link>   
                         </center>
                     </div>
                     <div className="col-md-6 col-12">
