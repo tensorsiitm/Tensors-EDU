@@ -15,6 +15,7 @@ min-height:70vh;
     font-family:'Pacifico-Regular';
 }
 
+
 @media (max-width: 767.98px) {
     .heading{
       width:60%;
@@ -71,15 +72,27 @@ border-radius: 10%;
     background-color: #ADE379;
     border: 2px solid black;
     border-radius: 10px;
+    padding-bottom: 50px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.cardtop{
+    background-color: #0F6C7A;
+    padding-top: 50px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .packcard h2{
-    color: black;
+    color: white;
 }
 
 .packcard h3{
-    color: #054f5a;
+    color:  rgb(185, 252, 1);
     border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .packcard li{
@@ -93,7 +106,7 @@ border-radius: 10%;
 }
 
 .razorpay-payment-button{
-margin-left: 30% !important;
+margin-left: 25% !important;
 }
 
 .PaymentButton:hover{

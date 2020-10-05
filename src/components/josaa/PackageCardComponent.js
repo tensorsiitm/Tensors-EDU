@@ -43,12 +43,11 @@ AOS.init({
             </div>
             <div className="container"> 
                 <div className="row mt-4 mb-4">
-                    <div className="col-12 col-sm-5 mb-4 pb-1 packcard">
-                        <div  data-aos="zoom-in-right"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="1000">
+                    <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
+                            <div className="cardtop">
                             <h2 className="text-center">KEAM & NIT</h2>
                             <h3 className="text-center">₹200/-</h3>
+                            </div>
                             <ul>
                             <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
                             <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
@@ -58,14 +57,12 @@ AOS.init({
                             </ul>
                         <form><ScriptTag  src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FktnA4gEJSF3Tz"> </ScriptTag></form>
                             
-                        </div>
                     </div>
-                    <div className="col-12 col-sm-5 offset-sm-2 mb-4 pb-1 packcard">
-                        <div  data-aos="zoom-in-left"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="1000">
+                    <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
+                            <div className="cardtop">
                             <h2 className="text-center">NIT & IIT</h2>
                             <h3 className="text-center">₹300/-</h3>
+                            </div>
                             <ul>
                             <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
                             <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
@@ -79,7 +76,6 @@ AOS.init({
                     </div>
                 </div>
             </div>      
-          </div>
         
       );
   }
