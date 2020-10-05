@@ -50,11 +50,11 @@ AOS.init({
                             <h2 className="text-center">KEAM & NIT</h2>
                             <h3 className="text-center">₹200/-</h3>
                             <ul>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
+                            <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
+                            <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
+                            <li><i className="fa fa-check"/> Info on placements, higher studies, etc on each branch of interest (KEAM and NITs)</li><br/>
+                            <li><i className="fa fa-check"/> Assistance on required documents for KEAM seat allotment</li><br/>
+                            <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
                         <form><ScriptTag  src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FktnA4gEJSF3Tz"> </ScriptTag></form>
                             
@@ -67,11 +67,11 @@ AOS.init({
                             <h2 className="text-center">NIT & IIT</h2>
                             <h3 className="text-center">₹300/-</h3>
                             <ul>
-                            <li><i className="fa fa-check"/>  abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
-                            <li><i className="fa fa-check"/>abkljksdkhcxbkkbcxvnlc cnz </li><br/>
+                            <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
+                            <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
+                            <li><i className="fa fa-check"/> Info on placements, higher studies, etc on each branch of interest (NITs and IITs)</li><br/>
+                            <li><i className="fa fa-check"/> Assistance on required documents for JoSAA counselling</li><br/>
+                            <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
                             <form><ScriptTag  src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FktudFoyKbn83f"> </ScriptTag> </form>
                             
