@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Tensors-EDU/static/css/main.e6212c9c.chunk.css",
-    "main.js": "/Tensors-EDU/static/js/main.3ee0366c.chunk.js",
-    "main.js.map": "/Tensors-EDU/static/js/main.3ee0366c.chunk.js.map",
+    "main.css": "/Tensors-EDU/static/css/main.b8aecc81.chunk.css",
+    "main.js": "/Tensors-EDU/static/js/main.f4e79063.chunk.js",
+    "main.js.map": "/Tensors-EDU/static/js/main.f4e79063.chunk.js.map",
     "runtime-main.js": "/Tensors-EDU/static/js/runtime-main.eafeff03.js",
     "runtime-main.js.map": "/Tensors-EDU/static/js/runtime-main.eafeff03.js.map",
     "static/css/2.1806a6e9.chunk.css": "/Tensors-EDU/static/css/2.1806a6e9.chunk.css",
-    "static/js/2.2bb0aa37.chunk.js": "/Tensors-EDU/static/js/2.2bb0aa37.chunk.js",
-    "static/js/2.2bb0aa37.chunk.js.map": "/Tensors-EDU/static/js/2.2bb0aa37.chunk.js.map",
+    "static/js/2.51a235cf.chunk.js": "/Tensors-EDU/static/js/2.51a235cf.chunk.js",
+    "static/js/2.51a235cf.chunk.js.map": "/Tensors-EDU/static/js/2.51a235cf.chunk.js.map",
     "index.html": "/Tensors-EDU/index.html",
-    "precache-manifest.a60ae8dfbe1ade91fd8acc7e22f663a3.js": "/Tensors-EDU/precache-manifest.a60ae8dfbe1ade91fd8acc7e22f663a3.js",
+    "precache-manifest.52105586ec7dbca2a46062f33eaae9af.js": "/Tensors-EDU/precache-manifest.52105586ec7dbca2a46062f33eaae9af.js",
     "service-worker.js": "/Tensors-EDU/service-worker.js",
     "static/css/2.1806a6e9.chunk.css.map": "/Tensors-EDU/static/css/2.1806a6e9.chunk.css.map",
-    "static/css/main.e6212c9c.chunk.css.map": "/Tensors-EDU/static/css/main.e6212c9c.chunk.css.map",
-    "static/js/2.2bb0aa37.chunk.js.LICENSE.txt": "/Tensors-EDU/static/js/2.2bb0aa37.chunk.js.LICENSE.txt",
+    "static/css/main.b8aecc81.chunk.css.map": "/Tensors-EDU/static/css/main.b8aecc81.chunk.css.map",
+    "static/js/2.51a235cf.chunk.js.LICENSE.txt": "/Tensors-EDU/static/js/2.51a235cf.chunk.js.LICENSE.txt",
     "static/media/JosefinSans-Italic.ttf": "/Tensors-EDU/static/media/JosefinSans-Italic.be73b067.ttf",
     "static/media/Pacifico-Regular.ttf": "/Tensors-EDU/static/media/Pacifico-Regular.9b94499c.ttf",
     "static/media/a1.svg": "/Tensors-EDU/static/media/a1.07aa6bdb.svg",
@@ -23,6 +23,7 @@
     "static/media/a4.svg": "/Tensors-EDU/static/media/a4.65545a58.svg",
     "static/media/abhirami.jpeg": "/Tensors-EDU/static/media/abhirami.4ad9c731.jpeg",
     "static/media/aghin.jpeg": "/Tensors-EDU/static/media/aghin.71540644.jpeg",
+    "static/media/ahzam.jpeg": "/Tensors-EDU/static/media/ahzam.526b94e1.jpeg",
     "static/media/akhil.jpeg": "/Tensors-EDU/static/media/akhil.19093000.jpeg",
     "static/media/amal_mathew.jpeg": "/Tensors-EDU/static/media/amal_mathew.317937ad.jpeg",
     "static/media/amrutha.jpg": "/Tensors-EDU/static/media/amrutha.2875f9cd.jpg",
@@ -42,14 +43,13 @@
     "static/media/question.svg": "/Tensors-EDU/static/media/question.42f83cd2.svg",
     "static/media/shafil.jpg": "/Tensors-EDU/static/media/shafil.4561225b.jpg",
     "static/media/sharelogo.png": "/Tensors-EDU/static/media/sharelogo.4f1b7755.png",
-    "static/media/sriraj.jpg": "/Tensors-EDU/static/media/sriraj.cfe4c356.jpg",
-    "static/media/stripes.svg": "/Tensors-EDU/static/media/stripes.870a1c9c.svg"
+    "static/media/sriraj.jpg": "/Tensors-EDU/static/media/sriraj.cfe4c356.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eafeff03.js",
     "static/css/2.1806a6e9.chunk.css",
-    "static/js/2.2bb0aa37.chunk.js",
-    "static/css/main.e6212c9c.chunk.css",
-    "static/js/main.3ee0366c.chunk.js"
+    "static/js/2.51a235cf.chunk.js",
+    "static/css/main.b8aecc81.chunk.css",
+    "static/js/main.f4e79063.chunk.js"
   ]
 }
