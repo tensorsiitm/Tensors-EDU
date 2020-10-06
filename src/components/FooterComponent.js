@@ -43,7 +43,7 @@ function Footer(props) {
                 <Link to="/mentorship">Mentorship</Link>
               </li>
               <li>
-                <Link to="/josaa">Josaa</Link>
+                <Link to="/josaa">Counselling</Link>
               </li>
               <li>
                 <Link to="/tensorsexam">Tensors Exam</Link>

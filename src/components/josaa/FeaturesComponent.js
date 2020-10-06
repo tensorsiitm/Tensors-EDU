@@ -58,13 +58,13 @@ const Features=()=>{
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                    Each of the various institutes offer completely different worlds even in similar branches. So its important to know where you’re joining                                
+                                    Each of the various institutes offer completely different worlds even in similar branches. So its important to know where you’re joining                                    
                                 </p>
                             </div>
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                The JOSAA seat allotment process is jam-packed with dozens of documents and processes, that almost always results in some sort of confusion down the lane and creates unwarranted difficulty in the admission process. We can help you get organized in this respect.                               
+                                The JOSAA seat allotment process is jam-packed with dozens of documents and processes, that almost always results in some sort of confusion down the lane and creates unwarranted difficulty in the admission process. We can help you get organized in this respect.                                 
                                 </p>
                             </div>
                             </div>
@@ -90,13 +90,13 @@ const Features=()=>{
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                    The branch of engineering you select will be instrumental in deciding your future career and enough attention has to be paid towards this aspect
+                                    The branch of engineering you select will be instrumental in deciding your future career and enough attention has to be paid towards this aspect  
                                 </p>
                             </div>
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                A team to approach regarding any FAQ’s regarding the admission process will be instrumental in ensuring everything ends up smoothly. We’ll be by your side till the moment you set foot on your campus.                               
+                                A team to approach regarding any FAQ’s regarding the admission process will be instrumental in ensuring everything ends up smoothly. We’ll be by your side till the moment you set foot on your campus.                                
                                 </p>
                             </div>
                             </div>

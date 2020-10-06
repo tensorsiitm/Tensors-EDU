@@ -40,7 +40,7 @@ class Top extends Component{
                                     <NavLink className="nav-link" to='/mentorship'> MENTORSHIP</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link"  to='/josaa'> JOSAA</NavLink>
+                                    <NavLink className="nav-link"  to='/josaa'> COUNSELLING</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to='/tensorsexam'> TENSORS EXAM</NavLink>

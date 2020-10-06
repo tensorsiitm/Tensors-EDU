@@ -22,7 +22,7 @@ class Homefeatures extends Component{
         <div className="col-10 offset-2">
         <h5>Welcome to Tensors Edu</h5>
         <h1 >So you’ve decided to become an <span className="gre" >ENGINEER</span> and looking for a place to get your questions answered. Well your search ends here<span className="gre" >!</span></h1>
-        <Link to="a1" smooth={true} offset={-100} duration={500} className="box" > EXPLORE</Link>
+        <Link to="a1" smooth={true} offset={-100} duration={500} className="box" > EXPLORE </Link>
         </div>
         </div>
         <div className="row r3 d-none d-lg-block">
@@ -61,7 +61,7 @@ class Homefeatures extends Component{
         <h2 align="justify"><span className="green" >The Flagship Tensors Exam </span>for those willing to grind it out with the best in South India
         </h2>
         <p align="justify">
-        The tensors exam is the reputed annual mock JEE examination that is conducted across South India, spanning all major coaching institutes.</p>
+        The tensors exam is the reputed annual mock JEE examination that is conducted across South India, spanning all major coaching institutes.  </p>
         <h6 className="descund pb-2">TENSORS EXAM</h6>
         </div>
         </div>
@@ -72,7 +72,7 @@ class Homefeatures extends Component{
         <div className="col-10 offset-1">
         <h5>Welcome to Tensors Edu</h5>
         <h1 >So you’ve decided to become an <span className="gre" >ENGINEER</span> and looking for a place to get your questions answered. Well your search ends here<span className="gre" >!</span></h1>
-        <Link to="a1" smooth={true} offset={-100} duration={500} className="box" >SCROLL DOWN</Link>
+        <Link to="a1" smooth={true} offset={-100} duration={500} className="box" > EXPLORE </Link>
         </div>
         </div>
         <div className="row a1">
@@ -111,7 +111,7 @@ class Homefeatures extends Component{
         <h2 align="justify" id="a1">The primary question in your mind is
         <span className="green" > ‘Which branch should I select?’</span></h2>
         <p align="justify">
-        For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
+        For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.   
         </p>
         <h6 className="descund pb-2">KNOW YOUR BRANCH</h6>
         <NavLink className="btn-secondary" to='/josaa'>Know More..</NavLink>
@@ -133,7 +133,7 @@ class Homefeatures extends Component{
         to crack <span className="green" >JEE</span>, we offer our
         <span className="green" > MENTORSHIP PROGRAMME</span></h2>
         <p align="justify">
-        The Tensors mentor ship programme is a year long system which is aimed at helping the JEE aspirants in +1 and +2. Everyone who registers will receive the complete Tensors test series as well. 
+        The Tensors mentor ship programme is a year long system which is aimed at helping the JEE aspirants in +1 and +2. Everyone who registers will receive the complete Tensors test series as well.   
         </p>
         <h6 className="descund pb-2">MENTORSHIP PROGRAMME</h6>
         </div>
