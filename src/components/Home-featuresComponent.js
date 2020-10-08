@@ -111,7 +111,7 @@ class Homefeatures extends Component{
         <h2 align="justify" id="a1">The primary question in your mind is
         <span className="green" > ‘Which branch should I select?’</span></h2>
         <p align="justify">
-        For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.   
+        For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute. Explore our counselling programme to know more about how to avail the service.   
         </p>
         <h6 className="descund pb-2">KNOW YOUR BRANCH</h6>
         <NavLink className="btn-secondary" to='/josaa'>Know More..</NavLink>
