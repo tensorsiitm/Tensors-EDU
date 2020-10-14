@@ -55,8 +55,7 @@ AOS.init({
                             <li><i className="fa fa-check"/> Assistance on required documents for KEAM seat allotment</li><br/>
                             <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
-                        <form><ScriptTag  src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FktnA4gEJSF3Tz"> </ScriptTag></form>
-                            
+                            <h2 className="text-center" style={{color:'#054f5a'}}>Registrations Closed</h2>                            
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
                             <div className="cardtop">
@@ -70,8 +69,8 @@ AOS.init({
                             <li><i className="fa fa-check"/> Assistance on required documents for JoSAA counselling</li><br/>
                             <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
-                            <form><ScriptTag  src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FktudFoyKbn83f"> </ScriptTag> </form>
-                            
+                           
+                            <h2 className="text-center" style={{color:'#054f5a'}}>Registrations Closed</h2>
                         </div>
                     </div>
                 </div>
