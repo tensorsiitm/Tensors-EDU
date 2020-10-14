@@ -46,7 +46,7 @@ AOS.init({
                     <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
                             <div className="cardtop">
                             <h2 className="text-center">KEAM & NIT</h2>
-                            <h3 className="text-center">₹200/-</h3>
+                            <h3 className="text-center"></h3>
                             </div>
                             <ul>
                             <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
@@ -60,7 +60,7 @@ AOS.init({
                     <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
                             <div className="cardtop">
                             <h2 className="text-center">NIT & IIT</h2>
-                            <h3 className="text-center">₹300/-</h3>
+                            <h3 className="text-center"></h3>
                             </div>
                             <ul>
                             <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
