@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../components/FooterComponent';
 import Top from '../components/NavComponent';
+import Countdown from '../components/CounterComponent';
 import '../css/temp.css';
 import {Modal} from "react-bootstrap";
 import launch from '../assets/images/launch.svg';
@@ -40,12 +41,12 @@ function Tensorsexam(props){
        </div>
        <div className="col-12 col-lg-6 bluside h-100">
        <div className="row middle2">
-       <div className="col-8 offset-2">
-       <h1 className="text-center">Launching Soon..</h1>
-       <img src={launch} className="img-fluid "/>
-       <h5>Subscribe to our news letter to get instant updates.</h5>
-       <button className="launchsubscribe"  onClick={() => setModalShow(true)}>SUBSCRIBE</button>
-       <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />
+       <div className="col-12 ml-3">
+       <h1>REGISTRATION</h1>
+         <br/><br/>
+       <span><Countdown timeTillDate="05 13 2021, 12:30 pm" timeFormat="MM DD YYYY, hh:mm a"/></span>
+       <br/><br/>
+       <center><button className="home-register-btn btn" disabled>Register Now</button></center>
        </div>
        </div>
        </div>

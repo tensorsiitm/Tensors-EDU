@@ -62,5 +62,62 @@
     .launchsubscribe{
         margin-left: 20%;
     }
+}
 
+/* Component for tensors exam right side component */
+
+.home-register-btn{
+    padding: 2%;
+    background:  #074b55;
+    border: none;
+    color: #ADE379;
+    font-weight: bolder;
+    font-size: x-large;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+
+  .home-register-btn:hover{
+    transform: scale(1.05);
+    background:  #ADE379;
+    color: #0F6C7A;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .countdown-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.countdown-item {
+	color: white;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    line-height: 30px;
+	margin: 10px;
+    padding-top: 10px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.countdown-item span {
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.countdown-svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
 }
