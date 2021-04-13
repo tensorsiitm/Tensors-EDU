@@ -16,7 +16,8 @@ function Tensorsexam(props){
        <div className="col-8 offset-2">
        <h1>Tensors Exam</h1>
        <p align="justify">
-       The annual Tensors mock JEE examination is the most awaited end-of-the-year JEE examination in all major coaching institutes in South India. The questions papers are designed and conducted by IITians who have demonstrated their skill in cracking the JEE. There are two three-hour-long examinations for the JEE Mains and Advanced respectively.       </p>
+       The annual Tensors mock JEE examination is the most awaited pre-JEE examination for all serious JEE aspirants and coaching institutes in India. The question papers are designed as well as conducted by IITians who have demonstrated their skill in cracking the JEE. The mains exam consists of one three hour long paper while the Advanced paper is a comprehensive two - 3 hour long paper.
+       </p>
        </div>
        </div>
        </div>
@@ -24,7 +25,8 @@ function Tensorsexam(props){
        <div className="row middle2">
        <div className="col-12 ml-3">
        <h1 className="text-center">Registration Opens Soon</h1>
-         <br/><br/>
+         <br/>
+         <br/>
        <span><Countdown timeTillDate="05 13 2021, 3:30 pm" timeFormat="MM DD YYYY, hh:mm a"/></span>
        <br/><br/>
        <center><button className="home-register-btn btn" disabled>Register Now</button></center>
