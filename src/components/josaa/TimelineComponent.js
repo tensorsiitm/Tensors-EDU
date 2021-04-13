@@ -3,7 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import icon from "../../assets/images/sharelogo.png";
 import 'react-vertical-timeline-component/style.min.css';
 import './josaa.css';
-import { Media } from 'reactstrap';
 
 
 
@@ -12,13 +11,13 @@ const TimelinePage = () => {
     <div className="timeline-fragment">
       <div>
           <center>
-              <h1 className="p-3 heading" style={{backgroundColor:'#074b55'}}>WHY ?</h1>
+              <h1 className="p-3 heading" style={{backgroundColor:'#074b55'}}>Our Timeline</h1>
           </center>
       </div>
       <VerticalTimeline className="timeline"> 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        iconStyle={{ background: 'white', color: '#fff'}}
+        iconStyle={{ background: '#ADE379', color: '#fff'}}
         icon={<img src={icon} className='img-fluid timeline-icon'/>}
       >
         <h6 className="vertical-timeline-element-subtitle">STEP 1</h6>
@@ -29,7 +28,7 @@ const TimelinePage = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        iconStyle={{ background: 'white', color: '#fff'}}
+        iconStyle={{ background: '#ADE379', color: '#fff'}}
         icon={<img src={icon} className='img-fluid timeline-icon'/>}
       >
         <h6 className="vertical-timeline-element-subtitle">STEP 2</h6>
@@ -40,7 +39,7 @@ const TimelinePage = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        iconStyle={{ background: 'white', color: '#fff'}}
+        iconStyle={{ background: '#ADE379', color: '#fff'}}
         icon={<img src={icon} className='img-fluid timeline-icon'/>}
       >
         <h6 className="vertical-timeline-element-subtitle">STEP 3</h6>

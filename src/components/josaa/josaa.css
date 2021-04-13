@@ -26,6 +26,11 @@
   margin-left: 7vw;
   color: #06373f;
 }
+
+.jumbotron h1{
+  font-weight: bolder;
+}
+
 @media (max-width: 767.98px) {
   .jumbotron{
     background-position: right bottom;
@@ -55,7 +60,7 @@
 .home{
   min-height: 100vh;
   color: #ADE379;
-
+  font-family:'JosefinSans-Italic';
 }
 .home-register-btn{
   padding: 2%;
@@ -72,7 +77,7 @@
   background:  #ADE379;
   color: #0F6C7A;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-
+  cursor: pointer;
 }
 
 /*-----Carousel------------*/
@@ -118,6 +123,18 @@
 margin-top: 3vh;
 }
 
+.timeline-fragment h1{
+  font-family:'Pacifico-Regular';
+}
+
+.timeline h3{
+  font-family:'JosefinSans-Italic';
+}
+
+.timeline p{
+  font-family:'JosefinSans-Italic';
+}
+
 /*---------feature------------*/
 .feature-fragment{
   background: #074b55!important;
@@ -134,11 +151,22 @@ margin-top: 3vh;
   color: #074b55;
   
 }
+
+.feature-fragment h1{
+  font-family:'Pacifico-Regular';
+}
+
+.feature-fragment p{
+  font-family:'JosefinSans-Italic';
+}
+
   
 /*--------------consultants---------*/
 .info-img{
   transform: scale(1);
   transition: transform 0.5s ease;
+  height: 200px;
+width: 200px;
 }
 
 .info-img:hover{
@@ -148,8 +176,12 @@ margin-top: 3vh;
 
 .info-content h3{
   color: #b0dd87!important;
+  font-family:'JosefinSans-Italic';
 }
 .info-content h2{
   color: #8ae237!important;
 }
  
+.consultants-fragment h1{
+  font-family:'Pacifico-Regular';
+}

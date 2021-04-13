@@ -35,6 +35,7 @@ function Testseries(props){
        <div className="col-12 col-lg-6 yelside h-100">
        <div className="row middle1">
        <div className="col-8 offset-2">
+       <h1>Test Series</h1>
        <p align="justify">
        The test series will include new content each month, covering all the topics relevant to both the JEE Mains and JEE Advanced examinations.
        The Question papers are prepared by present IITians with deep knowledge in each subject and who have proven their ability in cracking the JEE.       </p>

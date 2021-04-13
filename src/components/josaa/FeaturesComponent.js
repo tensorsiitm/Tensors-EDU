@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillHourglass } from 'react-icons/ai';
-import Img from '../../assets/images/home2-removebg-preview2.png';
+import question from '../../assets/images/question.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,7 +38,7 @@ const Features=()=>{
         <div className="feature-fragment">
             <div>
                 <center>
-                    <h1 className="p-3 heading" style={{backgroundColor:'#0F6C7A'}}>WHY ?</h1>
+                    <h1 className="p-3 heading" style={{backgroundColor:'#0F6C7A'}}>Why should I register?</h1>
                 </center>
             </div>
             
@@ -58,13 +58,13 @@ const Features=()=>{
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                    Each of the various institutes offer completely different worlds even in similar branches. So its important to know where you’re joining                                
+                                    Each of the various institutes offer completely different worlds even in similar branches. So its important to know where you’re joining                                    
                                 </p>
                             </div>
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                The JOSAA seat allotment process is jam-packed with dozens of documents and processes, that almost always results in some sort of confusion down the lane and creates unwarranted difficulty in the admission process. We can help you get organized in this respect.                               
+                                The JOSAA seat allotment process is jam-packed with dozens of documents and processes, that almost always results in some sort of confusion down the lane and creates unwarranted difficulty in the admission process. We can help you get organized in this respect.                                 
                                 </p>
                             </div>
                             </div>
@@ -72,7 +72,7 @@ const Features=()=>{
                     </div>
                     <div className="col-12 col-md-4 d-none d-md-block">
                         <center>
-                            <img src={Img} className="img-fluid mt-3" style={{borderRadius:'50%', opacity:'0.5'}} width="80%"/>
+                            <img src={question} className="img-fluid mt-3" style={{borderRadius:'50%', opacity:'1'}} width="80%"/>
 
                         </center>
                     </div>
@@ -90,13 +90,13 @@ const Features=()=>{
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                    The branch of engineering you select will be instrumental in deciding your future career and enough attention has to be paid towards this aspect
+                                    The branch of engineering you select will be instrumental in deciding your future career and enough attention has to be paid towards this aspect  
                                 </p>
                             </div>
                             <div className="col-12">
                                 <AiFillHourglass className="p-1 feature-icon"  style={{position:'relative'}}/>
                                 <p style={{position:'relative'}}>
-                                A team to approach regarding any FAQ’s regarding the admission process will be instrumental in ensuring everything ends up smoothly. We’ll be by your side till the moment you set foot on your campus.                               
+                                A team to approach regarding any FAQ’s regarding the admission process will be instrumental in ensuring everything ends up smoothly. We’ll be by your side till the moment you set foot on your campus.                                
                                 </p>
                             </div>
                             </div>

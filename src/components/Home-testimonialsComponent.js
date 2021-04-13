@@ -3,7 +3,7 @@ import {Carousel,
     CarouselItem,
     CarouselControl,
     CarouselIndicators,
-    CarouselCaption, } from 'reactstrap';
+ } from 'reactstrap';
 import '../css/Home-testimonialsComponent.css';
 import shafil from "../assets/images/testimonials/shafil.jpg"
 import anand from "../assets/images/testimonials/anand.jpg"
@@ -14,52 +14,52 @@ import amal_mathew from "../assets/images/testimonials/amal_mathew.jpeg"
 import abhirami from "../assets/images/testimonials/abhirami.jpeg"
 import irfan from "../assets/images/testimonials/irfan.jpeg"
 
-import {Image,Row,Col,Card} from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
 
 const items = [
     {
       src: shafil,
       altText: 'Shafil Maheen',
       caption: 'IISC Bangalore',
-      text: 'By Tensors, I was able to identify the chinks in my JEE preparation, literally. Tensors is so balanced inspite of being very detailed, that I got the true feel of writing the JEE exams. It developed my confidence and kept the tempo going in the last stages of preparation.'    },
+      text: 'By Tensors, I was able to identify the chinks in my JEE preparation, literally. Tensors is so balanced inspite of being very detailed, that I got the true feel of writing the JEE exams. It developed my confidence and kept the tempo going in the last stages of preparation.  '    },
     {
       src: anand,
       altText: 'Anand George',
       caption: 'IIT Madras',
-      text: 'There has been a lot of hype built up around IIT JEE, particularly that it is something only extraordinary and brilliant people can qualify, but out of my experience, I can assure you that there is little truth in the statement.'    },
+      text: 'There has been a lot of hype built up around IIT JEE, particularly that it is something only extraordinary and brilliant people can qualify, but out of my experience, I can assure you that there is little truth in the statement.  '    },
     {
       src: denin,
       altText: 'Denin Jose',
       caption: 'IIT Madras',
-      text: 'The Tensors exam played a vital part in my JEE preparation. It enabled me to estimate my potential and therefore helped me know my limits and push them. It gave me an insight as to what topics I was weak in, and to mend my ways to focus more on my weakness.'
+      text: 'The Tensors exam played a vital part in my JEE preparation. It enabled me to estimate my potential and therefore helped me know my limits and push them. It gave me an insight as to what topics I was weak in, and to mend my ways to focus more on my weakness.  '
     },
     {
       src: aghin,
       altText: 'Aghin Shah Alin',
       caption: 'IIT Madras',
-      text: 'I used to be an average student, that was when I got introduced to tensors through my friends. It has been a great experience facing the questions, testing the analytical and practical applications simultaneously.'
+      text: 'I used to be an average student, that was when I got introduced to tensors through my friends. It has been a great experience facing the questions, testing the analytical and practical applications simultaneously.  '
     },
     {
       src: leon,
       altText: 'Leon Jose',
       caption: 'IIT Madras',
-      text: 'Believe me when I say that Tensors is the best mock exam for JEE aspirants. It gives us a clear cut explanation about how the original exam would be. Through the Tensors exam I wasable to judge what would be my stand amoungst others in the state in jee exams.'    },
+      text: 'Believe me when I say that Tensors is the best mock exam for JEE aspirants. It gives us a clear cut explanation about how the original exam would be. Through the Tensors exam I wasable to judge what would be my stand amoungst others in the state in jee exams.  '    },
     {
       src: amal_mathew,
       altText: 'Amal Mathew',
       caption: 'IIT Bombay',
-      text: 'When you take a mock test you expect it to live up to the standards of the original. Tensors, probably because it was made by IITians with an intent to kill, broke that standard. Solving such a paper boosted my confidence due to the simple fact that IIT JEE was going to be easier.'    },
+      text: 'When you take a mock test you expect it to live up to the standards of the original. Tensors, probably because it was made by IITians with an intent to kill, broke that standard. Solving such a paper boosted my confidence due to the simple fact that IIT JEE was going to be easier.  '    },
     {
       src: abhirami,
       altText: 'Abhirami Elizbeth Prathap',
       caption: 'IIT Madras',
-      text: 'Tensors is undoubtedly the best mock test available for JEE aspirants, hands down! The test helped me to identify the gaps in my preparation and start rectifying them. Tensors pointed out my weak topics while helping me understand the true benefit of efficient time management.'
+      text: 'Tensors is undoubtedly the best mock test available for JEE aspirants, hands down! The test helped me to identify the gaps in my preparation and start rectifying them. Tensors pointed out my weak topics while helping me understand the true benefit of efficient time management.  '
 },
     {
       src: irfan,
       altText: 'Mohammed Irfan Thayyil',
       caption: 'IIT Madras',
-      text: 'Tensors is modelled to encourage a more conceptual analysis of each problem. This helped me tremendously as I was finding a shortage of these problems. The test also introduced me to my peers who gave me tips on attempting certain types of questions.'    },
+      text: 'Tensors is modelled to encourage a more conceptual analysis of each problem. This helped me tremendously as I was finding a shortage of these problems. The test also introduced me to my peers who gave me tips on attempting certain types of questions.  '    },
   ];
 
 const Hometestimonials = (props) =>{

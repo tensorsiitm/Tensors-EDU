@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import Flippy, { FrontSide, BackSide } from 'react-flippy';
-import Img from '../../assets/images/homebg.jpg';
+import React from 'react';
 import './card.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ScriptTag from 'react-script-tag';
 
 
 AOS.init();
@@ -33,95 +32,49 @@ AOS.init({
 
 });
 
-const Card=(props)=>{
-    return(
-        <div>
-        <div  className="d-none d-sm-block">
-            <Flippy
-            flipOnHover={true}
-            flipOnClick={false} 
-            flipDirection="vertical"
-            style={{ width: '100%', height: '100%',overflow:'hidden' }}
-            >
-                <FrontSide className="p-0"
-                    style={{
-                    backgroundColor: 'transparent',
-                    }}
-                >
-                    <div className="card text-center">
-                        <div className="card-body">
-                            <h4 className="card-title">Package : {props.id}</h4>
-                            <h4 className="card-title">{props.name}</h4>
-                            <button className="card-btn mt-4">Learn More <i class="fa fa-angle-double-right fa-1x"></i></button>
-                        </div>
-                    </div>
-                </FrontSide>
-                <BackSide  className="card-back">
-                    <h1 className="m-2">Package : {props.id}</h1>
-                    <h2 className="m-2">{props.name}</h2>
-                    <p className="m-2 p-5" style={{fontSize:"larger"}}>{props.content}</p>
-                </BackSide>
-            </Flippy>               
-        </div>
-        <div  className="d-block d-sm-none">
-            <Flippy
-            flipOnHover={false}
-            flipOnClick={false} 
-            flipDirection="vertical"
-            style={{ width: '100%', height: '100%',overflow:'hidden' }}
-            >
-                <FrontSide className="p-0"
-                    style={{
-                    backgroundColor: 'transparent',
-                    }}
-                >
-                    <div className="card text-center">
-                        <div className="card-body">
-                            <h4 className="card-title">Package : {props.id}</h4>
-                            <h4 className="card-title">{props.name}</h4>
-                            <p className="m-2 p-3" style={{textAlign:"justify",fontSize:"medium"}}>{props.content}</p>
-                        </div>
-                    </div>
-                </FrontSide>
-            </Flippy>               
-        </div>
-        
-        </div>
- 
-    );
-}
-
-
   const Packages=()=>{
+
       return(
-          <div className=" packageCard-fragment">
+          <div className=" packageCard-fragment" id="packages">
             <div>
                 <center>
-                    <h1 className="p-3 heading" style={{backgroundColor:'#0F6C7A'}}>WHICH ?</h1>
+                    <h1 className="p-3 heading" style={{backgroundColor:'#0F6C7A'}}>Our Packages</h1>
                 </center>
             </div>
             <div className="container"> 
                 <div className="row mt-4 mb-4">
-                    <div className="col-12 col-sm-5 mb-2 pb-1">
-                        <div  data-aos="zoom-in-right"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="1000">
-                                <Card id='1' name="Kerala Eng"
-                                content="Kerala Engineering
-                                Includes information regarding all the major Engineering colleges in Kerala."/>   
-                        </div>
+                    <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
+                            <div className="cardtop">
+                            <h2 className="text-center">KEAM & NIT</h2>
+                            <h3 className="text-center"></h3>
+                            </div>
+                            <ul>
+                            <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
+                            <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
+                            <li><i className="fa fa-check"/> Info on placements, higher studies, etc on each branch of interest (KEAM and NITs)</li><br/>
+                            <li><i className="fa fa-check"/> Assistance on required documents for KEAM seat allotment</li><br/>
+                            <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
+                            </ul>
+                            <h2 className="text-center" style={{color:'#054f5a'}}>Registrations Closed</h2>                            
                     </div>
-                    <div className="col-12 col-sm-5 offset-2 pb-1">
-                        <div  data-aos="zoom-in-left"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="1000">
-                            <Card id='2' name="IIT and NIT"
-                            content="A deep-dive into the JOSAA seat allotment process along with discussions about the top institutes and branches in India."/>                   
+                    <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
+                            <div className="cardtop">
+                            <h2 className="text-center">NIT & IIT</h2>
+                            <h3 className="text-center"></h3>
+                            </div>
+                            <ul>
+                            <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
+                            <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
+                            <li><i className="fa fa-check"/> Info on placements, higher studies, etc on each branch of interest (NITs and IITs)</li><br/>
+                            <li><i className="fa fa-check"/> Assistance on required documents for JoSAA counselling</li><br/>
+                            <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
+                            </ul>
+                           
+                            <h2 className="text-center" style={{color:'#054f5a'}}>Registrations Closed</h2>
                         </div>
                     </div>
                 </div>
             </div>      
-          </div>
         
       );
   }

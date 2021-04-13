@@ -1,6 +1,7 @@
 import React from 'react';
 import './josaa.css';
 import {Jumbotron} from 'reactstrap';
+import {Link} from 'react-scroll';
 
 const Home=()=>{
     return(
@@ -10,10 +11,10 @@ const Home=()=>{
                     <div className="container-fluid">
                         <div className="row row-header pb-3">
                             <div className="col-12 col-sm-6 mr-auto info">
-                                <h1 >JOSAA COUNCELING</h1>
+                                <h1 >JOSAA COUNSELLING</h1>
                                 <p className="d-none d-sm-block" style={{fontSize:'larger'}}>
                                     The primary question in your mind is ‘Which branch should I select?’
-                                    For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
+                                    For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.  
                                 </p>
                             </div>
                         </div>
@@ -25,20 +26,20 @@ const Home=()=>{
                     <div className="col-md-6 col-12">
                         <p className="d-md-last d-block d-md-none p-0" style={{fontSize:'15px'}}>
                             The primary question in your mind is ‘Which branch should I select?’
-                            For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.
+                            For most students, this answer comes from either their parents, their coaching institutes, or online forums. The Tensors team is passionate of helping you make the right choice regarding both your dream branch and institute.Explore our counselling programme to know more about how to avail the service.  
                         </p>
                         <p style={{position:'relative',fontSize:'large',textAlign:"justify"}}>
                             <span className="d-none d-md-block">
-                                Here at Tensors, our consultant team have built the largest inter-collegiate network using which we personally interview students in all elite colleges in India so we can help you make the right choice going into a career in Engineering.
+                                Here at Tensors, our consultant team have built the largest inter-collegiate network using which we personally interview students in all elite colleges in India so we can help you make the right choice going into a career in Engineering.  
                                 <br />To register for the JOSAA Counselling program, click on the ‘REGISTER’ button given below.
                             </span>
                         </p>
                     </div>
                     <div className="col-md-5 offset-md-1 col-12 mt-auto mb-auto p-1">
                         <center>
-                            <button className="home-register-btn btn-block">
+                            <Link to="packages" smooth={true} offset={-100} duration={1000} className="home-register-btn btn-block">
                                 REGISTRATION
-                            </button>   
+                            </Link>   
                         </center>
                     </div>
                     <div className="col-md-6 col-12">

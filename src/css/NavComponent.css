@@ -14,8 +14,12 @@
   }
 
   .nav-link:hover{
-    color:#0F6C7A !important;
-    border-bottom:2px solid white ;
+    color:black !important;
+    border-bottom:2px solid black ;
+  }
+
+  .nav-item .active{
+    color:black !important;
   }
 
 .navbar-collapse{
