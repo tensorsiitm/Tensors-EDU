@@ -44,13 +44,13 @@ function Testseries(props){
        </div>
        <div className="col-12 col-lg-6 bluside h-100">
        <div className="row middle2">
-       <div className="col-8 offset-2">
-       <h1 className="text-center">Launching Soon..</h1>
-       <img src={launch} className="img-fluid "/>
-       <h5>Subscribe to our news letter to get instant updates.</h5>
-       <button className="launchsubscribe"  onClick={() => setModalShow(true)}>SUBSCRIBE</button>
-       <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />
-       </div>
+        <div className="col-8 offset-2">
+        <h1 className="text-center">Launching Soon..</h1>
+        <img src={launch} className="img-fluid "/>
+        <h5>Subscribe to our news letter to get instant updates.</h5>
+        <button className="launchsubscribe"  onClick={() => setModalShow(true)}>SUBSCRIBE</button>
+        <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />
+        </div>
        </div>
        </div>
        </div>
