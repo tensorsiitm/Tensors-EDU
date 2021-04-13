@@ -26,12 +26,12 @@ function Tensorsexam(props){
        <div className="col-12 col-lg-6 bluside h-100">
        <div className="row middle2">
        <div className="col-12 ml-3">
-       <h1 className="text-center">Registration Opens Soon</h1>
+       <h1 className="text-center">Registrations are open!</h1>
          <br/>
          <br/>
-       <span><Countdown timeTillDate="05 13 2021, 11:30 am" timeFormat="MM DD YYYY, hh:mm a"/></span>
+       
        <br/><br/>
-       <center><button className="home-register-btn btn" disabled>Register Now</button></center>
+       <center><button className="home-register-btn btn"><a href="https://rzp.io/l/9IMypKk4">Register Now</a></button></center>
        </div>
        </div>
        </div>
