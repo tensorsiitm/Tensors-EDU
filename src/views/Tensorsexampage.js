@@ -3,6 +3,8 @@ import Footer from '../components/FooterComponent';
 import Top from '../components/NavComponent';
 import Countdown from '../components/CounterComponent';
 import '../css/temp.css';
+import moment from 'moment';
+
 
 
 function Tensorsexam(props){
@@ -27,7 +29,7 @@ function Tensorsexam(props){
        <h1 className="text-center">Registration Opens Soon</h1>
          <br/>
          <br/>
-       <span><Countdown timeTillDate="05 13 2021, 5:30 pm" timeFormat="MM DD YYYY, hh:mm a"/></span>
+       <span><Countdown timeTillDate="05 13 2021, 11:30 am" timeFormat="MM DD YYYY, hh:mm a"/></span>
        <br/><br/>
        <center><button className="home-register-btn btn" disabled>Register Now</button></center>
        </div>

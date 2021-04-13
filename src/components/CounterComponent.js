@@ -18,7 +18,7 @@ class Countdown extends React.Component {
             // const days = countdown.format('D');
             // const hours = countdown.format('HH');
             const days = '';
-            const hours = countdown.format('HH')-6;
+            const hours = countdown.format('HH');
             const minutes = countdown.format('mm');
             const seconds = countdown.format('ss');
 
@@ -40,7 +40,7 @@ class Countdown extends React.Component {
         const minutesRadius = mapNumber(minutes, 60, 0, 0, 360);
         const secondsRadius = mapNumber(seconds, 60, 0, 0, 360);
 
-        if (!seconds) {
+        if (hours==0 && minutes==0 && seconds==0 || hours<0 || minutes<0 || seconds<0 ) {
             return null;
         }
 
