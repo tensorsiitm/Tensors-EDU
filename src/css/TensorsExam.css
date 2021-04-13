@@ -1,0 +1,73 @@
+
+.tensexam .col-12{
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+
+.tensexam .row{
+    margin-right: unset !important;
+    margin-left: unset !important;
+}
+
+.tensexam label{
+    color:rgb(185, 252, 1);
+}
+
+.defside{
+   background-color: #ADE379;
+   height: 100%;
+}
+
+.defside .middle1{
+    margin-top: 40vh;
+}
+
+.regside{
+    background-color: #0F6C7A;
+    min-height: 100vh; 
+    color: white;
+}
+
+.regside .middle2{
+    margin-top: 20vh;
+}
+
+.tensexam p{
+    font-family:'JosefinSans-Italic';
+    font-weight: bold;
+}
+
+.tensexam h1{
+    font-family:'JosefinSans-Italic';
+    font-weight: bold;
+}
+
+.formsubmit{
+    border: 4px solid  rgb(185, 252, 1);
+    background-color:  #0F6C7A;
+    font-weight: bold;
+    color: rgb(185, 252, 1);
+    margin-top: 16px;
+    padding: 2px 4px ;
+    margin-bottom: 20px;
+}
+
+.formsubmit:hover{
+    background-color: rgb(185, 252, 1);
+    color:  black;
+    border-color: black;
+    cursor: pointer;
+}
+
+#hidden_iframe{
+    display: none;
+}
+
+@media screen and (max-width : 576px){
+
+    .defside .middle1{
+        margin-top: 20vh;
+    }
+
+
+}
