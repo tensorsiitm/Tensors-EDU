@@ -45,7 +45,7 @@ function Tensorsexam(props){
        <div className="col-12 ml-3">
        <h1>REGISTRATION</h1>
          <br/><br/>
-       <span><Countdown timeTillDate="05 13 2021, 12:30 pm" timeFormat="MM DD YYYY, hh:mm a"/></span>
+       <span><Countdown timeTillDate="05 13 2021, 1:00 pm" timeFormat="MM DD YYYY, hh:mm a"/></span>
        <br/><br/>
        <center><button className="home-register-btn btn" disabled>Register Now</button></center>
        </div>
