@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import ScriptTag from 'react-script-tag';
 
 
+
 AOS.init();
 
 // You can also pass an optional settings object
@@ -45,23 +46,13 @@ AOS.init({
                 <div className="row mt-4 mb-4">
                     <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
                             <div className="cardtop">
-                            <h2 className="text-center">KEAM & NIT</h2>
+                            <h2 className="text-center">COUNCELLING</h2>
                             <h3 className="text-center"></h3>
                             </div>
-                            <ul>
-                            <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
-                            <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
-                            <li><i className="fa fa-check"/> Info on placements, higher studies, etc on each branch of interest (KEAM and NITs)</li><br/>
-                            <li><i className="fa fa-check"/> Assistance on required documents for KEAM seat allotment</li><br/>
-                            <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
-                            </ul>
-                            <h2 className="text-center" style={{color:'#054f5a'}}>Registrations Closed</h2>                            
-                    </div>
-                    <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
-                            <div className="cardtop">
-                            <h2 className="text-center">NIT & IIT</h2>
-                            <h3 className="text-center"></h3>
+                            <div className="text-right align-right mr-2">
+                                <button className="price-button"><i className="fa fa-tag" style={{color:"white"}}></i>&emsp;<span>Rs 400</span></button>
                             </div>
+                            <br/>
                             <ul>
                             <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
                             <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
@@ -69,8 +60,31 @@ AOS.init({
                             <li><i className="fa fa-check"/> Assistance on required documents for JoSAA counselling</li><br/>
                             <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
+                            <h2 className="text-center" style={{color:'#054f5a'}}>
+                                <center><button className="home-register-btn btn">Councelling +<br/> Mains + Advanced</button></center>
+                            </h2>                            
+                    </div>
+                    <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
+                            <div className="cardtop">
+                            <h2 className="text-center">COUNCELLING +<br/> MOCK TESTS</h2>
+                            <h3 className="text-center"></h3>
+                            </div>
+                            <div className="text-right align-right mr-2">
+                                <button className="price-button"><i className="fa fa-tag" style={{color:"white"}}></i>&emsp;<span>Rs 500</span></button>
+                            </div>
+                            <br/>
+                            <ul>
+                            <li><i className="fa fa-check"/> Webinar on overview about different branches</li><br/>
+                            <li><i className="fa fa-check"/> One on one session with an IITian</li><br/>
+                            <li><i className="fa fa-check"/> Info on placements, higher studies, etc on each branch of interest (NITs and IITs)</li><br/>
+                            <li><i className="fa fa-check"/> Assistance on required documents for JoSAA counselling</li><br/>
+                            <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
+                            <li><i className="fa fa-check"/> Access to tensors annual mock tests.</li><br/>
+                            </ul>
                            
-                            <h2 className="text-center" style={{color:'#054f5a'}}>Registrations Closed</h2>
+                            <h2 className="text-center" style={{color:'#054f5a'}}>
+                                <center><button className="home-register-btn btn">Councelling</button></center>   
+                            </h2>
                         </div>
                     </div>
                 </div>

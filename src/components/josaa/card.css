@@ -120,3 +120,12 @@ margin-left: 25% !important;
         margin-left: 25% !important;
         }
 }
+
+.price-button{
+    background-color: #074b55;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+}

@@ -25,7 +25,7 @@
 }
 
 .bluside .middle2{
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .temp p{
@@ -75,14 +75,21 @@
     font-size: x-large;
     transform: scale(1);
     transition: transform 0.5s ease;
-  }
+}
 
-  .home-register-btn:hover{
+.home-register-btn:hover{
     transform: scale(1.05);
     background:  #ADE379;
     color: #0F6C7A;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+}
+
+.price-span{
+    color: white;
+    margin-left: 2%;
+    font-size: small;
+    padding: 0;
+}
 
 
   .countdown-wrapper {
@@ -121,3 +128,4 @@
 	width: 100px;
 	height: 100px;
 }
+
