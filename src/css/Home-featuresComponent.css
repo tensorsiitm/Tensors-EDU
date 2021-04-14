@@ -305,3 +305,22 @@ margin-top: 10px;
     }
 
 }
+
+.main-register-btn{
+    padding: 2%;
+    background:  #ace3798a;
+    border: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: x-large;
+    transform: scale(1);
+    transition: transform 1s ease;
+}
+.main-register-btn:hover{
+    transform: scale(1.05) translateX(5%);
+    background:  #ADE379;
+    color: #0F6C7A;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+  

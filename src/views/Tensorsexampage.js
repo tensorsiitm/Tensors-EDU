@@ -4,6 +4,7 @@ import Top from '../components/NavComponent';
 import Countdown from '../components/CounterComponent';
 import '../css/temp.css';
 import moment from 'moment';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -22,7 +23,7 @@ function Tensorsexam(props){
        </p>
        <br/>
        <p>
-         Refer to <a href="/#/josaa" style={{color:"#2F4F4F"}}>Councelling page</a> for more details on the bundle
+         Refer to <NavLink to="/josaa" style={{color:"#2F4F4F"}}>Councelling page</NavLink> for more details on the bundle
        </p>
        </div>
        </div>
