@@ -20,6 +20,10 @@ function Tensorsexam(props){
        <p align="justify">
        The annual Tensors mock JEE examination is the most awaited pre-JEE examination for all serious JEE aspirants and coaching institutes in India. The question papers are designed as well as conducted by IITians who have demonstrated their skill in cracking the JEE. The mains exam consists of one three hour long paper while the Advanced paper is a comprehensive two - 3 hour long paper.
        </p>
+       <br/>
+       <p>
+         Refer to <a href="/#/josaa" style={{color:"#2F4F4F"}}>Councelling page</a> for more details on the bundle
+       </p>
        </div>
        </div>
        </div>
