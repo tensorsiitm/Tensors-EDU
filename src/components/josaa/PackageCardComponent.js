@@ -61,7 +61,7 @@ AOS.init({
                             <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
                             <h2 className="text-center" style={{color:'#054f5a'}}>
-                                <center><button className="home-register-btn btn">Councelling +<br/> Mains + Advanced</button></center>
+                                <center><a href="https://rzp.io/l/L6K4bPb6m"><button className="home-register-btn btn">Councelling</button></a></center>   
                             </h2>                            
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
@@ -83,7 +83,7 @@ AOS.init({
                             </ul>
                            
                             <h2 className="text-center" style={{color:'#054f5a'}}>
-                                <center><button className="home-register-btn btn">Councelling</button></center>   
+                                <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn">Councelling +<br/> Mains + Advanced</button></a></center>
                             </h2>
                         </div>
                     </div>
