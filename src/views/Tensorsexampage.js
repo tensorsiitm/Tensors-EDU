@@ -31,7 +31,10 @@ function Tensorsexam(props){
          <br/>
        <span><Countdown timeTillDate="05 13 2021, 11:30 am" timeFormat="MM DD YYYY, hh:mm a"/></span>
        <br/><br/>
-       <center><button className="home-register-btn btn" disabled>Register Now</button></center>
+       <center><button className="home-register-btn btn" disabled>JEE Mains</button></center>
+       <center><button className="home-register-btn btn" disabled>Mains + Advanced</button></center>
+       <center><button className="home-register-btn btn" disabled>Councelling</button></center>
+       <center><button className="home-register-btn btn" disabled>Councelling + Mains + Advanced</button></center>
        </div>
        </div>
        </div>
