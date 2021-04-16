@@ -65,6 +65,7 @@ class Homefeatures extends Component{
         <p align="justify">
         The tensors exam is the reputed annual mock JEE examination that is conducted across South India, spanning all major coaching institutes.  </p>
         <h6 className="descund pb-2">TENSORS EXAM</h6>
+        <NavLink className="btn-secondary" to='/tensorsexam'>Know More..</NavLink>
         </div>
         </div>
         </Parallax>

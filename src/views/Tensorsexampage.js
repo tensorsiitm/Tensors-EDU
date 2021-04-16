@@ -23,7 +23,7 @@ function Tensorsexam(props){
        </p>
        <br/>
        <p>
-         Refer to <NavLink to="/josaa" style={{color:"#2F4F4F"}}>Councelling page</NavLink> for more details on the bundle
+         Refer to <NavLink to="/josaa" style={{color:"#2F4F4F"}}>Counselling page</NavLink> for more details on the bundle
        </p>
        </div>
        </div>
@@ -35,8 +35,8 @@ function Tensorsexam(props){
          <br/>
        <center><a href="https://rzp.io/l/9IMypKk4"><button className="home-register-btn btn">JEE Mains<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 100</span></button></a></center><br/>
        <center><a href="https://rzp.io/l/KZjUGvP9"><button className="home-register-btn btn">Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 150</span></button></a></center><br/>
-       <center><a href="https://rzp.io/l/L6K4bPb6m"><button className="home-register-btn btn">Councelling<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 400</span></button></a></center><br/>
-       <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn">Councelling + Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 500</span></button></a></center><br/>
+       <center><a href="https://rzp.io/l/L6K4bPb6m"><button className="home-register-btn btn">Counselling<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 400</span></button></a></center><br/>
+       <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn">Counselling + Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 500</span></button></a></center><br/>
 
        {/* <center><button className="home-register-btn btn"><a href="https://rzp.io/l/9IMypKk4">Register Now</a></button></center> */}
        </div>

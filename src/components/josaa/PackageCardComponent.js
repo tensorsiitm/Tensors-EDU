@@ -46,7 +46,7 @@ AOS.init({
                 <div className="row mt-4 mb-4">
                     <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
                             <div className="cardtop">
-                            <h2 className="text-center">COUNCELLING</h2>
+                            <h2 className="text-center">COUNSELLING</h2>
                             <h3 className="text-center"></h3>
                             </div>
                             <div className="text-right align-right mr-2">
@@ -61,12 +61,12 @@ AOS.init({
                             <li><i className="fa fa-check"/> Webinar on pre-college preparations</li><br/>
                             </ul>
                             <h2 className="text-center" style={{color:'#054f5a'}}>
-                                <center><a href="https://rzp.io/l/L6K4bPb6m"><button className="home-register-btn btn">Councelling</button></a></center>   
+                                <center><a href="https://rzp.io/l/L6K4bPb6m"><button className="home-register-btn btn">Counselling</button></a></center>   
                             </h2>                            
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
                             <div className="cardtop">
-                            <h2 className="text-center">COUNCELLING +<br/> MOCK TESTS</h2>
+                            <h2 className="text-center">COUNSELLING +<br/> MOCK TESTS</h2>
                             <h3 className="text-center"></h3>
                             </div>
                             <div className="text-right align-right mr-2">
@@ -83,7 +83,7 @@ AOS.init({
                             </ul>
                            
                             <h2 className="text-center" style={{color:'#054f5a'}}>
-                                <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn">Councelling +<br/> Mains + Advanced</button></a></center>
+                                <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn">Counselling +<br/> Mains + Advanced</button></a></center>
                             </h2>
                         </div>
                     </div>
