@@ -31,7 +31,7 @@ function Tensorsexam(props){
        <div className="col-12 col-lg-6 bluside h-100">
        <div className="row middle2">
        <div className="col-12">
-       <h1 className="text-center">Registrations are open!</h1>
+       <h3 className="text-center">Registrations will close at 10:00 AM on 18th April 2021</h3>
          <br/>
        <center><a href="https://rzp.io/l/9IMypKk4"><button className="home-register-btn btn">JEE Mains<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 100</span></button></a></center><br/>
        <center><a href="https://rzp.io/l/KZjUGvP9"><button className="home-register-btn btn">Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 150</span></button></a></center><br/>
