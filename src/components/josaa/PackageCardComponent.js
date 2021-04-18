@@ -83,7 +83,7 @@ AOS.init({
                             </ul>
                            
                             <h2 className="text-center" style={{color:'#054f5a'}}>
-                                <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn">Counselling +<br/> Mains + Advanced</button></a></center>
+                                <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn" disabled>Registations Closed</button></a></center>
                             </h2>
                         </div>
                     </div>
