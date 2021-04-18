@@ -33,10 +33,10 @@ function Tensorsexam(props){
        <div className="col-12">
        <h3 className="text-center">Registrations closed</h3>
          <br/>
-       <center><a href="https://rzp.io/l/9IMypKk4"><button className="home-register-btn btn" disabled>JEE Mains<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 100</span></button></a></center><br/>
-       <center><a href="https://rzp.io/l/KZjUGvP9"><button className="home-register-btn btn" disabled>Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 150</span></button></a></center><br/>
-       <center><a href="https://rzp.io/l/L6K4bPb6m"><button className="home-register-btn btn" disabled>Counselling<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 400</span></button></a></center><br/>
-       <center><a href=" https://rzp.io/l/i6kO1X8"><button className="home-register-btn btn" disabled>Counselling + Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 500</span></button></a></center><br/>
+       <center><a href="#"><button className="home-register-btn btn" disabled>JEE Mains<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 100</span></button></a></center><br/>
+       <center><a href="#"><button className="home-register-btn btn" disabled>Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 150</span></button></a></center><br/>
+       <center><a href="#"><button className="home-register-btn btn" disabled>Counselling<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 400</span></button></a></center><br/>
+       <center><a href="#"><button className="home-register-btn btn" disabled>Counselling + Mains + Advanced<br/><span className="price-span"><i className="fa fa-tag" style={{color:"white"}}></i> Rs 500</span></button></a></center><br/>
 
        {/* <center><button className="home-register-btn btn"><a href="https://rzp.io/l/9IMypKk4">Register Now</a></button></center> */}
        </div>
