@@ -27,77 +27,103 @@ function Footer(props) {
 
   return (
     <div className="footer">
-    <div className="row">
-    <div className="col-12">
-        <div className="row justify-content-center fback">
-          <div className="col-10 offset-1 col-sm-5 col-lg-2">
-            <h5>Links</h5>
-            <ul className="list-unstyled">
-              <li>
-                <Link to="/home">Home</Link>
-              </li>
-              <li>
-                <Link to="/testseries">Test Series</Link>
-              </li>
-              <li>
-                <Link to="/mentorship">Mentorship</Link>
-              </li>
-              <li>
-                <Link to="/josaa">Counselling</Link>
-              </li>
-              <li>
-                <Link to="/tensorsexam">Tensors Exam</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
-            <h5>Get in Touch</h5>
-            <h6>Nagappan N : +91 9444638931 <br/><a href="tel:+91-8157925677">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="https://api.whatsapp.com/send?phone=918157925677"><i className="fa fa-whatsapp"></i></a></h6>
-            <h6>Mohamed Shihad : +91 9072775601 <br/><a href="tel:+91-7034073143">&emsp;<i className="fa fa-phone"></i></a> &emsp;<a href="https://api.whatsapp.com/send?phone=917034073143"><i className="fa fa-whatsapp"></i></a></h6>
-          </div>
-          <div className="col-10 offset-1 col-sm-5  col-lg-3 offset-lg-0">
-          <h5>News Letter</h5>
-          <h6>Subscribe to our newsletter to get monthly updates straight to your inbox</h6>
-          <button className="boxbottom"  onClick={() => setModalShow(true)}>SUBSCRIBE</button>
-          <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />
-        </div>
-          <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
-          <h5>Get Social</h5>
-            <div className="socic">
-              <a
-                className="btn"
-                href="https://www.facebook.com/tensorsofficial"
-              >
-                <i className="fa fa-facebook" />
-              </a>
-              &emsp;
-              <a
-                className="btn"
-                href="https://www.linkedin.com/company/53201198"
-              >
-                <i className="fa fa-linkedin" />
-              </a>
-              &emsp;
-              <a
-                className="btn"
-                href="https://www.instagram.com/tensors_official/"
-              >
-                <i className="fa fa-instagram" />
+      <div className="row">
+        <div className="col-12">
+          <div className="row justify-content-center fback">
+            <div className="col-10 offset-1 col-sm-5 col-lg-2">
+              <h5>Links</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <Link to="/home">Home</Link>
+                </li>
+                <li>
+                  <Link to="/testseries">Test Series</Link>
+                </li>
+                <li>
+                  <Link to="/mentorship">Mentorship</Link>
+                </li>
+                <li>
+                  <Link to="/josaa">Counselling</Link>
+                </li>
+                <li>
+                  <Link to="/tensorsexam">Tensors Exam</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
+              <h5>Get in Touch</h5>
+              <h6>
+                Nagappan N : +91 9444638931 <br />
+                <a href="tel:+91-9444638931">
+                  &emsp;<i className="fa fa-phone"></i>
+                </a>{" "}
+                &emsp;
+                <a href="https://api.whatsapp.com/send?phone=919444638931">
+                  <i className="fa fa-whatsapp"></i>
+                </a>
+              </h6>
+              <h6>
+                Mohamed Shihad : +91 9072775601 <br />
+                <a href="tel:+91-9072775601">
+                  &emsp;<i className="fa fa-phone"></i>
+                </a>{" "}
+                &emsp;
+                <a href="https://api.whatsapp.com/send?phone=919072775601">
+                  <i className="fa fa-whatsapp"></i>
+                </a>
+              </h6>
+            </div>
+            <div className="col-10 offset-1 col-sm-5  col-lg-3 offset-lg-0">
+              <h5>News Letter</h5>
+              <h6>
+                Subscribe to our newsletter to get monthly updates straight to
+                your inbox
+              </h6>
+              <button className="boxbottom" onClick={() => setModalShow(true)}>
+                SUBSCRIBE
+              </button>
+              <SubscribeModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
+            </div>
+            <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
+              <h5>Get Social</h5>
+              <div className="socic">
+                <a
+                  className="btn"
+                  href="https://www.facebook.com/tensorsofficial"
+                >
+                  <i className="fa fa-facebook" />
                 </a>
                 &emsp;
-              <a className="btn " href="mailto:tensorsofficial@gmail.com">
-                <i className="fa fa-envelope-o" />
-              </a>
+                <a
+                  className="btn"
+                  href="https://www.linkedin.com/company/53201198"
+                >
+                  <i className="fa fa-linkedin" />
+                </a>
+                &emsp;
+                <a
+                  className="btn"
+                  href="https://www.instagram.com/tensors_official/"
+                >
+                  <i className="fa fa-instagram" />
+                </a>
+                &emsp;
+                <a className="btn " href="mailto:tensorsofficial@gmail.com">
+                  <i className="fa fa-envelope-o" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center cright">
+            <div className="col-12 text-center">
+              <p>© Copyright 2020 Tensors</p>
             </div>
           </div>
         </div>
-      <div className="row justify-content-center cright">
-      <div className="col-12 text-center">
-        <p>© Copyright 2020 Tensors</p>
       </div>
-    </div>
-    </div>
-    </div>
     </div>
   );
 }
