@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.7998b6c2.chunk.css",
-    "main.js": "/static/js/main.57e5140f.chunk.js",
-    "main.js.map": "/static/js/main.57e5140f.chunk.js.map",
+    "main.js": "/static/js/main.f25d4a22.chunk.js",
+    "main.js.map": "/static/js/main.f25d4a22.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.754fbd3f.js",
     "runtime-main.js.map": "/static/js/runtime-main.754fbd3f.js.map",
     "static/css/2.b4b54272.chunk.css": "/static/css/2.b4b54272.chunk.css",
     "static/js/2.5a48e84d.chunk.js": "/static/js/2.5a48e84d.chunk.js",
     "static/js/2.5a48e84d.chunk.js.map": "/static/js/2.5a48e84d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c4ffdbe1aa7d1d081d314fbffc6d29f.js": "/precache-manifest.6c4ffdbe1aa7d1d081d314fbffc6d29f.js",
+    "precache-manifest.963cb4ff6765f1bcc43c821fe5b1be99.js": "/precache-manifest.963cb4ff6765f1bcc43c821fe5b1be99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b4b54272.chunk.css.map": "/static/css/2.b4b54272.chunk.css.map",
     "static/css/main.7998b6c2.chunk.css.map": "/static/css/main.7998b6c2.chunk.css.map",
@@ -39,7 +39,7 @@
     "static/media/logof.png": "/static/media/logof.6abfdd79.png",
     "static/media/nithin.jpg": "/static/media/nithin.418a1c2a.jpg",
     "static/media/pooja.jpg": "/static/media/pooja.e4be7aba.jpg",
-    "static/media/poster.jpeg": "/static/media/poster.55145638.jpeg",
+    "static/media/poster.jpeg": "/static/media/poster.5f1e8a6d.jpeg",
     "static/media/question.svg": "/static/media/question.42f83cd2.svg",
     "static/media/shafil.jpg": "/static/media/shafil.4561225b.jpg",
     "static/media/sharelogo.png": "/static/media/sharelogo.4f1b7755.png",
@@ -50,6 +50,6 @@
     "static/css/2.b4b54272.chunk.css",
     "static/js/2.5a48e84d.chunk.js",
     "static/css/main.7998b6c2.chunk.css",
-    "static/js/main.57e5140f.chunk.js"
+    "static/js/main.f25d4a22.chunk.js"
   ]
 }
