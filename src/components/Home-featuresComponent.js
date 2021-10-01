@@ -13,13 +13,13 @@ import { Modal, Button } from "react-bootstrap";
 
 
 function Homefeatures() {
-    const [show, setShow] = useState(true);
+    //const [show, setShow] = useState(true);
 
-    const handleClose = () => setShow(false);
+    //const handleClose = () => setShow(false);
   
     return (
       <React.Fragment>
-        <Modal show={show} onHide={handleClose}>
+        {/*<Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title> </Modal.Title>
           </Modal.Header>
@@ -31,7 +31,8 @@ function Homefeatures() {
               Register
             </NavLink>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
+
         <div className="particlebg">
           <div className="row">
             <div className="col-12 col-lg-6 order-lg-first order-last">
@@ -45,12 +46,12 @@ function Homefeatures() {
                     place to get your questions answered. Well your search ends
                     here<span className="gre">!</span>
                   </h1>
-                  <NavLink
+                  {/*                   <NavLink
                     to="/tensorsexam"
                     className="main-register-btn btn-block text-center"
                   >
                     Register Now For JEE Adv Mock Test
-                  </NavLink>
+                  </NavLink>*/}
                 </div>
               </div>
               <div className="row r3 d-none d-lg-block">

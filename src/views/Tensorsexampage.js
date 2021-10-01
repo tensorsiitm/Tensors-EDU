@@ -39,11 +39,11 @@ function Tensorsexam(props) {
           <div className="col-12 col-lg-6 bluside h-100">
             <div className="row middle2">
               <div className="col-12">
-                <h3 className="text-center">Register Now</h3>
+                <h3 className="text-center">Registrations Closed</h3>
                 <br />
                 <center>
-                  <a href="https://rzp.io/l/cNIkgA0jkR">
-                    <button className="home-register-btn btn">
+                  <a href="#">
+                    <button className="home-register-btn btn" disabled>
                       JEE Advanced
                       <br />
                       <span className="price-span">
@@ -55,8 +55,8 @@ function Tensorsexam(props) {
                 </center>
                 <br />
                 <center>
-                  <a href="https://rzp.io/l/L6K4bPb6m">
-                    <button className="home-register-btn btn">
+                  <a href="#">
+                    <button className="home-register-btn btn" disabled>
                       Counselling
                       <br />
                       <span className="price-span">
@@ -68,8 +68,8 @@ function Tensorsexam(props) {
                 </center>
                 <br />
                 <center>
-                  <a href="https://rzp.io/l/GxZrfPP2y">
-                    <button className="home-register-btn btn">
+                  <a href="#">
+                    <button className="home-register-btn btn" disabled>
                       Counselling + Advanced
                       <br />
                       <span className="price-span">
