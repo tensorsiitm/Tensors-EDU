@@ -5,7 +5,7 @@ import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-import poster from "../assets/images/poster.jpeg";
+import poster from "../assets/images/poster.jpg";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 import { Link } from "react-scroll";
@@ -13,25 +13,25 @@ import { Modal, Button } from "react-bootstrap";
 
 
 function Homefeatures() {
-    //const [show, setShow] = useState(true);
+    const [show, setShow] = useState(true);
 
-    //const handleClose = () => setShow(false);
+    const handleClose = () => setShow(false);
   
     return (
       <React.Fragment>
-        {/*<Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title> </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src={poster} className="img-fluid " />
+           <img src={poster} className="img-fluid " />
           </Modal.Body>
           <Modal.Footer>
             <NavLink className="btn-secondary" to="/tensorsexam">
               Register
             </NavLink>
           </Modal.Footer>
-        </Modal> */}
+        </Modal>
 
         <div className="particlebg">
           <div className="row">
