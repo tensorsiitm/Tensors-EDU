@@ -81,9 +81,9 @@ const Packages = () => {
             </ul>
             <h2 className="text-center" style={{ color: "#054f5a" }}>
               <center>
-                <a href="https://rzp.io/l/L6K4bPb6m">
-                  <button className="home-register-btn btn">
-                    Register Now
+                <a href="#">
+                  <button className="home-register-btn btn" disabled>
+                    Registrations Closed
                   </button>
                 </a>
               </center>

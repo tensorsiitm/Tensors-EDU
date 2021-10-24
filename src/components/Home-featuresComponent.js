@@ -19,19 +19,21 @@ function Homefeatures() {
   
     return (
       <React.Fragment>
-        <Modal show={show} onHide={handleClose}>
+        {/* 
+    <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title> </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-           <img src={poster} className="img-fluid " />
+            <img src={poster} className="img-fluid " />
           </Modal.Body>
           <Modal.Footer>
-            <NavLink className="btn-secondary" to="/tensorsexam">
+            <NavLink className="btn-secondary" to="/josaa">
               Register
             </NavLink>
           </Modal.Footer>
         </Modal>
+    */}
 
         <div className="particlebg">
           <div className="row">
