@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../components/FooterComponent";
 import Top from "../components/NavComponent";
-import Countdown from "../components/CounterComponent";
+//import Countdown from "../components/CounterComponent";
 import "../css/temp.css";
-import moment from "moment";
+//import moment from "moment";
 import { NavLink } from "react-router-dom";
 
-function Tensorsexam(props) {
+function Tensorsexam() {
   return (
     <React.Fragment>
       <Top />
@@ -42,7 +42,7 @@ function Tensorsexam(props) {
                 <h3 className="text-center">Registrations Closed</h3>
                 <br />
                 <center>
-                  <a href="#">
+                  <a href="/tensorsexam">
                     <button className="home-register-btn btn" disabled>
                       JEE Advanced
                       <br />
@@ -55,7 +55,7 @@ function Tensorsexam(props) {
                 </center>
                 <br />
                 <center>
-                  <a href="#">
+                  <a href="/tensorsexam">
                     <button className="home-register-btn btn" disabled>
                       Counselling
                       <br />
@@ -68,7 +68,7 @@ function Tensorsexam(props) {
                 </center>
                 <br />
                 <center>
-                  <a href="#">
+                  <a href="/tensorsexam">
                     <button className="home-register-btn btn" disabled>
                       Counselling + Advanced
                       <br />

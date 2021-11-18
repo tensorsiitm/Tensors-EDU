@@ -5,13 +5,13 @@ import Homefeatures from '../components/Home-featuresComponent';
 import Hometestimonials from '../components/Home-testimonialsComponent';
 import Footer from '../components/FooterComponent';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import ReactGA from 'react-ga';
+//import ReactGA from 'react-ga';
 
 
-function initializeReactGA() {
-    ReactGA.initialize('UA-179929497-1');
-    ReactGA.pageview('/homepage');
-}
+// function initializeReactGA() {
+//     ReactGA.initialize('UA-179929497-1');
+//     ReactGA.pageview('/homepage');
+// }
 
 class Home extends Component{
     render(){

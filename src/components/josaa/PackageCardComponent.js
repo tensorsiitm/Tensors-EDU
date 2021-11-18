@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ScriptTag from "react-script-tag";
+//import ScriptTag from "react-script-tag";
 
 AOS.init();
 
@@ -44,7 +44,7 @@ const Packages = () => {
           <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
             <div className="cardtop">
               <h2 className="text-center">COUNSELLING</h2>
-              <h3 className="text-center"></h3>
+              <h3 className="text-center">{""}</h3>
             </div>
             <div className="text-right align-right mr-2">
               <button className="price-button">
@@ -81,7 +81,7 @@ const Packages = () => {
             </ul>
             <h2 className="text-center" style={{ color: "#054f5a" }}>
               <center>
-                <a href="#">
+                <a href="/josaa">
                   <button className="home-register-btn btn" disabled>
                     Registrations Closed
                   </button>
@@ -94,7 +94,7 @@ const Packages = () => {
               <h2 className="text-center">
                 COUNSELLING + <br /> JEE Adv
               </h2>
-              <h3 className="text-center"></h3>
+              <h3 className="text-center">{""}</h3>
             </div>
             <div className="text-right align-right mr-2">
               <button className="price-button">
@@ -137,7 +137,7 @@ const Packages = () => {
 
             <h2 className="text-center" style={{ color: "#054f5a" }}>
               <center>
-                <a href="#">
+                <a href="/josaa">
                   <button className="home-register-btn btn" disabled>
                     Registrations Closed
                   </button>

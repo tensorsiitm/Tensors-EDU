@@ -1,21 +1,22 @@
-import React, { useState } from "react";
+import React from 'react';
+//import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import a1 from "../assets/images/a1.svg";
 import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-import poster from "../assets/images/poster.jpg";
+//import poster from "../assets/images/poster.jpg";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
-import { Link } from "react-scroll";
-import { Modal, Button } from "react-bootstrap";
+//import { Link } from "react-scroll";
+//import { Modal, Button } from "react-bootstrap";
 
 
 function Homefeatures() {
-    const [show, setShow] = useState(true);
+    //const [show, setShow] = useState(true);
 
-    const handleClose = () => setShow(false);
+    //const handleClose = () => setShow(false);
   
     return (
       <React.Fragment>
@@ -58,13 +59,13 @@ function Homefeatures() {
               </div>
               <div className="row r3 d-none d-lg-block">
                 <div className="col-6 offset-2 d-none d-lg-block">
-                  <img src={tlogo} className="img-fluid " />
+                  <img src={tlogo} alt="logo" className="img-fluid " />
                 </div>
               </div>
               <Parallax className="custom-class" y={[-30, 0]} tagOuter="figure">
                 <div className="row">
                   <div className="col-6 offset-3 d-none d-lg-block a1i">
-                    <img src={a3} className="img-fluid " />
+                    <img src={a3} alt="featureImage" className="img-fluid " />
                   </div>
                 </div>
               </Parallax>
@@ -88,7 +89,7 @@ function Homefeatures() {
               <Parallax className="custom-class" y={[-30, 0]} tagOuter="figure">
                 <div className="row">
                   <div className="col-6 offset-3 d-none d-lg-block a3i">
-                    <img src={a2} className="img-fluid " />
+                    <img src={a2} alt="featureImage" className="img-fluid " />
                   </div>
                 </div>
               </Parallax>
@@ -197,7 +198,7 @@ function Homefeatures() {
               <Parallax className="custom-class" y={[-30, 0]} tagOuter="figure">
                 <div className="row">
                   <div className="col-6 offset-3 d-none d-lg-block a2i">
-                    <img src={a1} className="img-fluid " />
+                    <img src={a1} alt="featureImage" className="img-fluid " />
                   </div>
                 </div>
               </Parallax>
@@ -222,7 +223,7 @@ function Homefeatures() {
               <Parallax className="custom-class" y={[-30, 0]} tagOuter="figure">
                 <div className="row">
                   <div className="col-6 offset-3 d-none d-lg-block a4i">
-                    <img src={a4} className="img-fluid " />
+                    <img src={a4} alt="featureImage" className="img-fluid " />
                   </div>
                 </div>
               </Parallax>

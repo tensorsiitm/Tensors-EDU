@@ -17,7 +17,7 @@ const Consultant=()=>{
                                     <div className="container mb-5">
                                         <div class="row">
                                             <div className="col-sm-4 col-12">
-                                                <img className="info-img d-flex rounded-circle avatar z-depth-5-half mb-3 mx-auto mr-sm-3" src={info.img} alt="Generic placeholder image"/>
+                                                <img className="info-img d-flex rounded-circle avatar z-depth-5-half mb-3 mx-auto mr-sm-3" src={info.img} alt=""/>
                                                 <center>
                                                     <h3 className="font-weight-bold mr-auto ml-auto d-block d-sm-none" style={{color:"#8ae237"}}>{info.name}</h3>
                                                 </center>
@@ -38,9 +38,7 @@ const Consultant=()=>{
 }
 
 class CarouselPage extends Component {
-    constructor(props){
-        super(props);
-    }
+
     render(){
         return (
             <div className="container-fluid consultants-fragment">

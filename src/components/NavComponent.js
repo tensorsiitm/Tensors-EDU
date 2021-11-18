@@ -26,7 +26,7 @@ class Top extends Component{
                 <Navbar dark className="navbar" expand="md">
                     <div className="container">
                         
-                        <NavbarBrand className="mr-auto" href="/#/home"><img src={ico} height="35px"/></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/#/home"><img src={ico} alt="icon" height="35px"/></NavbarBrand>
                         <NavbarToggler className="NavbarToggler" onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar classNam="navleft">

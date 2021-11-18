@@ -46,7 +46,7 @@ function Mentorship(props){
            <div className="row middle2">
            <div className="col-8 offset-2">
            <h1 className="text-center">Launching Soon..</h1>
-           <img src={launch} className="img-fluid "/>
+           <img src={launch} alt="launch" className="img-fluid "/>
            <h5>Subscribe to our news letter to get instant updates.</h5>
            <button className="launchsubscribe"  onClick={() => setModalShow(true)}>SUBSCRIBE</button>
            <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />

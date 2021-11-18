@@ -72,7 +72,7 @@ const Features=()=>{
                     </div>
                     <div className="col-12 col-md-4 d-none d-md-block">
                         <center>
-                            <img src={question} className="img-fluid mt-3" style={{borderRadius:'50%', opacity:'1'}} width="80%"/>
+                            <img src={question} alt="qnMark" className="img-fluid mt-3" style={{borderRadius:'50%', opacity:'1'}} width="80%"/>
 
                         </center>
                     </div>
