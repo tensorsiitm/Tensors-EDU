@@ -49,12 +49,11 @@ function Homefeatures() {
                     place to get your questions answered. Well your search ends
                     here<span className="gre">!</span>
                   </h1>
-                  {/*                   <NavLink
+                  <NavLink
                     to="/tensorsexam"
-                    className="main-register-btn btn-block text-center"
-                  >
-                    Register Now For JEE Adv Mock Test
-                  </NavLink>*/}
+                    className="main-register-btn btn-block text-center">
+                    Register Now For JEE Mock Test and JOSAA Councelling
+                  </NavLink>
                 </div>
               </div>
               <div className="row r3 d-none d-lg-block">
@@ -126,9 +125,8 @@ function Homefeatures() {
                   </h1>
                   <NavLink
                     to="/tensorsexam"
-                    className="main-register-btn btn-block text-center"
-                  >
-                    REGISTER NOW
+                    className="main-register-btn btn-block text-center">
+                    Register Now For JEE Mock Test and JOSAA Councelling
                   </NavLink>
                 </div>
               </div>

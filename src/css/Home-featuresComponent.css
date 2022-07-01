@@ -307,12 +307,12 @@ margin-top: 10px;
 }
 
 .main-register-btn{
-    padding: 2%;
+    padding: 1%;
     background:  #ace3798a;
     border: none;
     color: whitesmoke;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: large;
     transform: scale(1);
     transition: transform 1s ease;
 }

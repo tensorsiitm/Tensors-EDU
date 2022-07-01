@@ -53,12 +53,12 @@ function Footer(props) {
             <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
               <h5>Get in Touch</h5>
               <h6>
-                Nagappan N : +91 9444638931 <br />
-                <a href="tel:+91-9444638931">
+                Fazil P S : +91 9447683222 <br />
+                <a href="tel:+91-9447683222">
                   &emsp;<i className="fa fa-phone"></i>
                 </a>{" "}
                 &emsp;
-                <a href="https://api.whatsapp.com/send?phone=919444638931">
+                <a href="https://api.whatsapp.com/send?phone=919447683222">
                   <i className="fa fa-whatsapp"></i>
                 </a>
               </h6>
