@@ -279,6 +279,7 @@ margin-top: 10px;
     .a1a{
         height:80vw;
     }
+
     .a1b{
         height:120vw;
     }
@@ -302,6 +303,10 @@ margin-top: 10px;
     
     .a4{
         margin-bottom: 100px;
+    }
+
+    .main-register-btn{
+        display: none;
     }
 
 }

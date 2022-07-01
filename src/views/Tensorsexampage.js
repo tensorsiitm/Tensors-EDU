@@ -4,7 +4,6 @@ import Top from "../components/NavComponent";
 //import Countdown from "../components/CounterComponent";
 import "../css/temp.css";
 //import moment from "moment";
-import { NavLink } from "react-router-dom";
 
 function Tensorsexam() {
   return (

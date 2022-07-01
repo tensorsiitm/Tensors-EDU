@@ -1,40 +1,38 @@
 import React from 'react';
-//import { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import a1 from "../assets/images/a1.svg";
 import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-//import poster from "../assets/images/poster.jpg";
+import poster from "../assets/images/exam2022.png";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
-//import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 
 function Homefeatures() {
-    //const [show, setShow] = useState(true);
+    const [show, setShow] = useState(true);
 
-    //const handleClose = () => setShow(false);
+    const handleClose = () => setShow(false);
   
     return (
       <React.Fragment>
-        {/* 
-    <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title> </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src={poster} className="img-fluid " />
+            <img src={poster} alt="poster" className="img-fluid " />
           </Modal.Body>
           <Modal.Footer>
-            <NavLink className="btn-secondary" to="/josaa">
+            <NavLink className="btn-secondary" to="/tensorsexam">
               Register
             </NavLink>
           </Modal.Footer>
         </Modal>
-    */}
 
         <div className="particlebg">
           <div className="row">
@@ -44,14 +42,10 @@ function Homefeatures() {
                 <div className="col-10 offset-2">
                   <h5>Welcome to Tensors Edu</h5>
                   <h1>
-                    So you’ve decided to become an{" "}
-                    <span className="gre">ENGINEER</span> and looking for a
-                    place to get your questions answered. Well your search ends
-                    here<span className="gre">!</span>
+                    So you’ve decided to become an <span className="gre">ENGINEER</span> and looking for a place to get
+                    your questions answered. Well your search ends here<span className="gre">!</span>
                   </h1>
-                  <NavLink
-                    to="/tensorsexam"
-                    className="main-register-btn btn-block text-center">
+                  <NavLink to="/tensorsexam" className="main-register-btn btn-block text-center">
                     Register Now For JEE Mock Test and JOSAA Councelling
                   </NavLink>
                 </div>
@@ -72,14 +66,13 @@ function Homefeatures() {
                 <div className="row a2">
                   <div className="col col-10 offset-1 col-lg-8 offset-lg-1">
                     <h2 align="justify">
-                      A <span className="green">TEST SERIES </span>to keep you
-                      coordinated throughout the year as you prepare for
+                      A <span className="green">TEST SERIES </span>to keep you coordinated throughout the year as you
+                      prepare for
                       <span className="green"> JEE</span>
                     </h2>
                     <p align="justify">
-                      For the students of +1 and +2, we offer a specially
-                      designed test series that covers all relevant topics in
-                      time for the actual JEE Mains and Advanced.{" "}
+                      For the students of +1 and +2, we offer a specially designed test series that covers all relevant
+                      topics in time for the actual JEE Mains and Advanced.{" "}
                     </p>
                     <h6 className="descund pb-2">TEST SERIES</h6>
                   </div>
@@ -97,13 +90,11 @@ function Homefeatures() {
                   <div className="col col-10 offset-1 col-lg-8 offset-lg-1">
                     <h2 align="justify">
                       <span className="green">The Flagship Tensors Exam </span>
-                      for those willing to grind it out with the best in South
-                      India
+                      for those willing to grind it out with the best in South India
                     </h2>
                     <p align="justify">
-                      The tensors exam is the reputed annual mock JEE
-                      examination that is conducted across South India, spanning
-                      all major coaching institutes.{" "}
+                      The tensors exam is the reputed annual mock JEE examination that is conducted across South India,
+                      spanning all major coaching institutes.{" "}
                     </p>
                     <h6 className="descund pb-2">TENSORS EXAM</h6>
                     <NavLink className="btn-secondary" to="/tensorsexam">
@@ -118,14 +109,10 @@ function Homefeatures() {
                 <div className="col-10 offset-1">
                   <h5>Welcome to Tensors Edu</h5>
                   <h1>
-                    So you’ve decided to become an{" "}
-                    <span className="gre">ENGINEER</span> and looking for a
-                    place to get your questions answered. Well your search ends
-                    here<span className="gre">!</span>
+                    So you’ve decided to become an <span className="gre">ENGINEER</span> and looking for a place to get
+                    your questions answered. Well your search ends here<span className="gre">!</span>
                   </h1>
-                  <NavLink
-                    to="/tensorsexam"
-                    className="main-register-btn btn-block text-center">
+                  <NavLink to="/tensorsexam" className="main-register-btn btn-block text-center">
                     Register Now For JEE Mock Test and JOSAA Councelling
                   </NavLink>
                 </div>
@@ -135,34 +122,22 @@ function Homefeatures() {
                   <div className="row a1a">
                     <div className="col-lg-2 offset-lg-10 d-none d-lg-block socictop">
                       <div className="row">
-                        <a
-                          className="btn"
-                          href="https://www.facebook.com/tensorsofficial"
-                        >
+                        <a className="btn" href="https://www.facebook.com/tensorsofficial">
                           <i className="fa fa-facebook" />
                         </a>
                       </div>
                       <div className="row">
-                        <a
-                          className="btn"
-                          href="https://www.linkedin.com/company/53201198"
-                        >
+                        <a className="btn" href="https://www.linkedin.com/company/53201198">
                           <i className="fa fa-linkedin" />
                         </a>
                       </div>
                       <div className="row">
-                        <a
-                          className="btn"
-                          href="https://www.instagram.com/tensors_official/"
-                        >
+                        <a className="btn" href="https://www.instagram.com/tensors_official/">
                           <i className="fa fa-instagram" />
                         </a>
                       </div>
                       <div className="row">
-                        <a
-                          className="btn"
-                          href="mailto:tensorsofficial@gmail.com"
-                        >
+                        <a className="btn" href="mailto:tensorsofficial@gmail.com">
                           <i className="fa fa-envelope" />
                         </a>
                       </div>
@@ -172,18 +147,13 @@ function Homefeatures() {
                     <div className="col col-10 offset-1 col-lg-8 offset-lg-3">
                       <h2 align="justify" id="a1">
                         The primary question in your mind is
-                        <span className="green">
-                          {" "}
-                          ‘Which branch should I select?’
-                        </span>
+                        <span className="green"> ‘Which branch should I select?’</span>
                       </h2>
                       <p align="justify">
-                        For most students, this answer comes from either their
-                        parents, their coaching institutes, or online forums.
-                        The Tensors team is passionate of helping you make the
-                        right choice regarding both your dream branch and
-                        institute. Explore our counselling programme to know
-                        more about how to avail the service.
+                        For most students, this answer comes from either their parents, their coaching institutes, or
+                        online forums. The Tensors team is passionate of helping you make the right choice regarding
+                        both your dream branch and institute. Explore our counselling programme to know more about how
+                        to avail the service.
                       </p>
                       <h6 className="descund pb-2">KNOW YOUR BRANCH</h6>
                       <NavLink className="btn-secondary" to="/josaa">
@@ -204,15 +174,13 @@ function Homefeatures() {
                 <div className="row a3">
                   <div className="col col-10 offset-1 col-lg-8 offset-lg-3">
                     <h2>
-                      For the students who want to crack{" "}
-                      <span className="green">JEE</span>, we offer our
+                      For the students who want to crack <span className="green">JEE</span>, we offer our
                       <span className="green"> MENTORSHIP PROGRAMME</span>
                     </h2>
                     <p align="justify">
-                      The Tensors mentor ship programme is a year long system
-                      which is aimed at helping the JEE aspirants in +1 and +2.
-                      Everyone who registers will receive the complete Tensors
-                      test series as well.
+                      The Tensors mentor ship programme is a year long system which is aimed at helping the JEE
+                      aspirants in +1 and +2. Everyone who registers will receive the complete Tensors test series as
+                      well.
                     </p>
                     <h6 className="descund pb-2">MENTORSHIP PROGRAMME</h6>
                   </div>
