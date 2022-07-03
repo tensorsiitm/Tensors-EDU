@@ -15,19 +15,23 @@ function Tensorsexam() {
             <div className="row middle1">
               <div className="col-8 offset-2">
                 <h1>Tensors Exam</h1>
-                <br/>
+                <br />
                 <p align="justify">
-                  The annual Tensors mock JEE examination is the most awaited
-                  pre-JEE examination for all serious JEE aspirants and coaching
-                  institutes in India. The question papers are designed and conducted by the brightest minds of IIT Madras in line with the latest pattern. 
-                  <i> The Exam will be conducted online on 11th of July. </i> 
-                  The mains exam consists of one three hour
-                  long paper while the Advanced paper is a comprehensive two - 3
-                  hour long paper. Grab this opportunity to know where you stand among other students from across the Nation.
+                  The annual Tensors mock JEE examination is the most awaited nation wise pre-JEE examination for all
+                  serious JEE aspirants. The question papers are designed and conducted by the brightest minds of IIT
+                  Madras in line with the latest pattern. The registration fee will be used to tackle social issues as
+                  we are completing non-profit. The Exam will be conducted online on 11th of July. The mains exam
+                  consists of one three hour long paper while the Advanced paper is a comprehensive two - 3 hour long
+                  paper. Grab this opportunity to know where you stand among your peers and contribute financially for a
+                  social cause.
                 </p>
-                <br/>
+                <br />
                 <h4>
-                  <i><center>Date of the Exam : 11<sup>th</sup> of July 2022.</center></i>
+                  <i>
+                    <center>
+                      Date of the Exam : 11<sup>th</sup> of July 2022.
+                    </center>
+                  </i>
                 </h4>
                 {/* <br />
                 <p>
@@ -51,8 +55,7 @@ function Tensorsexam() {
                       JEE Mains only
                       <br />
                       <span className="price-span">
-                        <i className="fa fa-tag" style={{ color: "white" }}></i>{" "}
-                        Rs 100
+                        <i className="fa fa-tag" style={{ color: "white" }}></i> Rs 100
                       </span>
                     </button>
                   </a>
@@ -64,8 +67,7 @@ function Tensorsexam() {
                       JEE Advanced only
                       <br />
                       <span className="price-span">
-                        <i className="fa fa-tag" style={{ color: "white" }}></i>{" "}
-                        Rs 100
+                        <i className="fa fa-tag" style={{ color: "white" }}></i> Rs 100
                       </span>
                     </button>
                   </a>
@@ -77,8 +79,7 @@ function Tensorsexam() {
                       JEE Main + Advanced
                       <br />
                       <span className="price-span">
-                        <i className="fa fa-tag" style={{ color: "white" }}></i>{" "}
-                        Rs 150
+                        <i className="fa fa-tag" style={{ color: "white" }}></i> Rs 150
                       </span>
                     </button>
                   </a>
@@ -90,8 +91,7 @@ function Tensorsexam() {
                       JOSAA Councelling
                       <br />
                       <span className="price-span">
-                        <i className="fa fa-tag" style={{ color: "white" }}></i>{" "}
-                        Rs 400
+                        <i className="fa fa-tag" style={{ color: "white" }}></i> Rs 400
                       </span>
                     </button>
                   </a>
