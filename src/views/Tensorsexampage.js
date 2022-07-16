@@ -20,7 +20,7 @@ function Tensorsexam() {
                   The annual Tensors mock JEE examination is the most awaited nation wise pre-JEE examination for all
                   serious JEE aspirants. The question papers are designed and conducted by the brightest minds of IIT
                   Madras in line with the latest pattern. The registration fee will be used to tackle social issues as
-                  we are completing non-profit. The Exam will be conducted online on 11th of July. The mains exam
+                  we are completing non-profit. The mains exam
                   consists of one three hour long paper while the Advanced paper is a comprehensive two - 3 hour long
                   paper. Grab this opportunity to know where you stand among your peers and contribute financially for a
                   social cause.
@@ -28,9 +28,11 @@ function Tensorsexam() {
                 <br />
                 <h4>
                   <i>
+                    {/*
                     <center>
                       Date of the Exam : 11<sup>th</sup> of July 2022.
                     </center>
+                    */}
                   </i>
                 </h4>
                 {/* <br />
@@ -49,6 +51,7 @@ function Tensorsexam() {
               <div className="col-12">
                 <h3 className="text-center">Registrations Opened</h3>
                 <br />
+                {/*
                 <center>
                   <a href="https://rzp.io/l/7nJVEfa6">
                     <button className="home-register-btn btn">
@@ -61,10 +64,11 @@ function Tensorsexam() {
                   </a>
                 </center>
                 <br />
+                */}
                 <center>
                   <a href="https://rzp.io/l/pvrCVgB">
                     <button className="home-register-btn btn">
-                      JEE Advanced only
+                      JEE Advanced
                       <br />
                       <span className="price-span">
                         <i className="fa fa-tag" style={{ color: "white" }}></i> Rs 100
@@ -73,6 +77,7 @@ function Tensorsexam() {
                   </a>
                 </center>
                 <br />
+                {/*
                 <center>
                   <a href="https://rzp.io/l/BQQdsJw7w">
                     <button className="home-register-btn btn">
@@ -85,6 +90,7 @@ function Tensorsexam() {
                   </a>
                 </center>
                 <br />
+                */}
                 <center>
                   <a href="https://rzp.io/l/ArqhDy3">
                     <button className="home-register-btn btn">

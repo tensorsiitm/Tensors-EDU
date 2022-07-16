@@ -41,7 +41,7 @@ const Packages = () => {
       </div>
       <div className="container">
         <div className="row mt-4 mb-4">
-          <div className="col-12 col-sm-4 mb-4 offset-sm-1  packcard">
+          <div className="col-12 col-sm-4 mb-4 offset-sm-4  packcard">
             <div className="cardtop">
               <h2 className="text-center">COUNSELLING</h2>
               <h3 className="text-center">{""}</h3>
@@ -55,8 +55,7 @@ const Packages = () => {
             <br />
             <ul>
               <li>
-                <i className="fa fa-check" /> Webinar on overview about
-                different branches
+                <i className="fa fa-check" /> Webinar on overview about different branches
               </li>
               <br />
               <li>
@@ -64,31 +63,30 @@ const Packages = () => {
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Info on placements, higher
-                studies, etc on each branch of interest (NITs and IITs)
+                <i className="fa fa-check" /> Info on placements, higher studies, etc on each branch of interest (NITs
+                and IITs)
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Assistance on required documents
-                for JoSAA counselling
+                <i className="fa fa-check" /> Assistance on required documents for JoSAA counselling
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Webinar on pre-college
-                preparations
+                <i className="fa fa-check" /> Webinar on pre-college preparations
               </li>
               <br />
             </ul>
             <h2 className="text-center" style={{ color: "#054f5a" }}>
               <center>
-                <a href="/josaa">
-                  <button className="home-register-btn btn" disabled>
-                    Registrations Closed
+                <a href="https://rzp.io/l/ArqhDy3">
+                  <button className="home-register-btn btn">
+                    Register Now
                   </button>
                 </a>
               </center>
             </h2>
           </div>
+          {/*
           <div className="col-12 col-sm-4 offset-sm-2 mb-4  packcard">
             <div className="cardtop">
               <h2 className="text-center">
@@ -105,8 +103,7 @@ const Packages = () => {
             <br />
             <ul>
               <li>
-                <i className="fa fa-check" /> Webinar on overview about
-                different branches
+                <i className="fa fa-check" /> Webinar on overview about different branches
               </li>
               <br />
               <li>
@@ -114,23 +111,20 @@ const Packages = () => {
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Info on placements, higher
-                studies, etc on each branch of interest (NITs and IITs)
+                <i className="fa fa-check" /> Info on placements, higher studies, etc on each branch of interest (NITs
+                and IITs)
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Assistance on required documents
-                for JoSAA counselling
+                <i className="fa fa-check" /> Assistance on required documents for JoSAA counselling
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Webinar on pre-college
-                preparations
+                <i className="fa fa-check" /> Webinar on pre-college preparations
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Access to tensors JEE Adv mock
-                test.
+                <i className="fa fa-check" /> Access to tensors JEE Adv mock test.
               </li>
               <br />
             </ul>
@@ -145,6 +139,7 @@ const Packages = () => {
               </center>
             </h2>
           </div>
+          */}
         </div>
       </div>
     </div>

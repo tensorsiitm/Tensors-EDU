@@ -53,16 +53,6 @@ function Footer(props) {
             <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
               <h5>Get in Touch</h5>
               <h6>
-                Fazil P S : +91 9447683222 <br />
-                <a href="tel:+91-9447683222">
-                  &emsp;<i className="fa fa-phone"></i>
-                </a>{" "}
-                &emsp;
-                <a href="https://api.whatsapp.com/send?phone=919447683222">
-                  <i className="fa fa-whatsapp"></i>
-                </a>
-              </h6>
-              <h6>
                 Mohamed Shihad : +91 9072775601 <br />
                 <a href="tel:+91-9072775601">
                   &emsp;<i className="fa fa-phone"></i>
@@ -72,42 +62,37 @@ function Footer(props) {
                   <i className="fa fa-whatsapp"></i>
                 </a>
               </h6>
+              <h6>
+                Fazil P S : +91 9447683222 <br />
+                <a href="tel:+91-9447683222">
+                  &emsp;<i className="fa fa-phone"></i>
+                </a>{" "}
+                &emsp;
+                <a href="https://api.whatsapp.com/send?phone=919447683222">
+                  <i className="fa fa-whatsapp"></i>
+                </a>
+              </h6>
             </div>
             <div className="col-10 offset-1 col-sm-5  col-lg-3 offset-lg-0">
               <h5>News Letter</h5>
-              <h6>
-                Subscribe to our newsletter to get monthly updates straight to
-                your inbox
-              </h6>
+              <h6>Subscribe to our newsletter to get monthly updates straight to your inbox</h6>
               <button className="boxbottom" onClick={() => setModalShow(true)}>
                 SUBSCRIBE
               </button>
-              <SubscribeModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-              />
+              <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />
             </div>
             <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
               <h5>Get Social</h5>
               <div className="socic">
-                <a
-                  className="btn"
-                  href="https://www.facebook.com/tensorsofficial"
-                >
+                <a className="btn" href="https://www.facebook.com/tensorsofficial">
                   <i className="fa fa-facebook" />
                 </a>
                 &emsp;
-                <a
-                  className="btn"
-                  href="https://www.linkedin.com/company/53201198"
-                >
+                <a className="btn" href="https://www.linkedin.com/company/53201198">
                   <i className="fa fa-linkedin" />
                 </a>
                 &emsp;
-                <a
-                  className="btn"
-                  href="https://www.instagram.com/tensors_official/"
-                >
+                <a className="btn" href="https://www.instagram.com/tensors_official/">
                   <i className="fa fa-instagram" />
                 </a>
                 &emsp;
