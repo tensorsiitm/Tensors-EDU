@@ -17,13 +17,16 @@ function Tensorsexam() {
                 <h1>Tensors Exam</h1>
                 <br />
                 <p align="justify">
-                  The annual Tensors mock JEE examination is the most awaited nation wise pre-JEE examination for all
-                  serious JEE aspirants. The question papers are designed and conducted by the brightest minds of IIT
-                  Madras in line with the latest pattern. The registration fee will be used to tackle social issues as
-                  we are completing non-profit. The mains exam
-                  consists of one three hour long paper while the Advanced paper is a comprehensive two - 3 hour long
-                  paper. Grab this opportunity to know where you stand among your peers and contribute financially for a
-                  social cause.
+                  The annual Tensors mock JEE examination is the most awaited
+                  nation wise pre-JEE examination for all serious JEE aspirants.
+                  The question papers are designed and conducted by the
+                  brightest minds of IIT Madras in line with the latest pattern.
+                  The registration fee will be used to tackle social issues as
+                  we are completing non-profit. The mains exam consists of one
+                  three hour long paper while the Advanced paper is a
+                  comprehensive two - 3 hour long paper. Grab this opportunity
+                  to know where you stand among your peers and contribute
+                  financially for a social cause.
                 </p>
                 <br />
                 <h4>
@@ -49,7 +52,7 @@ function Tensorsexam() {
           <div className="col-12 col-lg-6 bluside h-100">
             <div className="row middle2">
               <div className="col-12">
-                <h3 className="text-center">Registrations Opened</h3>
+                <h3 className="text-center">Registrations Closed</h3>
                 <br />
                 {/*
                 <center>
@@ -65,7 +68,7 @@ function Tensorsexam() {
                 </center>
                 <br />
                 */}
-                <center>
+                {/* <center>
                   <a href="https://rzp.io/l/pvrCVgB">
                     <button className="home-register-btn btn">
                       JEE Advanced
@@ -76,7 +79,7 @@ function Tensorsexam() {
                     </button>
                   </a>
                 </center>
-                <br />
+                <br /> */}
                 {/*
                 <center>
                   <a href="https://rzp.io/l/BQQdsJw7w">
@@ -91,17 +94,18 @@ function Tensorsexam() {
                 </center>
                 <br />
                 */}
-                <center>
+                {/* <center>
                   <a href="https://rzp.io/l/ArqhDy3">
                     <button className="home-register-btn btn">
                       JOSAA Councelling
                       <br />
                       <span className="price-span">
-                        <i className="fa fa-tag" style={{ color: "white" }}></i> Rs 400
+                        <i className="fa fa-tag" style={{ color: "white" }}></i>{" "}
+                        Rs 400
                       </span>
                     </button>
                   </a>
-                </center>
+                </center> */}
 
                 {/* <center><button className="home-register-btn btn"><a href="https://rzp.io/l/9IMypKk4">Register Now</a></button></center> */}
               </div>
