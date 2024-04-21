@@ -6,7 +6,7 @@ import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-import poster from "../assets/images/poster.jpg";
+import poster from "../assets/images/jeeadv_poster.png";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
@@ -27,7 +27,10 @@ function Homefeatures() {
                     <img src={poster} alt="poster" className="img-fluid " />
                 </Modal.Body>
                 <Modal.Footer>
-                    <NavLink className="btn-secondary" to="/josaa">
+                    <NavLink
+                        className="btn-secondary"
+                        to="https://forms.gle/iw9PQRzyVnehyg869"
+                    >
                         Register
                     </NavLink>
                 </Modal.Footer>
