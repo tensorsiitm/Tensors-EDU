@@ -27,12 +27,12 @@ function Homefeatures() {
                     <img src={poster} alt="poster" className="img-fluid " />
                 </Modal.Body>
                 <Modal.Footer>
-                    <NavLink
-                        className="btn-secondary"
-                        to="https://forms.gle/iw9PQRzyVnehyg869"
+                    <a
+                        href="https://forms.gle/iw9PQRzyVnehyg869"
+                        style={{ textDecoration: "none" }}
                     >
-                        Register
-                    </NavLink>
+                        <NavLink className="btn-secondary">Register</NavLink>
+                    </a>
                 </Modal.Footer>
             </Modal>
 
