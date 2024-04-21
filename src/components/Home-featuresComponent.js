@@ -28,10 +28,12 @@ function Homefeatures() {
                 </Modal.Body>
                 <Modal.Footer>
                     <a
+                        className="btn btn-secondary"
                         href="https://forms.gle/iw9PQRzyVnehyg869"
-                        style={{ textDecoration: "none" }}
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        <NavLink className="btn-secondary">Register</NavLink>
+                        Register
                     </a>
                 </Modal.Footer>
             </Modal>
