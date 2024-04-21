@@ -1,5 +1,5 @@
 import React , {Component}from 'react';
-import { HashRouter ,Switch,Route,Redirect} from 'react-router-dom';
+import { HashRouter ,Route, Routes, Navigate} from 'react-router-dom';
 import Home from './views/Homepage';
 import Testseries from './views/Testseriespage';
 import Mentorship from './views/Mentorshippage';
@@ -14,15 +14,15 @@ class App extends Component {
       <HashRouter>
         <div className="App">
 
-            <Switch>
-              <Route exact path='/' component={() => <Home/>} />
-              <Route exact path='/home' component={() => <Home/>} />
-              <Route exact path='/testseries' component={() => <Testseries/>} />
-              <Route exact path='/mentorship' component={() => <Mentorship/>} />
-              <Route exact path='/tensorsexam' component={() => <Tensorsexam/>} />
-              <Route exact path='/josaa' component={() => <Josaa/>} />
-              <Redirect to='/'/>
-            </Switch>
+            <Routes>
+              <Route exact path='/' element={<Home/>} />
+              <Route exact path='/home' element={<Home/>} />
+              <Route exact path='/testseries' element={<Testseries/>} />
+              <Route exact path='/mentorship' element={<Mentorship/>} />
+              <Route exact path='/tensorsexam' element={<Tensorsexam/>} />
+              <Route exact path='/josaa' element={<Josaa/>} />
+              <Route path="*" element={<Navigate to='/' />}/>
+            </Routes>
         </div>
       </HashRouter>
   

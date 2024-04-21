@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
-import Particles from 'react-particles-js';
 
 import Footer from '../components/FooterComponent';
 import JosaaMain from '../components/josaa/MainComponent';
 import Top from '../components/NavComponent';
+import Particles from '@tsparticles/react';
 
 class Josaa extends Component{
     render(){

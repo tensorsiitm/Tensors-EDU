@@ -1,7 +1,8 @@
 import React from 'react';
 import './josaa.css';
-import {Jumbotron} from 'reactstrap';
+
 import {Link} from 'react-scroll';
+import { Jumbotron } from 'react-bootstrap';
 
 const Home=()=>{
     return(

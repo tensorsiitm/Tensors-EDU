@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
-import Particles from 'react-particles-js';
 import Top from '../components/NavComponent';
 import Homefeatures from '../components/Home-featuresComponent';
 import Hometestimonials from '../components/Home-testimonialsComponent';
 import Footer from '../components/FooterComponent';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Particles from '@tsparticles/react';
 //import ReactGA from 'react-ga';
 
 
