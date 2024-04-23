@@ -65,7 +65,7 @@ function Footer(props) {
                                 </a>
                             </h6>
                             <h6>
-                                Akshant : +91 9363317979 <br />
+                                Akshanth : +91 9363317979 <br />
                                 <a href="tel:+91-9363317979">
                                     &emsp;<i className="fa fa-phone"></i>
                                 </a>{" "}

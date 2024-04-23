@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import '../css/NavComponent.css';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import ico from "../assets/images/T.png";
+import ico from "../assets/images/Tensors nobg.png";
 
 class Top extends Component{
     constructor(props) {
@@ -34,6 +34,9 @@ class Top extends Component{
                                     <NavLink className="nav-link"  to='/home'> HOME</NavLink>
                                 </NavItem>
                                 <NavItem>
+                                    <NavLink className="nav-link" target='_blank' to='https://exam.tensors.in/learn'> TENSORS EXAM</NavLink>
+                                </NavItem>
+                                <NavItem>
                                     <NavLink className="nav-link" to='/testseries'> TEST SERIES</NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -41,9 +44,6 @@ class Top extends Component{
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link"  to='/josaa'> COUNSELLING</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to='/tensorsexam'> TENSORS EXAM</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

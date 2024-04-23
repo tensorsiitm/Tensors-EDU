@@ -55,8 +55,9 @@ function Tensorsexam() {
                     <div className="col-12 col-lg-6 bluside h-100">
                         <div className="row middle2">
                             <div className="col-12">
-                                <h3 className="text-center">Starting Soon</h3>
+                                <h1 className="text-center">Register Now to secure your spot!!</h1>
                                 <br />
+
                                 {/*
                 <center>
                   <a href="https://rzp.io/l/7nJVEfa6">

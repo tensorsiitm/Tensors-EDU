@@ -6,7 +6,7 @@ import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-import poster from "../assets/images/jeeadv_poster.png";
+import poster from "../assets/images/jeeadv_post.png";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
@@ -29,7 +29,7 @@ function Homefeatures() {
                 <Modal.Footer>
                     <a
                         className="btn btn-secondary"
-                        href="https://forms.gle/iw9PQRzyVnehyg869"
+                        href="https://exam.tensors.in/learn"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -44,12 +44,12 @@ function Homefeatures() {
                         <div className="row r1 d-none d-lg-block"></div>
                         <div className="row r2 d-none d-lg-block">
                             <div className="col-10 offset-2">
-                                <h5>Welcome to Tensors Edu</h5>
+                                <h5>Welcome to Tensors EDU</h5>
                                 <h1>
-                                    So you’ve decided to become an{" "}
-                                    <span className="gre">ENGINEER</span> and
-                                    looking for a place to get your questions
-                                    answered. Well your search ends here
+                                Look no further for your{" "}
+
+                                    <span className="gre">ENGINEER</span>{" "}
+                                 queries - you've arrived at the perfect destination for expert answers
                                     <span className="gre">!</span>
                                 </h1>
                                 <NavLink
@@ -102,10 +102,7 @@ function Homefeatures() {
                                         <span className="green"> JEE</span>
                                     </h2>
                                     <p align="justify">
-                                        For the students of +1 and +2, we offer
-                                        a specially designed test series that
-                                        covers all relevant topics in time for
-                                        the actual JEE Mains and Advanced.{" "}
+                                    Embark on a year-long journey of excellence with the Tensors Mentorship Program, designed to empower JEE aspirants in +1 and +2. Enroll today and gain access to our comprehensive test series, your ultimate tool for success!{" "}
                                     </p>
                                     <h6 className="descund pb-2">
                                         TEST SERIES
@@ -135,25 +132,30 @@ function Homefeatures() {
                         >
                             <div className="row a4">
                                 <div className="col col-10 offset-1 col-lg-8 offset-lg-1">
-                                    <h2 align="justify">
+                                    <h2 align="justify" id="a1">
+                                    Pondering the {" "}
                                         <span className="green">
-                                            The Flagship Tensors Exam{" "}
+                                            ideal engineering branch?{" "}
                                         </span>
-                                        for those willing to grind it out with
-                                        the best in India
+                                    Let's navigate the maze and find your perfect fit!
                                     </h2>
                                     <p align="justify">
-                                        The tensors exam is the reputed annual
-                                        mock JEE examination that is conducted
-                                        all across India, spanning all major
-                                        coaching institutes.{" "}
+                                        For most students, this answer comes
+                                        from either their parents, their
+                                        coaching institutes, or online
+                                        forums. The Tensors team is
+                                        passionate of helping you make the
+                                        right choice regarding both your
+                                        dream branch and institute. Explore
+                                        our counselling programme to know
+                                        more about how to avail the service.
                                     </p>
-                                    <h6 className="descund pb-2">
-                                        TENSORS EXAM
-                                    </h6>
+                                    {/* <h6 className="descund pb-2">
+                                        KNOW YOUR BRANCH
+                                    </h6> */}
                                     <NavLink
                                         className="btn-secondary"
-                                        to="/tensorsexam"
+                                        to="/josaa"
                                     >
                                         Know More..
                                     </NavLink>
@@ -221,30 +223,22 @@ function Homefeatures() {
                                 </div>
                                 <div className="row a1b">
                                     <div className="col col-10 offset-1 col-lg-8 offset-lg-3">
-                                        <h2 align="justify" id="a1">
-                                            The primary question in your mind is
+                                        <h2 align="justify">
                                             <span className="green">
-                                                {" "}
-                                                ‘Which branch should I select?’
+                                                The Flagship Tensors Exam{" "}
                                             </span>
+                                            for those willing to grind it out with
+                                            the best in India
                                         </h2>
                                         <p align="justify">
-                                            For most students, this answer comes
-                                            from either their parents, their
-                                            coaching institutes, or online
-                                            forums. The Tensors team is
-                                            passionate of helping you make the
-                                            right choice regarding both your
-                                            dream branch and institute. Explore
-                                            our counselling programme to know
-                                            more about how to avail the service.
+                                        Experience the essence of the JEE Advanced exam through our mock test, orchestrated by IIT Madras students, aligning with this year's examination paper set by IIT Madras{" "}
                                         </p>
                                         <h6 className="descund pb-2">
-                                            KNOW YOUR BRANCH
+                                            TENSORS EXAM
                                         </h6>
                                         <NavLink
                                             className="btn-secondary"
-                                            to="/josaa"
+                                            to="/tensorsexam"
                                         >
                                             Know More..
                                         </NavLink>
