@@ -6,7 +6,7 @@ import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-import poster from "../assets/images/jeeadv_post.png";
+import poster from "../assets/images/jeeadv_poster.png";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
