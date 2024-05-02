@@ -29,7 +29,7 @@ function Homefeatures() {
                 <Modal.Footer>
                     <a
                         className="btn btn-secondary"
-                        href="https://exam.tensors.in/learn"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSc7fAeb_tcu8ctIly1eSXvC_soegTKa5sROZjYK89-FBBy8Fw/viewform?usp=sf_link"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

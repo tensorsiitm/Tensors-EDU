@@ -34,7 +34,7 @@ class Top extends Component{
                                     <NavLink className="nav-link"  to='/home'> HOME</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" target='_blank' to='https://exam.tensors.in/learn'> TENSORS EXAM</NavLink>
+                                    <NavLink className="nav-link" target='_blank' to='https://docs.google.com/forms/d/e/1FAIpQLSc7fAeb_tcu8ctIly1eSXvC_soegTKa5sROZjYK89-FBBy8Fw/viewform?usp=sf_link'> TENSORS EXAM</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to='/testseries'> TEST SERIES</NavLink>
