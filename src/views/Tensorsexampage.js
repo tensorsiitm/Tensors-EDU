@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/FooterComponent";
 import Top from "../components/NavComponent";
+import launch from "../assets/images/keam.png";
 //import Countdown from "../components/CounterComponent";
 import "../css/temp.css";
 //import moment from "moment";
@@ -14,22 +15,32 @@ function Tensorsexam() {
                     <div className="col-12 col-lg-6 yelside h-100">
                         <div className="row middle1">
                             <div className="col-8 offset-2">
-                                <h1>Tensors JEE Advanced 2024</h1>
+                                <h1>Tensors KEAM Mock Test</h1>
                                 <br />
                                 <p align="justify">
-                                    The annual Tensors mock JEE examination is
-                                    the most awaited nation wise pre-JEE
-                                    examination for all serious JEE aspirants.
-                                    The question papers are designed and
-                                    conducted by the brightest minds of IIT
-                                    Madras in line with the latest pattern. The
-                                    registration fee will be used to tackle
-                                    social issues as we are completing
-                                    non-profit. The Advanced paper is a
-                                    comprehensive two - 3 hour long paper. Grab
-                                    this opportunity to know where you stand
-                                    among your peers and contribute financially
-                                    for a social cause.
+                                    Are you a KEAM Aspirant? Are you worried
+                                    about how the online KEAM will be like? Do
+                                    you want to practice based on the new exam
+                                    pattern that CEE has proposed? Do you want
+                                    to find out, how well are you standing out
+                                    among all the KEAM Aspirants around Kerala?
+                                </p>
+                                <p align="justify">
+                                    If you are having a YES to any of these
+                                    questions,we have the right solution for
+                                    you.
+                                </p>
+                                <p align="justify">
+                                    We are Tensors, a group of passionate IITM
+                                    students and the toppers of KEAM 2023 and
+                                    2022. We are bringing you the Online "KEAM
+                                    Mock Test" based on the new exam pattern.
+                                    The Test Date is 1st June and it will
+                                    consist of 150 Questions which have to be
+                                    completed within 3 hours. Registration fee
+                                    is just 99/- and you will get to compete
+                                    with other aspirants all around Kerala. The
+                                    Registration Deadline is 31st May.
                                 </p>
                                 <br />
                                 <h4>
@@ -55,9 +66,24 @@ function Tensorsexam() {
                     <div className="col-12 col-lg-6 bluside h-100">
                         <div className="row middle2">
                             <div className="col-12">
-                                <h1 className="text-center">Register Now to secure your spot!!</h1>
+                                {/* <h1 className="text-center">
+                                    Register Now to secure your spot!!
+                                </h1> */}
                                 <br />
-
+                                <img
+                                    src={launch}
+                                    alt="launch"
+                                    className="img-fluid "
+                                />
+                                <a
+                                    style={{ textDecoration: "none" }}
+                                    href="https://rzp.io/l/ZwGq3xL"
+                                    target="_blank"
+                                >
+                                    <button className="launchsubscribe">
+                                        REGISTER
+                                    </button>
+                                </a>
                                 {/*
                 <center>
                   <a href="https://rzp.io/l/7nJVEfa6">
