@@ -75,7 +75,7 @@ function Footer(props) {
                                 </a>
                             </h6>
                         </div>
-                        <div className="col-10 offset-1 col-sm-5  col-lg-3 offset-lg-0">
+                        {/* <div className="col-10 offset-1 col-sm-5  col-lg-3 offset-lg-0">
                             <h5>News Letter</h5>
                             <h6>
                                 Subscribe to our newsletter to get monthly
@@ -91,7 +91,7 @@ function Footer(props) {
                                 show={modalShow}
                                 onHide={() => setModalShow(false)}
                             />
-                        </div>
+                        </div> */}
                         <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
                             <h5>Get Social</h5>
                             <div className="socic">
