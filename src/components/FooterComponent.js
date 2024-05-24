@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/FooterComponent.css";
-import { Modal } from "react-bootstrap";
-import Iframe from "react-iframe";
+// import { Modal } from "react-bootstrap";
+// import Iframe from "react-iframe";
 
 // function SubscribeModal(props) {
 //     return (
@@ -25,7 +25,7 @@ import Iframe from "react-iframe";
 // }
 
 function Footer(props) {
-    const [modalShow, setModalShow] = React.useState(false);
+    // const [modalShow, setModalShow] = React.useState(false);
 
     return (
         <div className="footer">
