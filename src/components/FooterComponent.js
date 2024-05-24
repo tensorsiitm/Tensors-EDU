@@ -55,7 +55,7 @@ function Footer(props) {
                         <div className="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3">
                             <h5>Get in Touch</h5>
                             <h6>
-                                Joshua Biju : +91 7039713851 <br />
+                                Fahis : +91 85903 92133 <br />
                                 <a href="tel:+91-7039713851">
                                     &emsp;<i className="fa fa-phone"></i>
                                 </a>{" "}
@@ -65,7 +65,7 @@ function Footer(props) {
                                 </a>
                             </h6>
                             <h6>
-                                Akshanth : +91 9363317979 <br />
+                                Rafad : +91 99475 82895 <br />
                                 <a href="tel:+91-9363317979">
                                     &emsp;<i className="fa fa-phone"></i>
                                 </a>{" "}
