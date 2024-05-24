@@ -6,7 +6,8 @@ import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-import poster from "../assets/images/jeeadv_poster.png";
+// import poster from "../assets/images/jeeadv_poster.png";
+import launch from "../assets/images/keam.png";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
@@ -24,7 +25,7 @@ function Homefeatures() {
                     <Modal.Title> </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={poster} alt="poster" className="img-fluid " />
+                    <img src={launch} alt="poster" className="img-fluid " />
                 </Modal.Body>
                 <Modal.Footer>
                     <a
