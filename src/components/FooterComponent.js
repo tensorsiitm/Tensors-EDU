@@ -4,25 +4,25 @@ import "../css/FooterComponent.css";
 import { Modal } from "react-bootstrap";
 import Iframe from "react-iframe";
 
-function SubscribeModal(props) {
-    return (
-        <Modal
-            {...props}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-        >
-            <Modal.Header closeButton></Modal.Header>
-            <Modal.Body>
-                <Iframe
-                    url="https://tensors-newsletter.herokuapp.com/"
-                    width="100%"
-                    height="600px"
-                ></Iframe>
-            </Modal.Body>
-        </Modal>
-    );
-}
+// function SubscribeModal(props) {
+//     return (
+//         <Modal
+//             {...props}
+//             size="lg"
+//             aria-labelledby="contained-modal-title-vcenter"
+//             centered
+//         >
+//             <Modal.Header closeButton></Modal.Header>
+//             <Modal.Body>
+//                 <Iframe
+//                     url="https://tensors-newsletter.herokuapp.com/"
+//                     width="100%"
+//                     height="600px"
+//                 ></Iframe>
+//             </Modal.Body>
+//         </Modal>
+//     );
+// }
 
 function Footer(props) {
     const [modalShow, setModalShow] = React.useState(false);
