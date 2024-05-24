@@ -78,7 +78,7 @@ function Tensorsexam() {
                                 <a
                                     style={{ textDecoration: "none" }}
                                     href="https://rzp.io/l/ZwGq3xL"
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                 >
                                     <button className="launchsubscribe">
                                         REGISTER
