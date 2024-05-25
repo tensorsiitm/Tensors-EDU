@@ -30,7 +30,7 @@ function Homefeatures() {
                 <Modal.Footer>
                     <a
                         className="btn btn-secondary"
-                        href="https://exam.tensors.in/learn"
+                        href="https://rzp.io/l/ZwGq3xL"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
