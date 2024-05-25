@@ -30,8 +30,8 @@ function Homefeatures() {
                 <Modal.Footer>
                     <a
                         className="btn btn-secondary"
-                        href="https://rzp.io/l/ZwGq3xL"
-                        target="_blank"
+                        href="/#/tensorsexam"
+                        // target="_blank"
                         rel="noopener noreferrer"
                     >
                         Register
