@@ -65,7 +65,7 @@ function Tensorsexam() {
                     </div>
                     <div className="col-12 col-lg-6 bluside h-100">
                         <div className="row middle2">
-                            <div className="col-12">
+                            <div className="mx-auto col-10 col-lg-8">
                                 {/* <h1 className="text-center">
                                     Register Now to secure your spot!!
                                 </h1> */}
@@ -73,17 +73,22 @@ function Tensorsexam() {
                                 <img
                                     src={launch}
                                     alt="launch"
-                                    className="img-fluid "
+                                    className="img-fluid img-border"
                                 />
-                                <a
+                                {/* <a
                                     style={{ textDecoration: "none" }}
                                     href="https://rzp.io/l/ZwGq3xL"
                                     target="_blank" rel="noreferrer"
-                                >
-                                    <button className="launchsubscribe">
+                                > */}
+                                <div className="button-wrapper">
+                                    <button className="launchsubscribe" onClick={e => {
+                                      e.preventDefault();
+                                      window.open("https://rzp.io/l/ZwGq3xL", '_blank', 'noreferrer')
+                                    }}>
                                         REGISTER
                                     </button>
-                                </a>
+                                </div>
+                                {/* </a> */}
                                 {/*
                 <center>
                   <a href="https://rzp.io/l/7nJVEfa6">

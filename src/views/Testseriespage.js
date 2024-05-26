@@ -48,7 +48,9 @@ function Testseries(props){
         <h1 className="text-center">Launching Soon..</h1>
         <img src={launch} alt="launch" className="img-fluid "/>
         <h5>Subscribe to our news letter to get instant updates.</h5>
+        <div className="button-wrapper">
         <button className="launchsubscribe"  onClick={() => setModalShow(true)}>SUBSCRIBE</button>
+        </div>
         <SubscribeModal show={modalShow} onHide={() => setModalShow(false)} />
         </div>
        </div>
