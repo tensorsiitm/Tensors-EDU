@@ -50,7 +50,8 @@ class Top extends Component {
                                 <NavItem>
                                     <NavLink
                                         className="nav-link"
-                                        to="/tensorsexam"
+                                        target="_blank"
+                                        to="https://exam.tensors.in/learn"
                                     >
                                         {" "}
                                         TENSORS EXAM
