@@ -1,13 +1,13 @@
-import React,{Component} from 'react';
+import React, { Component } from "react";
 
-import Footer from '../components/FooterComponent';
-import JosaaMain from '../components/josaa/MainComponent';
-import Top from '../components/NavComponent';
-import Particles from '@tsparticles/react';
+import Footer from "../components/FooterComponent";
+import JosaaMain from "../components/josaa/MainComponent";
+import Top from "../components/NavComponent";
+// import Particles from '@tsparticles/react';
 
-class Josaa extends Component{
-    render(){
-        return(
+class Josaa extends Component {
+    render() {
+        return (
             <React.Fragment>
                 {/* <Particles
             style={{position:"fixed"}}
@@ -64,10 +64,10 @@ class Josaa extends Component{
                   }
               }
           }} /> */}
-            <Top />
-                <JosaaMain />              
-            <Footer /> 
-           </React.Fragment>
+                <Top />
+                <JosaaMain />
+                <Footer />
+            </React.Fragment>
         );
     }
 }
