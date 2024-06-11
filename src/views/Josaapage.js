@@ -9,7 +9,7 @@ class Josaa extends Component{
     render(){
         return(
             <React.Fragment>
-                <Particles
+                {/* <Particles
             style={{position:"fixed"}}
             params={{
               "particles": {
@@ -63,7 +63,7 @@ class Josaa extends Component{
                       }
                   }
               }
-          }} />
+          }} /> */}
             <Top />
                 <JosaaMain />              
             <Footer /> 

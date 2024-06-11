@@ -28,7 +28,7 @@ class JosaaMain extends Component{
                         <Features/>
                         <TimelinePage />
                         <Packages />
-                        <CarouselPage info={this.state.consultantinfo} Img={Img}/>
+                        {/* <CarouselPage info={this.state.consultantinfo} Img={Img}/> */}
                     </div>     
                 </ParallaxProvider>
                 
