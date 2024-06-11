@@ -30,8 +30,8 @@ function Homefeatures() {
                 <Modal.Footer>
                     <a
                         className="btn btn-secondary"
-                        href="/#/tensorsexam"
-                        // target="_blank"
+                        href="https://exam.tensors.in/learn"
+                        target="_blank"
                         rel="noopener noreferrer"
                     >
                         Register
@@ -47,10 +47,10 @@ function Homefeatures() {
                             <div className="col-10 offset-2">
                                 <h5>Welcome to Tensors EDU</h5>
                                 <h1>
-                                Look no further for your{" "}
-
+                                    Look no further for your{" "}
                                     <span className="gre">ENGINEER</span>{" "}
-                                 queries - you've arrived at the perfect destination for expert answers
+                                    queries - you've arrived at the perfect
+                                    destination for expert answers
                                     <span className="gre">!</span>
                                 </h1>
                                 <NavLink
@@ -103,7 +103,12 @@ function Homefeatures() {
                                         <span className="green"> JEE</span>
                                     </h2>
                                     <p align="justify">
-                                    Embark on a year-long journey of excellence with the Tensors Mentorship Program, designed to empower JEE aspirants in +1 and +2. Enroll today and gain access to our comprehensive test series, your ultimate tool for success!{" "}
+                                        Embark on a year-long journey of
+                                        excellence with the Tensors Mentorship
+                                        Program, designed to empower JEE
+                                        aspirants in +1 and +2. Enroll today and
+                                        gain access to our comprehensive test
+                                        series, your ultimate tool for success!{" "}
                                     </p>
                                     <h6 className="descund pb-2">
                                         TEST SERIES
@@ -134,22 +139,23 @@ function Homefeatures() {
                             <div className="row a4">
                                 <div className="col col-10 offset-1 col-lg-8 offset-lg-1">
                                     <h2 align="justify" id="a1">
-                                    Pondering the {" "}
+                                        Pondering the{" "}
                                         <span className="green">
                                             ideal engineering branch?{" "}
                                         </span>
-                                    Let's navigate the maze and find your perfect fit!
+                                        Let's navigate the maze and find
+                                        your perfect fit!
                                     </h2>
                                     <p align="justify">
                                         For most students, this answer comes
                                         from either their parents, their
-                                        coaching institutes, or online
-                                        forums. The Tensors team is
-                                        passionate of helping you make the
-                                        right choice regarding both your
-                                        dream branch and institute. Explore
-                                        our counselling programme to know
-                                        more about how to avail the service.
+                                        coaching institutes, or online forums.
+                                        The Tensors team is passionate of
+                                        helping you make the right choice
+                                        regarding both your dream branch and
+                                        institute. Explore our counselling
+                                        programme to know more about how to
+                                        avail the service.
                                     </p>
                                     {/* <h6 className="descund pb-2">
                                         KNOW YOUR BRANCH
@@ -228,11 +234,15 @@ function Homefeatures() {
                                             <span className="green">
                                                 The Flagship Tensors Exam{" "}
                                             </span>
-                                            for those willing to grind it out with
-                                            the best in India
+                                            for those willing to grind it out
+                                            with the best in India
                                         </h2>
                                         <p align="justify">
-                                        Experience the essence of the JEE Advanced exam through our mock test, orchestrated by IIT Madras students, aligning with this year's examination paper set by IIT Madras{" "}
+                                            Experience the essence of the JEE
+                                            Advanced exam through our mock test,
+                                            orchestrated by IIT Madras students,
+                                            aligning with this year's
+                                            examination paper set by IIT Madras{" "}
                                         </p>
                                         <h6 className="descund pb-2">
                                             TENSORS EXAM
