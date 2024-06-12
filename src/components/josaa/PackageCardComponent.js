@@ -46,12 +46,12 @@ const Packages = () => {
               <h2 className="text-center">COUNSELLING</h2>
               <h3 className="text-center">{""}</h3>
             </div>
-            <div className="text-right align-right mr-2">
+            {/* <div className="text-right align-right mr-2">
               <button className="price-button">
                 <i className="fa fa-tag" style={{ color: "white" }}></i>&emsp;
                 <span>Rs 400</span>
               </button>
-            </div>
+            </div> */}
             <br />
             <ul>
               <li>
@@ -78,7 +78,7 @@ const Packages = () => {
             </ul>
             <h2 className="text-center" style={{ color: "#054f5a" }}>
               <center>
-                <a href="https://rzp.io/l/ArqhDy3">
+                <a href="https://rzp.io/l/b5P7fwPkWV">
                   <button className="home-register-btn btn">
                     Register Now
                   </button>
