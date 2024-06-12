@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TimelinePage from './TimelineComponent';
 import Features from './FeaturesComponent';
-import CarouselPage from './ConsultantCarouselComponent';
+// import CarouselPage from './ConsultantCarouselComponent';
 import Packages from './PackageCardComponent';
 import Home from './HomeComponent';
 
