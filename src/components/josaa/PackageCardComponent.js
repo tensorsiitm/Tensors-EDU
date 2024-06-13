@@ -54,12 +54,13 @@ const Packages = () => {
             </div> */}
             <br />
             <ul>
-              <li>
-                <i className="fa fa-check" /> Webinar on overview about different branches
-              </li>
               <br />
               <li>
-                <i className="fa fa-check" /> One on one session with an IITian
+                <i className="fa fa-check" /> One-on-one session with an IITian
+              </li>
+              <br/>
+              <li>
+                <i className="fa fa-check" /> Personalized Connections with individuals corresponding to branch/college
               </li>
               <br />
               <li>
@@ -68,7 +69,7 @@ const Packages = () => {
               </li>
               <br />
               <li>
-                <i className="fa fa-check" /> Assistance on required documents for JoSAA counselling
+                <i className="fa fa-check" /> Assistance on required documents for JoSAA counselling and Seat Allotment Guidance
               </li>
               <br />
               <li>
