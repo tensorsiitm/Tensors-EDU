@@ -7,7 +7,7 @@ import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
 // import poster from "../assets/images/jeeadv_poster.png";
-import launch from "../assets/images/keam.png";
+import launch from "../assets/images/josaa.png";
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
@@ -30,8 +30,7 @@ function Homefeatures() {
                 <Modal.Footer>
                     <a
                         className="btn btn-secondary"
-                        href="https://exam.tensors.in/learn"
-                        target="_blank"
+                        href="#/josaa"
                         rel="noopener noreferrer"
                     >
                         Register
