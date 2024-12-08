@@ -7,7 +7,8 @@ import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
 // import poster from "../assets/images/jeeadv_poster.png";
-import launch from "../assets/images/josaa.png";
+// import launch from "../assets/images/josaa.png";
+import launch from '../assets/images/jeemain.png'
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
@@ -28,13 +29,22 @@ function Homefeatures() {
                     <img src={launch} alt="poster" className="img-fluid " />
                 </Modal.Body>
                 <Modal.Footer>
+                    <div className="buttons">
                     <a
                         className="btn btn-secondary"
-                        href="#/josaa"
+                        href="https://rzp.io/rzp/xL55xWgF"
                         rel="noopener noreferrer"
                     >
                         Register
                     </a>
+                    <a
+                        className="btn-secondary"
+                        href="#/jee"
+                        rel="noopener noreferrer"
+                    >
+                        Know more
+                    </a>
+                    </div>
                 </Modal.Footer>
             </Modal>
 
@@ -52,13 +62,14 @@ function Homefeatures() {
                                     destination for expert answers
                                     <span className="gre">!</span>
                                 </h1>
+                                <div>
                                 <NavLink
-                                    to="/tensorsexam"
+                                    to="/jee"
                                     className="main-register-btn btn-block text-center"
                                 >
-                                    Register Now For JEE Mock Test and JOSAA
-                                    Councelling
+                                    Register Now For JEE Mock Test 
                                 </NavLink>
+                                </div>
                             </div>
                         </div>
                         <div className="row r3 d-none d-lg-block">
@@ -238,17 +249,16 @@ function Homefeatures() {
                                         </h2>
                                         <p align="justify">
                                             Experience the essence of the JEE
-                                            Advanced exam through our mock test,
-                                            orchestrated by IIT Madras students,
-                                            aligning with this year's
-                                            examination paper set by IIT Madras{" "}
+                                            Main exam through our mock test,
+                                            orchestrated by IIT Madras students.
+                                            Don't miss this opportunity!{" "}
                                         </p>
                                         <h6 className="descund pb-2">
                                             TENSORS EXAM
                                         </h6>
                                         <NavLink
                                             className="btn-secondary"
-                                            to="/tensorsexam"
+                                            to="/jee"
                                         >
                                             Know More..
                                         </NavLink>

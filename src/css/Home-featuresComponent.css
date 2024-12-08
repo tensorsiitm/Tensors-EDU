@@ -1,7 +1,26 @@
 body{
     overflow-x: hidden;
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+    .right-btn{
+        background-color:#0F6C7A  !important ;
+       color: white;
+      border:3px solid black;
+     font-size: 1.3vw;
+     
+     border-radius: 6px;
+    font-weight: bold;
+padding: 2px 4px ;
+margin-top: 10px;
+    }
 
+}
 .particlebg .col-12{
     padding-right: unset !important;
     padding-left: unset !important;
@@ -82,7 +101,6 @@ background-color:#0F6C7A  !important ;
 color: white;
 border:3px solid black;
 font-size: 1.3vw;
-margin-left: 70% !important;
 border-radius: 6px;
 font-weight: bold;
 padding: 2px 4px ;
@@ -254,6 +272,7 @@ margin-top: 10px;
 
     .btn-secondary{
         font-size: 2.8vw;
+        margin-left: 0;
         }
 }
 
@@ -294,9 +313,12 @@ margin-top: 10px;
 
     .btn-secondary{
         font-size: 3.8vw;
-        margin-left: 60% !important;
+        margin-left:  !important;
         }
-
+       .right-btn{
+        font-size:30px;  
+    height: 30px; }
+       
     .box{
         font-size: 3.8vw;
     }  

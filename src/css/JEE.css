@@ -1,0 +1,67 @@
+.jeemain-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left{
+    width: 50%;
+    height: 100vh;
+    background-color: #ade379;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5% ;
+    h1
+    { font-family:'JosefinSans-Italic';
+        font-weight: bold;
+    }
+    p{
+        font-family:'JosefinSans-Italic';
+    font-weight: bold;
+    }
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: #0f6c7a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+         width: 60%;
+    }
+}
+
+
+@media screen and (max-width : 576px){
+   .jeemain-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+   }
+   .left{
+    width: 100%;
+    /* padding:0% ; */
+    padding-top: 40%;
+    height: 130vh;
+    padding-bottom: 20%;
+    /* z-index: 100; */
+  
+
+}
+.right{
+    width: 100%;
+    /* height: 100vh; */
+    height: 80vh;
+
+}
+
+}

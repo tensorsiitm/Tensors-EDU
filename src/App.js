@@ -5,6 +5,7 @@ import Testseries from './views/Testseriespage';
 import Mentorship from './views/Mentorshippage';
 import Tensorsexam from './views/Tensorsexampage';
 import Josaa from './views/Josaapage';
+import JEE from './views//Jeemain';
 
 
 
@@ -18,6 +19,8 @@ class App extends Component {
               <Route exact path='/' element={<Home/>} />
               <Route exact path='/home' element={<Home/>} />
               <Route exact path='/testseries' element={<Testseries/>} />
+              <Route exact path='/testseries' element={<Testseries/>} />
+              <Route exact path='/jee' element={<JEE/>} />
               <Route exact path='/mentorship' element={<Mentorship/>} />
               <Route exact path='/tensorsexam' element={<Tensorsexam/>} />
               <Route exact path='/josaa' element={<Josaa/>} />
