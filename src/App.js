@@ -6,7 +6,7 @@ import Mentorship from './views/Mentorshippage';
 import Tensorsexam from './views/Tensorsexampage';
 import Josaa from './views/Josaapage';
 import JEE from './views//Jeemain';
-
+import JEEAdv from './views/Jeeadv';
 
 
 class App extends Component {
@@ -21,6 +21,8 @@ class App extends Component {
               <Route exact path='/testseries' element={<Testseries/>} />
               <Route exact path='/testseries' element={<Testseries/>} />
               <Route exact path='/jee' element={<JEE/>} />
+              <Route exact path='/jeeadv' element={<JEEAdv/>} />
+
               <Route exact path='/mentorship' element={<Mentorship/>} />
               <Route exact path='/tensorsexam' element={<Tensorsexam/>} />
               <Route exact path='/josaa' element={<Josaa/>} />

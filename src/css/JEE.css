@@ -4,7 +4,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 105vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
 }
 
 .left{
@@ -46,12 +48,13 @@
     justify-content: center;
     align-items: center;
     height: fit-content;
+    padding: 0;
    }
    .left{
     width: 100%;
     /* padding:0% ; */
-    padding-top: 40%;
-    height: 130vh;
+    padding-top: 30%;
+    height: fit-content;
     padding-bottom: 20%;
     /* z-index: 100; */
   

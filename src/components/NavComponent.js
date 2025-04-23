@@ -47,7 +47,16 @@ class Top extends Component {
                                         HOME
                                     </NavLink>
                                 </NavItem>
-
+                                <NavItem>
+                                    <NavLink
+                                        className="nav-link"
+                                        target="_blank"
+                                        to="/jeeadv"
+                                    >
+                                        {" "}
+                                        JEE ADV 
+                                    </NavLink>
+                                </NavItem>
 
                                 <NavItem>
                                     <NavLink
@@ -56,7 +65,7 @@ class Top extends Component {
                                         to="/jee"
                                     >
                                         {" "}
-                                        JEE MOCKTEST
+                                        JEE MAIN
                                     </NavLink>
                                 </NavItem>
                                 

@@ -8,7 +8,7 @@ import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
 // import poster from "../assets/images/jeeadv_poster.png";
 // import launch from "../assets/images/josaa.png";
-import launch from '../assets/images/jeemain.png'
+import launch from '../assets/images/jeeadv.jpg'
 import "../css/Home-featuresComponent.css";
 import { Parallax } from "react-scroll-parallax";
 //import { Link } from "react-scroll";
@@ -32,14 +32,14 @@ function Homefeatures() {
                     <div className="buttons">
                     <a
                         className="btn btn-secondary"
-                        href="https://rzp.io/rzp/xL55xWgF"
+                        href="https://rzp.io/rzp/yMAc3sB"
                         rel="noopener noreferrer"
                     >
                         Register
                     </a>
                     <a
                         className="btn-secondary"
-                        href="#/jee"
+                        href="#/jeeadv"
                         rel="noopener noreferrer"
                     >
                         Know more
