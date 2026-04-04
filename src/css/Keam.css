@@ -1,0 +1,710 @@
+/* ════════════════════════════════════════════════════════
+   KEAM.css  —  theme-aligned with Tensors EDU palette
+   Colors: #ADE379 (lime), #0F6C7A (teal), rgb(185,252,1) (yellow-green)
+   Font  : JosefinSans-Italic (same as site)
+════════════════════════════════════════════════════════ */
+
+/* ── ICON HELPERS ── */
+.keam-tag-icon {
+  font-size: 0.75rem;
+  margin-right: 4px;
+}
+
+.keam-li-icon {
+  width: 18px;
+  text-align: center;
+  color: #0F6C7A;
+  margin-right: 6px;
+}
+
+.keam-li-icon--wrong {
+  color: #c0392b;
+}
+
+.subj-icon {
+  margin-right: 6px;
+  font-size: 0.85em;
+}
+
+.kwhy-icon {
+  font-size: 2rem !important;
+  display: block;
+  margin-bottom: 14px;
+  color: rgb(185, 252, 1);
+}
+
+.keam-why-card:hover .kwhy-icon {
+  color: #0F6C7A;
+}
+
+.kprev-icon {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 12px;
+  color: #0F6C7A;
+}
+
+.keam-prev-card--highlight .kprev-icon {
+  color: rgb(185, 252, 1);
+}
+
+/* ── PAGE SHELL ── */
+.keam-page {
+  overflow-x: hidden;
+}
+
+/* ── HERO ─────────────────────────────────────────────── */
+.keam-hero {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  padding-top: 0;
+}
+
+.keam-hero-left {
+  width: 55%;
+  background-color: #ADE379;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10% 6% 6% 7%;
+}
+
+.keam-upcoming-tag {
+  display: inline-block;
+  background-color: #0F6C7A;
+  color: rgb(185, 252, 1);
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.keam-hero-left h1 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(2.4rem, 4vw, 3.8rem);
+  color: #0F6C7A;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.keam-hero-left p {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.95rem, 1.4vw, 1.15rem);
+  color: #1a4a50;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.keam-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.keam-highlights li {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.88rem, 1.25vw, 1.05rem);
+  color: #0F6C7A;
+  padding: 5px 0;
+  border-bottom: 1px dashed rgba(15, 108, 122, 0.3);
+}
+
+.keam-highlights li strong {
+  color: #000;
+}
+
+.keam-cta-btn {
+  display: inline-block;
+  background-color: #0F6C7A;
+  color: rgb(185, 252, 1);
+  border: 3px solid #0F6C7A;
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-weight: bold;
+  padding: 12px 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background-color 0.25s, color 0.25s, transform 0.2s, box-shadow 0.2s;
+  width: fit-content;
+}
+
+.keam-cta-btn:hover {
+  background-color: rgb(185, 252, 1);
+  color: #0F6C7A;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* ── HERO RIGHT: STATS PANEL ── */
+.keam-hero-right {
+  width: 45%;
+  background-color: #0F6C7A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 5%;
+}
+
+.keam-stats-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.keam-stat {
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgb(185, 252, 1);
+  border-radius: 10px;
+  padding: 18px 24px;
+  text-align: center;
+}
+
+.keam-stat-wide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.kstat-num {
+  display: block;
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: bold;
+  color: rgb(185, 252, 1);
+}
+
+.kstat-label {
+  display: block;
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.8rem, 1.2vw, 1rem);
+  color: #ADE379;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+.subject-pill {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.75rem, 1.1vw, 0.95rem);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 2px solid rgb(185, 252, 1);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+/* ── WHY SECTION ─────────────────────────────────────── */
+.keam-why-section {
+  background-color: #fff;
+  padding: 8vw 6%;
+}
+
+.keam-why-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.keam-why-section h2 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+  font-weight: bold;
+  color: #0F6C7A;
+  margin-bottom: 48px;
+}
+
+.keam-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.keam-why-card {
+  background: #0F6C7A;
+  border-radius: 10px;
+  padding: 32px 24px;
+  text-align: center;
+  border: 3px solid #0F6C7A;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.keam-why-card:hover {
+  background: #ADE379;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+
+.keam-why-card h3 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  font-weight: bold;
+  color: rgb(185, 252, 1);
+  margin-bottom: 10px;
+}
+
+.keam-why-card:hover h3 {
+  color: #0F6C7A;
+}
+
+.keam-why-card p {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.82rem, 1.1vw, 0.95rem);
+  color: #ADE379;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.keam-why-card:hover p {
+  color: #1a4a50;
+}
+
+/* ── PATTERN TABLE SECTION ───────────────────────────── */
+.keam-pattern-section {
+  background-color: #ADE379;
+  padding: 8vw 6%;
+  text-align: center;
+}
+
+.keam-pattern-section h2 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+  font-weight: bold;
+  color: #0F6C7A;
+  margin-bottom: 40px;
+}
+
+.keam-table-wrap {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.keam-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  margin-bottom: 28px;
+}
+
+.keam-table thead tr {
+  background-color: #0F6C7A;
+}
+
+.keam-table thead th {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+  color: rgb(185, 252, 1);
+  padding: 16px 20px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.keam-table tbody tr {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.15s;
+}
+
+.keam-table tbody tr:hover {
+  background-color: #f0faf0;
+}
+
+.keam-table tbody td {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.88rem, 1.2vw, 1rem);
+  font-weight: bold;
+  color: #0F6C7A;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.total-tr {
+  background-color: #0F6C7A !important;
+}
+
+.total-tr td {
+  color: rgb(185, 252, 1) !important;
+  font-size: clamp(0.95rem, 1.3vw, 1.1rem) !important;
+}
+
+.keam-marking-row {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.km-pill {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: 3px solid #0F6C7A;
+}
+
+.km-pill.correct {
+  background: #0F6C7A;
+  color: rgb(185, 252, 1);
+}
+
+.km-pill.wrong {
+  background: #fff;
+  color: #c0392b;
+  border-color: #c0392b;
+}
+
+.km-pill.skip {
+  background: #fff;
+  color: #555;
+  border-color: #999;
+}
+
+/* ── PREVIOUS EXAMS SECTION ──────────────────────────── */
+.keam-prev-section {
+  background-color: #fff;
+  padding: 8vw 6%;
+  text-align: center;
+}
+
+.keam-prev-section h2 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+  font-weight: bold;
+  color: #0F6C7A;
+  margin-bottom: 10px;
+}
+
+.keam-prev-sub {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.9rem, 1.3vw, 1.05rem);
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.keam-prev-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.keam-prev-card {
+  background: #fff;
+  border: 3px solid #0F6C7A;
+  border-radius: 10px;
+  padding: 32px 28px;
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.keam-prev-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(15, 108, 122, 0.2);
+}
+
+.keam-prev-card--highlight {
+  background: #0F6C7A;
+}
+
+.keam-prev-card--highlight h3 {
+  color: rgb(185, 252, 1) !important;
+}
+
+.keam-prev-card--highlight p {
+  color: #ADE379 !important;
+}
+
+.keam-prev-card--highlight .kprev-link {
+  color: rgb(185, 252, 1) !important;
+}
+
+
+.keam-prev-card h3 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  font-weight: bold;
+  color: #0F6C7A;
+  margin-bottom: 12px;
+}
+
+.keam-prev-card p {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.82rem, 1.1vw, 0.95rem);
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.kprev-link {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.85rem, 1.15vw, 1rem);
+  color: #0F6C7A;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.kprev-link:hover {
+  border-bottom-color: currentColor;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ── FINAL CTA ───────────────────────────────────────── */
+.keam-final-cta {
+  background-color: #0F6C7A;
+  padding: 8vw 6%;
+  text-align: center;
+}
+
+.keam-final-cta h2 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: bold;
+  color: rgb(185, 252, 1);
+  margin-bottom: 16px;
+}
+
+.keam-final-cta p {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.95rem, 1.4vw, 1.15rem);
+  color: #ADE379;
+  margin-bottom: 32px;
+}
+
+.keam-final-cta strong {
+  color: rgb(185, 252, 1);
+}
+
+/* ── HOME PAGE BANNER ────────────────────────────────── */
+.keam-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #0F6C7A;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.keam-banner-left {
+  flex: 1;
+  padding: 5% 5% 5% 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.keam-badge {
+  display: inline-block;
+  background-color: rgb(185, 252, 1);
+  color: #0F6C7A;
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: 0.78rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  width: fit-content;
+}
+
+.keam-banner h2 {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-weight: bold;
+  color: rgb(185, 252, 1);
+  margin-bottom: 12px;
+}
+
+.keam-banner-left p {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.88rem, 1.2vw, 1rem);
+  color: #ADE379;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  max-width: 540px;
+}
+
+.keam-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.keam-meta span {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.78rem, 1.1vw, 0.92rem);
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ADE379;
+  border-radius: 4px;
+  padding: 5px 12px;
+  color: #fff;
+}
+
+.keam-banner-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.keam-register-btn {
+  display: inline-block;
+  background-color: rgb(185, 252, 1);
+  color: #0F6C7A !important;
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.88rem, 1.2vw, 1rem);
+  font-weight: bold;
+  padding: 10px 26px;
+  border-radius: 6px;
+  border: 3px solid rgb(185, 252, 1);
+  text-decoration: none !important;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.keam-register-btn:hover {
+  background-color: #0F6C7A;
+  color: rgb(185, 252, 1) !important;
+  transform: translateY(-2px);
+  border-color: rgb(185, 252, 1);
+}
+
+.keam-know-btn {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(185, 252, 1) !important;
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.88rem, 1.2vw, 1rem);
+  font-weight: bold;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: 3px solid rgb(185, 252, 1);
+  text-decoration: none !important;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.keam-know-btn:hover {
+  background-color: rgb(185, 252, 1);
+  color: #0F6C7A !important;
+}
+
+.keam-banner-right {
+  background-color: #ADE379;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 6%;
+  min-width: 280px;
+  gap: 16px;
+}
+
+.keam-banner-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.kbanner-stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0F6C7A;
+  border-radius: 8px;
+  padding: 12px 18px;
+  border: 2px solid #0F6C7A;
+}
+
+.kbanner-stat-label {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.8rem, 1.1vw, 0.9rem);
+  font-weight: bold;
+  color: #ADE379;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.kbanner-stat-val {
+  font-family: 'JosefinSans-Italic', sans-serif;
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  font-weight: bold;
+  color: rgb(185, 252, 1);
+}
+
+/* ── NAV HIGHLIGHT ────────────────────────────────────── */
+nav .keam-nav-link,
+.keam-nav-link {
+  color: #0F6C7A !important;
+  font-weight: bolder !important;
+  text-decoration: underline;
+  text-decoration-color: #0F6C7A;
+  text-underline-offset: 3px;
+}
+
+/* ── RESPONSIVE ───────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+  .keam-hero {
+    flex-direction: column;
+    min-height: unset;
+  }
+
+  .keam-hero-left,
+  .keam-hero-right {
+    width: 100%;
+    padding: 12% 6% 8%;
+  }
+
+  .keam-banner {
+    flex-direction: column;
+  }
+
+  .keam-banner-right {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .keam-prev-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .keam-hero-left h1 {
+    font-size: 9vw;
+  }
+
+  .keam-why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .keam-markup-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

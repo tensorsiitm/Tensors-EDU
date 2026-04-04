@@ -7,7 +7,10 @@ import Tensorsexam from './views/Tensorsexampage';
 import Josaa from './views/Josaapage';
 import JEE from './views//Jeemain';
 import JEEAdv from './views/Jeeadv';
-
+import Keam from './views/Keampage';
+import RegistrationPage from './views/RegistrationPage';
+import AdminLoginPage from './views/AdminLoginPage';
+import AdminDashboardPage from './views/AdminDashboardPage';
 
 class App extends Component {
   render(){
@@ -19,14 +22,20 @@ class App extends Component {
               <Route exact path='/' element={<Home/>} />
               <Route exact path='/home' element={<Home/>} />
               <Route exact path='/testseries' element={<Testseries/>} />
-              <Route exact path='/testseries' element={<Testseries/>} />
               <Route exact path='/jee' element={<JEE/>} />
               <Route exact path='/jeeadv' element={<JEEAdv/>} />
 
               <Route exact path='/mentorship' element={<Mentorship/>} />
               <Route exact path='/tensorsexam' element={<Tensorsexam/>} />
               <Route exact path='/josaa' element={<Josaa/>} />
+              <Route exact path='/keam' element={<Keam/>} />
+              
+              <Route exact path='/register' element={<RegistrationPage/>} />
+              <Route exact path='/tensorskeamadmin' element={<AdminLoginPage/>} />
+              <Route exact path='/tensorskeamadmin/dashboard' element={<AdminDashboardPage/>} />
+              
               <Route path="*" element={<Navigate to='/' />}/>
+
             </Routes>
         </div>
       </HashRouter>

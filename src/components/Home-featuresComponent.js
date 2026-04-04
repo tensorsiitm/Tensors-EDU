@@ -1,52 +1,72 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import a1 from "../assets/images/a1.svg";
 import a2 from "../assets/images/a2.svg";
 import a3 from "../assets/images/a3.svg";
 import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
-// import poster from "../assets/images/jeeadv_poster.png";
-// import launch from "../assets/images/josaa.png";
-import launch from '../assets/images/jeeadv.jpg'
 import "../css/Home-featuresComponent.css";
+import "../css/Keam.css";
 import { Parallax } from "react-scroll-parallax";
-//import { Link } from "react-scroll";
-import { Modal } from "react-bootstrap";
 
 function Homefeatures() {
-    const [show, setShow] = useState(true);
-
-    const handleClose = () => setShow(false);
+    const [showModal, setShowModal] = useState(true);
 
     return (
         <React.Fragment>
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title> </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <img src={launch} alt="poster" className="img-fluid " />
-                </Modal.Body>
-                <Modal.Footer>
-                    <div className="buttons">
-                    <a
-                        className="btn btn-secondary"
-                        href="https://rzp.io/rzp/yMAc3sB"
-                        rel="noopener noreferrer"
-                    >
-                        Register
-                    </a>
-                    <a
-                        className="btn-secondary"
-                        href="#/jeeadv"
-                        rel="noopener noreferrer"
-                    >
-                        Know more
-                    </a>
+            {/* KEAM 2026 Modal Popup */}
+            {showModal && (
+                <div className="keam-modal-overlay" onClick={() => setShowModal(false)}>
+                    <div className="keam-modal" onClick={(e) => e.stopPropagation()}>
+                        <button className="keam-modal-close" onClick={() => setShowModal(false)}>
+                            &times;
+                        </button>
+                        <div className="keam-modal-body">
+                            <div className="keam-banner-left">
+                                <span className="keam-badge">
+                                    <i className="fa fa-fire keam-tag-icon" /> UPCOMING — April 8, 2026
+                                </span>
+                                <h2>KEAM 2026 Mock Test</h2>
+                                <p>Conducted by IIT Madras students — experience the exact KEAM pattern. Gear up for Kerala Engineering Entrance with a full-length, real-time mock test.</p>
+                                <div className="keam-meta">
+                                    <span><i className="fa fa-calendar" /> April 8, 2026</span>
+                                    <span><i className="fa fa-clock-o" /> 3 Hours</span>
+                                    <span><i className="fa fa-list-alt" /> 150 MCQs</span>
+                                    <span><i className="fa fa-star" /> 600 Marks</span>
+                                </div>
+                                <div className="keam-banner-btns">
+                                    <NavLink className="keam-register-btn" to="/register" onClick={() => setShowModal(false)}>
+                                        Register Now <i className="fa fa-arrow-right" />
+                                    </NavLink>
+                                    <NavLink className="keam-know-btn" to="/keam" onClick={() => setShowModal(false)}>
+                                        Know More
+                                    </NavLink>
+                                </div>
+                            </div>
+                            <div className="keam-banner-right">
+                                <div className="keam-banner-info-box">
+                                    <div className="kbanner-stat">
+                                        <span className="kbanner-stat-label"><i className="fa fa-superscript" /> Mathematics</span>
+                                        <span className="kbanner-stat-val">75 Qs &middot; 300 Marks</span>
+                                    </div>
+                                    <div className="kbanner-stat">
+                                        <span className="kbanner-stat-label"><i className="fa fa-bolt" /> Physics</span>
+                                        <span className="kbanner-stat-val">45 Qs &middot; 180 Marks</span>
+                                    </div>
+                                    <div className="kbanner-stat">
+                                        <span className="kbanner-stat-label"><i className="fa fa-flask" /> Chemistry</span>
+                                        <span className="kbanner-stat-val">30 Qs &middot; 120 Marks</span>
+                                    </div>
+                                    <div className="kbanner-stat">
+                                        <span className="kbanner-stat-label"><i className="fa fa-check" /> Correct / <i className="fa fa-times" /> Wrong</span>
+                                        <span className="kbanner-stat-val">+4 / &minus;1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </Modal.Footer>
-            </Modal>
+                </div>
+            )}
 
             <div className="particlebg">
                 <div className="row">
@@ -64,10 +84,10 @@ function Homefeatures() {
                                 </h1>
                                 <div>
                                 <NavLink
-                                    to="/jee"
+                                    to="/keam"
                                     className="main-register-btn btn-block text-center"
                                 >
-                                    Register Now For JEE Mock Test 
+                                    Register Now – KEAM 2026 Mock Test
                                 </NavLink>
                                 </div>
                             </div>

@@ -1,0 +1,118 @@
+.edu-registration-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f7f7 0%, #ffffff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.edu-registration-box {
+  background: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  border-top: 5px solid #28a745;
+}
+
+.edu-registration-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.edu-registration-header h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.edu-registration-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.edu-reg-form .edu-form-group {
+  margin-bottom: 20px;
+}
+
+.edu-reg-form label {
+  display: block;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.edu-reg-form input,
+.edu-reg-form select,
+.edu-reg-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s;
+  background: #fafafa;
+}
+
+.edu-reg-form input:focus,
+.edu-reg-form select:focus,
+.edu-reg-form textarea:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+  background: #ffffff;
+}
+
+.edu-submit-btn {
+  width: 100%;
+  background: #28a745;
+  color: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  margin-top: 10px;
+}
+
+.edu-submit-btn:hover {
+  background: #218838;
+}
+
+.edu-submit-btn:disabled {
+  background: #85d496;
+  cursor: not-allowed;
+}
+
+.edu-alert {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.edu-alert-success {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.edu-alert-error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 600px) {
+  .edu-registration-box {
+    padding: 25px 20px;
+  }
+}
