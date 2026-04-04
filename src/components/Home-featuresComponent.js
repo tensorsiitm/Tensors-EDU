@@ -212,11 +212,10 @@ function Homefeatures() {
                                     <span className="gre">!</span>
                                 </h1>
                                 <NavLink
-                                    to="/tensorsexam"
-                                    className="main-register-btn btn-block text-center"
+                                    to="/register"
+                                    className="main-register-btn btn-block text-center p-2"
                                 >
-                                    Register Now For JEE Mock Test and JOSAA
-                                    Councelling
+                                    Register for KEAM 2026 Mock Test
                                 </NavLink>
                             </div>
                         </div>
