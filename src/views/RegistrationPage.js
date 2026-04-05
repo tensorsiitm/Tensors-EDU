@@ -4,6 +4,7 @@ import Top from '../components/NavComponent';
 import Footer from '../components/FooterComponent';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import brochure from '../assets/Tensors Keam 2026 Brochure.pdf';
 
 const RegistrationPage = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const RegistrationPage = () => {
     message: ''
   });
   const [status, setStatus] = useState({ loading: false, error: '', success: false });
+  const [agreed, setAgreed] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -149,12 +151,21 @@ const RegistrationPage = () => {
                   </div>
                 </div>
 
-                <div className="edu-form-group">
-                    <label><i className="fa fa-commenting-o" /> Message (Optional)</label>
-                    <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Any specific topics you want to test?" rows="2"></textarea>
+                <div className="edu-form-group terms-group">
+                  <label className="checkbox-container">
+                    <input 
+                      type="checkbox" 
+                      checked={agreed} 
+                      onChange={(e) => setAgreed(e.target.checked)} 
+                    />
+                    <span className="checkmark"></span>
+                    <span className="terms-text">
+                      I agree to the <a href={brochure} target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+                    </span>
+                  </label>
                 </div>
 
-                <button type="submit" className="edu-premium-btn" disabled={status.loading}>
+                <button type="submit" className="edu-premium-btn" disabled={status.loading || !agreed}>
                   {status.loading ? <span>Processing... <i className="fa fa-spinner fa-spin" /></span> : <span>Complete Registration <i className="fa fa-arrow-right" /></span>}
                 </button>
               </form>

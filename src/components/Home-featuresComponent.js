@@ -38,9 +38,14 @@ function Homefeatures() {
                                     <NavLink className="keam-register-btn" to="/register" onClick={() => setShowModal(false)}>
                                         Register Now <i className="fa fa-arrow-right" />
                                     </NavLink>
-                                    <NavLink className="keam-know-btn" to="/keam" onClick={() => setShowModal(false)}>
+                                    <a 
+                                        className="keam-know-btn" 
+                                        href="/assets/Tensors Keam 2026 Brochure.pdf" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                    >
                                         Know More
-                                    </NavLink>
+                                    </a>
                                 </div>
                             </div>
                             <div className="keam-banner-right">
