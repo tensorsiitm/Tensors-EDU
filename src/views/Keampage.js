@@ -2,6 +2,8 @@ import React from 'react';
 import '../css/Keam.css';
 import Footer from '../components/FooterComponent';
 import Top from '../components/NavComponent';
+import eduportLogo from '../assets/eduport.png';
+
 
 const Keam = () => {
   return (
@@ -15,6 +17,10 @@ const Keam = () => {
             <span className="keam-upcoming-tag">
               <i className="fa fa-fire keam-tag-icon" /> UPCOMING — April 8, 2026
             </span>
+            <div className="powered-by-box">
+              <span className="powered-by-text">Powered By</span>
+              <img src={eduportLogo} alt="Eduport" className="powered-by-logo" />
+            </div>
             <h1>KEAM 2026<br />Mock Test</h1>
             <p>
               Crafted by IIT Madras students, our KEAM Mock Test mirrors the exact

@@ -10,6 +10,29 @@
   margin-right: 4px;
 }
 
+.powered-by-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.powered-by-text {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0F6C7A;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: 'JosefinSans-Italic', sans-serif;
+}
+
+.powered-by-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
 .keam-li-icon {
   width: 18px;
   text-align: center;

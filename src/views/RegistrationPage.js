@@ -5,6 +5,8 @@ import Footer from '../components/FooterComponent';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import brochure from '../assets/Tensors Keam 2026 Brochure.pdf';
+import eduportLogo from '../assets/eduport.png';
+
 
 const RegistrationPage = () => {
   useEffect(() => {
@@ -54,6 +56,10 @@ const RegistrationPage = () => {
           {/* Left Panel: Info & Highlights */}
           <div className="edu-reg-info-panel">
             <div className="reg-info-content">
+              <div className="powered-by-box">
+                <span className="powered-by-text">Powered By</span>
+                <img src={eduportLogo} alt="Eduport" className="powered-by-logo" />
+              </div>
               <span className="info-badge">KEAM 2026 MOCK TEST</span>
               <h1>Take the First Step to <br /><span>Engineering Excellence!</span></h1>
               <p>Experience the most realistic KEAM simulation designed by senior IIT Madras students. Test your limits before the real deal.</p>

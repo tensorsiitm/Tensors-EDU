@@ -7,6 +7,7 @@ import a4 from "../assets/images/a4.svg";
 import tlogo from "../assets/images/logof.png";
 import "../css/Home-featuresComponent.css";
 import "../css/Keam.css";
+import eduportLogo from "../assets/eduport.png";
 import { Parallax } from "react-scroll-parallax";
 
 function Homefeatures() {
@@ -26,6 +27,10 @@ function Homefeatures() {
                                 <span className="keam-badge">
                                     <i className="fa fa-fire keam-tag-icon" /> UPCOMING — April 8, 2026
                                 </span>
+                                <div className="powered-by-box" style={{ marginBottom: '10px' }}>
+                                    <span className="powered-by-text" style={{ color: '#ADE379' }}>Powered By</span>
+                                    <img src={eduportLogo} alt="Eduport" className="powered-by-logo" style={{ height: '24px' }} />
+                                </div>
                                 <h2>KEAM 2026 Mock Test</h2>
                                 <p>Conducted by IIT Madras students — experience the exact KEAM pattern. Gear up for Kerala Engineering Entrance with a full-length, real-time mock test.</p>
                                 <div className="keam-meta">
