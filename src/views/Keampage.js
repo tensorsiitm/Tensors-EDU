@@ -37,7 +37,7 @@ const Keam = () => {
             </ul>
             <button
               className="keam-cta-btn"
-              onClick={() => window.location.href = '#/register'}
+              onClick={() => alert('Registration closed')}
             >
               Register Now <i className="fa fa-arrow-right" />
             </button>
@@ -182,7 +182,7 @@ const Keam = () => {
           <p>Register for the mock test on <strong>April 8, 2026</strong> and get ahead of the competition.</p>
           <button
             className="keam-cta-btn"
-            onClick={() => window.location.href = '#/register'}
+            onClick={() => alert('Registration closed')}
           >
             Register Now <i className="fa fa-arrow-right" />
           </button>

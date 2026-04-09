@@ -40,7 +40,7 @@ function Homefeatures() {
                                     <span><i className="fa fa-star" /> 600 Marks</span>
                                 </div>
                                 <div className="keam-banner-btns">
-                                    <NavLink className="keam-register-btn" to="/register" onClick={() => setShowModal(false)}>
+                                    <NavLink className="keam-register-btn" to="#" onClick={(e) => { e.preventDefault(); alert('Registration closed'); setShowModal(false); }}>
                                         Register Now <i className="fa fa-arrow-right" />
                                     </NavLink>
                                     <a 
@@ -222,7 +222,8 @@ function Homefeatures() {
                                     <span className="gre">!</span>
                                 </h1>
                                 <NavLink
-                                    to="/register"
+                                    to="#"
+                                    onClick={(e) => { e.preventDefault(); alert('Registration closed'); }}
                                     className="main-register-btn btn-block text-center p-2"
                                 >
                                     Register for KEAM 2026 Mock Test
